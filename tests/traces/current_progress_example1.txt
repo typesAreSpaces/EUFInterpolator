@@ -1,0 +1,76 @@
+Before conditionalEliminationEqs
+Horn clauses produced
+0. 0x5618a6c9c740 (Leader) (= c_y1 (c_f c_y1 a_v)) and (= a_v (c_f c_y2 a_v)) -> (= c_t (c_f c_y1 a_v))
+1. 0x5618a6c9c410 (Leader) (= c_z2 (c_f c_y1 a_v)) and (= a_v (c_f c_y2 a_v)) -> (= c_s2 c_t)
+2. 0x5618a6c7c6a0 (Leader) (= c_z2 c_y1) -> (= c_s2 (c_f c_y1 a_v))
+3. 0x5618a6c4db90 (Leader) (= c_y2 (c_f c_y1 a_v)) and (= a_v (c_f c_y2 a_v)) -> (= c_t (c_f c_y2 a_v))
+4. 0x5618a6c9cd30 (Leader) (= a_v (c_f c_y2 a_v)) and (= c_z1 (c_f c_y1 a_v)) -> (= c_s1 c_t)
+5. 0x5618a6ca0c10 (Leader) (= c_z1 c_y2) -> (= c_s1 (c_f c_y2 a_v))
+6. 0x5618a6ca0b50 (Leader) (= c_z1 c_y1) -> (= c_s1 (c_f c_y1 a_v))
+7. 0x5618a6c9c6b0 (Leader) (= c_y1 c_y2) -> (= (c_f c_y1 a_v) (c_f c_y2 a_v))
+8. 0x5618a6c7c710 (Leader) (= c_z2 c_y2) -> (= c_s2 (c_f c_y2 a_v))
+9. 0x5618a6ca0960 (Leader) (= c_z1 c_z2) -> (= c_s1 c_s2)
+Number of horn clauses: 10
+Executing conditionalElimination
+After conditionalEliminationEqs/Before conditionalEliminationHcs
+Horn clauses produced
+0. 0x5618a6ca4340 (Leader) (= c_z1 c_y1) and (= c_z1 c_y2) and (= c_z1 c_y1) and (= c_z2 c_y1) -> (= c_t (c_f c_s1 c_s2))
+1. 0x5618a6ca0960 (Leader) (= c_z1 c_z2) -> (= c_s1 c_s2)
+2. 0x5618a6ca0270 (Leader) (= c_z2 c_y1) and (= c_z1 c_y2) and (= c_z1 c_y1) and (= c_z2 c_y1) -> (= c_t (c_f c_s2 c_s2))
+3. 0x5618a6c7c710 (Leader) (= c_z2 c_y2) -> (= c_s2 (c_f c_y2 a_v))
+4. 0x5618a6c9c6b0 (Leader) (= c_y1 c_y2) -> (= (c_f c_y1 a_v) (c_f c_y2 a_v))
+5. 0x5618a6ca5b80 (Leader) (= c_z2 c_y1) and (= c_z1 c_y2) -> (= c_t (c_f c_s2 c_s1))
+6. 0x5618a6ca0b50 (Leader) (= c_z1 c_y1) -> (= c_s1 (c_f c_y1 a_v))
+7. 0x5618a6ca0c10 (Leader) (= c_z1 c_y2) -> (= c_s1 (c_f c_y2 a_v))
+8. 0x5618a6c4db90 (Leader) (= c_y2 (c_f c_y1 a_v)) and (= a_v (c_f c_y2 a_v)) -> (= c_t (c_f c_y2 a_v))
+9. 0x5618a6c7c6a0 (Leader) (= c_z2 c_y1) -> (= c_s2 (c_f c_y1 a_v))
+10. 0x5618a6ca55a0 (Leader) (= c_z1 c_y1) and (= c_z2 c_y1) -> (= c_s1 c_s2)
+11. 0x5618a6c9c410 (Leader) (= c_z2 (c_f c_y1 a_v)) and (= a_v (c_f c_y2 a_v)) -> (= c_s2 c_t)
+12. 0x5618a6c9cd30 (Leader) (= a_v (c_f c_y2 a_v)) and (= c_z1 (c_f c_y1 a_v)) -> (= c_s1 c_t)
+13. 0x5618a6ca62c0 (Leader) (= c_z1 c_y1) and (= c_z1 c_y2) -> (= c_t (c_f c_s1 c_s1))
+14. 0x5618a6c9c740 (Leader) (= c_y1 (c_f c_y1 a_v)) and (= a_v (c_f c_y2 a_v)) -> (= c_t (c_f c_y1 a_v))
+Number of horn clauses: 15
+Executing conditionalEliminationfor Horn clauses
+After conditionalEliminationHcs
+Horn clauses produced
+0. 0x5618a6cabb10 (Leader) (= c_y1 c_y2) and (= c_z2 c_y1) and (= c_z1 c_y2) -> (= c_s1 c_s2)
+1. 0x5618a6c9fac0 (Leader) (= c_y1 c_y2) and (= c_z1 c_y1) and (= c_z1 c_y2) and (= c_z1 c_y1) and (= c_z2 c_y1) -> (= c_s1 c_s2)
+2. 0x5618a6ca4340 (Leader) (= c_z1 c_y1) and (= c_z1 c_y2) and (= c_z1 c_y1) and (= c_z2 c_y1) -> (= c_t (c_f c_s1 c_s2))
+3. 0x5618a6cab830 (Leader) (= c_z2 c_y1) and (= c_z1 c_y1) -> (= c_s1 c_s2)
+4. 0x5618a6ca0960 (Leader) (= c_z1 c_z2) -> (= c_s1 c_s2)
+5. 0x5618a6ca0270 (Leader) (= c_z2 c_y1) and (= c_z1 c_y2) and (= c_z1 c_y1) and (= c_z2 c_y1) -> (= c_t (c_f c_s2 c_s2))
+6. 0x5618a6c7c710 (Leader) (= c_z2 c_y2) -> (= c_s2 (c_f c_y2 a_v))
+7. 0x5618a6c9c6b0 (Leader) (= c_y1 c_y2) -> (= (c_f c_y1 a_v) (c_f c_y2 a_v))
+8. 0x5618a6ca5b80 (Leader) (= c_z2 c_y1) and (= c_z1 c_y2) -> (= c_t (c_f c_s2 c_s1))
+9. 0x5618a6ca0b50 (Leader) (= c_z1 c_y1) -> (= c_s1 (c_f c_y1 a_v))
+10. 0x5618a6ca0c10 (Leader) (= c_z1 c_y2) -> (= c_s1 (c_f c_y2 a_v))
+11. 0x5618a6c4db90 (Leader) (= c_y2 (c_f c_y1 a_v)) and (= a_v (c_f c_y2 a_v)) -> (= c_t (c_f c_y2 a_v))
+12. 0x5618a6ca65b0 (Leader) (= c_z1 c_y2) and (= c_z1 c_y2) and (= c_z1 c_y1) and (= c_z2 c_y1) -> (= c_s1 c_s2)
+13. 0x5618a6c7c6a0 (Leader) (= c_z2 c_y1) -> (= c_s2 (c_f c_y1 a_v))
+14. 0x5618a6ca55a0 (Leader) (= c_z1 c_y1) and (= c_z2 c_y1) -> (= c_s1 c_s2)
+15. 0x5618a6ca6300 (Leader) (= c_z2 c_y2) and (= c_z1 c_y2) -> (= c_s1 c_s2)
+16. 0x5618a6c9c410 (Leader) (= c_z2 (c_f c_y1 a_v)) and (= a_v (c_f c_y2 a_v)) -> (= c_s2 c_t)
+17. 0x5618a6c9cd30 (Leader) (= a_v (c_f c_y2 a_v)) and (= c_z1 (c_f c_y1 a_v)) -> (= c_s1 c_t)
+18. 0x5618a6ca62c0 (Leader) (= c_z1 c_y1) and (= c_z1 c_y2) -> (= c_t (c_f c_s1 c_s1))
+19. 0x5618a6c9c740 (Leader) (= c_y1 (c_f c_y1 a_v)) and (= a_v (c_f c_y2 a_v)) -> (= c_t (c_f c_y1 a_v))
+Number of horn clauses: 20
+Horn clauses produced
+0. 0x5618a6cabb10 (Not leader) (= c_y1 c_y2) and (= c_z2 c_y1) and (= c_z1 c_y2) -> (= c_s1 c_s2)
+1. 0x5618a6c9fac0 (Not leader) (= c_y1 c_y2) and (= c_z1 c_y1) and (= c_z1 c_y2) and (= c_z1 c_y1) and (= c_z2 c_y1) -> (= c_s1 c_s2)
+2. 0x5618a6ca4340 (Leader) (= c_z1 c_y1) and (= c_z1 c_y2) and (= c_z1 c_y1) and (= c_z2 c_y1) -> (= c_t (c_f c_s1 c_s2))
+3. 0x5618a6cab830 (Not leader) (= c_z2 c_y1) and (= c_z1 c_y1) -> (= c_s1 c_s2)
+4. 0x5618a6ca0960 (Leader) (= c_z1 c_z2) -> (= c_s1 c_s2)
+5. 0x5618a6ca0270 (Leader) (= c_z2 c_y1) and (= c_z1 c_y2) and (= c_z1 c_y1) and (= c_z2 c_y1) -> (= c_t (c_f c_s2 c_s2))
+6. 0x5618a6ca5b80 (Leader) (= c_z2 c_y1) and (= c_z1 c_y2) -> (= c_t (c_f c_s2 c_s1))
+7. 0x5618a6ca65b0 (Not leader) (= c_z1 c_y2) and (= c_z1 c_y2) and (= c_z1 c_y1) and (= c_z2 c_y1) -> (= c_s1 c_s2)
+8. 0x5618a6ca55a0 (Not leader) (= c_z1 c_y1) and (= c_z2 c_y1) -> (= c_s1 c_s2)
+9. 0x5618a6ca6300 (Not leader) (= c_z2 c_y2) and (= c_z1 c_y2) -> (= c_s1 c_s2)
+10. 0x5618a6ca62c0 (Leader) (= c_z1 c_y1) and (= c_z1 c_y2) -> (= c_t (c_f c_s1 c_s1))
+Number of horn clauses: 11
+Interpolant:
+(ast-vector
+  (=> (and (= z1 y1) (= z1 y2) (= z1 y1) (= z2 y1)) (= t (f s1 s2)))
+  (=> (= z1 z2) (= s1 s2))
+  (=> (and (= z2 y1) (= z1 y2) (= z1 y1) (= z2 y1)) (= t (f s2 s2)))
+  (=> (and (= z2 y1) (= z1 y2)) (= t (f s2 s1)))
+  (=> (and (= z1 y1) (= z1 y2)) (= t (f s1 s1))))

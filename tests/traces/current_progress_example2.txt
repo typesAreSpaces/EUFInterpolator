@@ -1,0 +1,22 @@
+Before conditionalEliminationEqs
+Horn clauses produced
+0. 0x5648882bc710 (Leader) (= c_x2 c_x1) -> (= (a_f c_x2) (a_f c_x1))
+1. 0x5648882d7dd0 (Leader) (= (a_f c_x2) (a_f c_x1)) -> false
+Number of horn clauses: 2
+Executing conditionalElimination
+After conditionalEliminationEqs/Before conditionalEliminationHcs
+Horn clauses produced
+0. 0x5648882bc710 (Leader) (= c_x2 c_x1) -> (= (a_f c_x2) (a_f c_x1))
+1. 0x5648882d7dd0 (Leader) (= (a_f c_x2) (a_f c_x1)) -> false
+Number of horn clauses: 2
+Executing conditionalEliminationfor Horn clauses
+After conditionalEliminationHcs
+Horn clauses produced
+0. 0x5648882bc710 (Leader) (= c_x2 c_x1) -> (= (a_f c_x2) (a_f c_x1))
+1. 0x5648882d7dd0 (Leader) (= (a_f c_x2) (a_f c_x1)) -> false
+Number of horn clauses: 2
+Horn clauses produced
+0. 0x5648882deea0 (Leader) (= c_x2 c_x1) -> false
+Number of horn clauses: 1
+(ast-vector
+  (=> (= x2 x1) false))

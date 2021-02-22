@@ -1,0 +1,1596 @@
+make tester_with_threads param1=tests/benchmarks
+make[1]: Entering directory '/home/jose/Documents/GithubProjects/master-thesis/Software/Cpp/EUFInterpolant'
+g++ -g -o tests/benchmarks ./tests/benchmarks.cpp \
+	/home/jose/Documents/GithubProjects/z3__/build/libz3.so \
+	-lpthread -pthread -I./src -I./include -std=c++11 -Wall -O3 
+./tests/benchmarks
+unsat
+(interpolants
+ (and (= (= (f_0 x_15 x_0 x_0) (f_0 x_9 x_3 x_0))
+        (= (f_0 x_1 x_1 x_0) (f_0 x_9 x_3 x_0)))
+     (= (= (f_0 x_7 x_3 x_0) (f_0 x_12 x_1 x_0)) (= (f_0 x_7 x_3 x_0) x_17))
+     (= (= (f_0 x_10 x_1 x_0) x_1) (= (f_0 x_7 x_2 x_0) x_1))
+     (= (f_0 x_13 x_3 x_0) (f_0 x_7 x_3 x_0))))
+(:added-eqs    53
+ :conflicts    1
+ :max-memory   1.32
+ :memory       1.32
+ :mk-bool-var  99
+ :num-allocs   24493
+ :num-checks   1
+ :rlimit-count 4454
+ :time         0.00)
+unsat
+(and (and (= (f_0 x_10 x_1 x_0) (f_0 x_7 x_2 x_0)) (and (= x_13 x_7) (= (f_0 x_12 x_1 x_0) x_17))) (= (f_0 x_1 x_1 x_0) (f_0 x_15 x_0 x_0)))
+unsat
+(interpolants
+ (not (= x_8 x_4)))
+(:added-eqs    25
+ :conflicts    1
+ :max-memory   1.10
+ :memory       1.10
+ :mk-bool-var  42
+ :num-allocs   17171
+ :num-checks   1
+ :rlimit-count 1919
+ :time         0.00)
+unsat
+(not (= x_8 x_4))
+unsat
+(interpolants
+ (and (not (= (f_0 x_2 x_1 x_0 x_0) (f_0 x_13 x_1 x_0 x_0)))
+     (= (f_0 x_4 x_0 x_0 x_0) (f_0 x_13 x_1 x_0 x_0))))
+(:max-memory   1.23
+ :memory       1.23
+ :mk-bool-var  1
+ :num-allocs   20181
+ :num-checks   1
+ :rlimit-count 1320
+ :time         0.00)
+unsat
+(not (= (f_0 x_2 x_1 x_0 x_0) (f_0 x_4 x_0 x_0 x_0)))
+unsat
+(interpolants
+ (and (not (= (f_0 x_3 x_1) (f_0 x_1 x_0)))
+     (= (= (f_0 x_5 x_0) (f_0 x_13 x_3)) (= (f_0 x_5 x_0) (f_0 x_3 x_1)))
+     (= (= (f_0 x_9 x_2) x_12) (= (f_0 x_5 x_0) x_12))
+     (= (f_0 x_9 x_1) (f_0 x_2 x_1))
+     (= (= (f_0 x_13 x_3) (f_0 x_14 x_2)) (= (f_0 x_3 x_1) (f_0 x_9 x_2)))
+     (= (= (f_0 x_17 x_1) x_1) (= x_15 x_1))
+     (= (f_0 x_1 x_1) x_15)))
+(:added-eqs    18
+ :conflicts    1
+ :max-memory   1.31
+ :memory       1.31
+ :mk-bool-var  82
+ :num-allocs   23946
+ :num-checks   1
+ :rlimit-count 3748
+ :time         0.00)
+unsat
+(= (f_0 x_1 x_1) (f_0 x_4 x_2))
+unsat
+(interpolants
+ (let ((a!1 (and (not (= (f_0 x_18 x_3 x_0) (f_0 x_3 x_0 x_0)))
+                (= (= (f_0 x_18 x_3 x_0) (f_0 x_7 x_1 x_0))
+                   (= (f_0 x_18 x_3 x_0) (f_0 x_3 x_0 x_0))))))
+  (or a!1 (not (= (f_0 x_15 x_0 x_0) (f_0 x_3 x_0 x_0))))))
+(:added-eqs    18
+ :conflicts    1
+ :max-memory   1.23
+ :memory       1.23
+ :mk-bool-var  58
+ :num-allocs   20449
+ :num-checks   1
+ :rlimit-count 2723
+ :time         0.00)
+unsat
+(and (= (f_0 x_3 x_0 x_0) (f_0 x_7 x_1 x_0)) (not (= (f_0 x_15 x_0 x_0) (f_0 x_18 x_3 x_0))))
+unsat
+(interpolants
+ (= (f_0 x_3 x_3 x_0 x_0) (f_0 x_19 x_2 x_0 x_0)))
+(:max-memory   1.12
+ :memory       1.12
+ :mk-bool-var  1
+ :num-allocs   17216
+ :num-checks   1
+ :rlimit-count 1163
+ :time         0.00)
+unsat
+(= (f_0 x_3 x_3 x_0 x_0) (f_0 x_19 x_2 x_0 x_0))
+unsat
+(interpolants
+ (and (not (= (f_0 x_1 x_2 x_0) (f_0 x_0 x_2 x_0)))
+     (= (= (f_0 x_0 x_2 x_0) (f_0 x_18 x_1 x_0))
+        (= (f_0 x_0 x_2 x_0) (f_0 x_1 x_2 x_0)))))
+(:max-memory   1.12
+ :memory       1.12
+ :mk-bool-var  1
+ :num-allocs   17195
+ :num-checks   1
+ :rlimit-count 1107
+ :time         0.00)
+unsat
+(not (= (f_0 x_0 x_2 x_0) (f_0 x_18 x_1 x_0)))
+unsat
+(interpolants
+ (and (not (= (f_0 x_13 x_2 x_0) (f_0 x_18 x_2 x_0)))
+     (= x_8 (f_0 x_3 x_3 x_0))
+     (= (f_0 x_7 x_3 x_0) (f_0 x_3 x_3 x_0))
+     (= (f_0 x_7 x_3 x_0) (f_0 x_17 x_1 x_0))
+     (= x_15 (f_0 x_15 x_0 x_0))
+     (= x_17 (f_0 x_13 x_1 x_0))
+     (= x_5 (f_0 x_15 x_1 x_0))
+     (= (f_0 x_15 x_2 x_0) (f_0 x_5 x_1 x_0))
+     (= (f_0 x_2 x_2 x_0) (f_0 x_18 x_0 x_0))))
+(:added-eqs    48
+ :conflicts    1
+ :max-memory   1.32
+ :memory       1.32
+ :mk-bool-var  87
+ :num-allocs   24283
+ :num-checks   1
+ :rlimit-count 4028
+ :time         0.00)
+unsat
+(let ((.def_91 (f_0 x_7 x_3 x_0))) (and (not (= (f_0 x_13 x_2 x_0) (f_0 x_18 x_2 x_0))) (and (= x_15 (f_0 x_15 x_0 x_0)) (and (= (f_0 x_2 x_2 x_0) (f_0 x_18 x_0 x_0)) (and (= x_8 .def_91) (not (and (= (f_0 x_13 x_1 x_0) (f_0 x_15 x_1 x_0)) (not (= (f_0 x_15 x_2 x_0) .def_91)))))))))
+unsat
+(interpolants
+ (not (= x_0 x_6)))
+(:max-memory   1.10
+ :memory       1.10
+ :mk-bool-var  1
+ :num-allocs   17172
+ :num-checks   1
+ :rlimit-count 961
+ :time         0.00)
+unsat
+(not (= x_0 x_6))
+unsat
+(interpolants
+ (not (= (f_0 x_9 x_3 x_0) (f_0 x_7 x_1 x_0))))
+(:max-memory   1.10
+ :memory       1.10
+ :mk-bool-var  1
+ :num-allocs   17222
+ :num-checks   1
+ :rlimit-count 1014
+ :time         0.00)
+unsat
+(not (= (f_0 x_9 x_3 x_0) (f_0 x_7 x_1 x_0)))
+unsat
+(interpolants
+ (and (not (= (f_0 x_7 x_0 x_0) (f_0 x_8 x_1 x_0)))
+     (= (= (f_0 x_19 x_1 x_0) (f_0 x_1 x_0 x_0))
+        (= (f_0 x_11 x_0 x_0) (f_0 x_1 x_0 x_0)))
+     (= (f_0 x_19 x_1 x_0) (f_0 x_11 x_0 x_0))
+     (= (f_0 x_2 x_1 x_0) (f_0 x_5 x_1 x_0))
+     (= (f_0 x_2 x_1 x_0) (f_0 x_9 x_1 x_0))
+     (= (= (f_0 x_11 x_0 x_0) (f_0 x_13 x_1 x_0))
+        (= (f_0 x_11 x_0 x_0) (f_0 x_11 x_2 x_0)))))
+(:added-eqs    34
+ :conflicts    1
+ :max-memory   1.31
+ :memory       1.31
+ :mk-bool-var  74
+ :num-allocs   24724
+ :num-checks   1
+ :rlimit-count 3529
+ :time         0.00)
+unsat
+(and (not (= (f_0 x_7 x_0 x_0) (f_0 x_8 x_1 x_0))) (and (= (f_0 x_2 x_1 x_0) (f_0 x_5 x_1 x_0)) (and (= x_2 x_9) (and (= (f_0 x_11 x_2 x_0) (f_0 x_13 x_1 x_0)) (= (f_0 x_19 x_1 x_0) (f_0 x_11 x_0 x_0))))))
+unsat
+(interpolants
+ (not (= (f_0 x_19 x_3 x_0 x_0) (f_0 x_10 x_2 x_0 x_0))))
+(:conflicts    1
+ :max-memory   1.19
+ :memory       1.19
+ :mk-bool-var  45
+ :num-allocs   20636
+ :num-checks   1
+ :rlimit-count 2073
+ :time         0.00)
+unsat
+(not (= (f_0 x_19 x_3 x_0 x_0) (f_0 x_10 x_2 x_0 x_0)))
+unsat
+(interpolants
+ (let ((a!1 (and (not (= (f_0 x_3 x_2) x_0))
+                (= (= x_3 (f_0 x_6 x_2)) (= x_0 (f_0 x_3 x_2))))))
+(let ((a!2 (or (= x_0 (f_0 x_3 x_0)) a!1 (not (= (f_0 x_6 x_0) (f_0 x_19 x_1))))))
+(let ((a!3 (and (not (= x_0 (f_0 x_3 x_0))) a!2)))
+  (or (= x_19 (f_0 x_0 x_1)) (not (= (f_0 x_6 x_0) (f_0 x_19 x_1))) a!3)))))
+(:added-eqs    28
+ :conflicts    1
+ :max-memory   1.21
+ :memory       1.21
+ :mk-bool-var  48
+ :num-allocs   20455
+ :num-checks   1
+ :rlimit-count 2335
+ :time         0.00)
+unsat
+(not (= (f_0 x_19 x_1) (f_0 x_6 x_0)))
+unsat
+(interpolants
+ (= (= x_8 (f_0 x_1 x_0 x_0)) (= x_8 x_6)))
+(:max-memory   1.12
+ :memory       1.12
+ :mk-bool-var  1
+ :num-allocs   17223
+ :num-checks   1
+ :rlimit-count 1333
+ :time         0.00)
+unsat
+(= (f_0 x_1 x_0 x_0) x_6)
+unsat
+(interpolants
+ (let ((a!1 (= (not (= (f_0 x_0 x_3) (f_0 x_12 x_2))) (= x_3 (f_0 x_12 x_2)))))
+(let ((a!2 (and a!1 (= (= (f_0 x_0 x_3) (f_0 x_5 x_2)) (= (f_0 x_0 x_3) x_3)))))
+(let ((a!3 (or (= (f_0 x_2 x_1) x_3) (not (= (f_0 x_0 x_3) (f_0 x_12 x_2))) a!2))
+      (a!4 (or (= (f_0 x_3 x_1) x_3) (not (= (f_0 x_0 x_3) (f_0 x_12 x_2))) a!2)))
+  (and (not (= (f_0 x_3 x_1) (f_0 x_2 x_1))) a!3 a!4)))))
+(:added-eqs    25
+ :conflicts    1
+ :max-memory   1.20
+ :memory       1.20
+ :mk-bool-var  44
+ :num-allocs   20620
+ :num-checks   1
+ :rlimit-count 2175
+ :time         0.00)
+unsat
+(not (= (f_0 x_12 x_2) (f_0 x_5 x_2)))
+unsat
+(interpolants
+ (and (not (= (f_0 x_9 x_3 x_0) (f_0 x_13 x_0 x_0)))
+     (= (f_0 x_10 x_3 x_0) x_12)
+     (= x_1 (f_0 x_10 x_3 x_0))
+     (= (= (f_0 x_2 x_2 x_0) x_9) (= x_12 x_9))
+     (= (f_0 x_13 x_0 x_0) (f_0 x_1 x_0 x_0))))
+(:added-eqs    42
+ :conflicts    1
+ :max-memory   1.21
+ :memory       1.21
+ :mk-bool-var  69
+ :num-allocs   20517
+ :num-checks   1
+ :rlimit-count 3216
+ :time         0.00)
+unsat
+(and (= x_1 (f_0 x_2 x_2 x_0)) (not (= (f_0 x_9 x_3 x_0) (f_0 x_1 x_0 x_0))))
+unsat
+(interpolants
+ (and (not (= x_11 x_10)) (= x_10 (f_0 x_6 x_2)) (= x_11 (f_0 x_14 x_2))))
+(:max-memory   1.11
+ :memory       1.11
+ :mk-bool-var  1
+ :num-allocs   17179
+ :num-checks   1
+ :rlimit-count 1060
+ :time         0.00)
+unsat
+(not (= x_6 x_14))
+unsat
+(interpolants
+ (and (= (= x_1 (f_0 x_19 x_2)) (= x_1 x_6)) (= (f_0 x_6 x_3) (f_0 x_1 x_1))))
+(:conflicts    1
+ :max-memory   1.23
+ :memory       1.23
+ :mk-bool-var  78
+ :num-allocs   22888
+ :num-checks   1
+ :rlimit-count 3441
+ :time         0.00)
+unsat
+(and (= x_6 (f_0 x_19 x_2)) (= (f_0 x_6 x_3) (f_0 x_1 x_1)))
+unsat
+(interpolants
+ (not (= (f_0 x_16 x_1 x_0) (f_0 x_3 x_0 x_0))))
+(:max-memory   1.12
+ :memory       1.12
+ :mk-bool-var  1
+ :num-allocs   17205
+ :num-checks   1
+ :rlimit-count 1232
+ :time         0.00)
+unsat
+(not (= (f_0 x_16 x_1 x_0) (f_0 x_3 x_0 x_0)))
+unsat
+(interpolants
+ (let ((a!1 (and (not (= (f_0 x_2 x_0 x_0) (f_0 x_7 x_1 x_0)))
+                (= (f_0 x_15 x_2 x_0) (f_0 x_16 x_1 x_0))
+                (= (f_0 x_15 x_2 x_0) (f_0 x_2 x_0 x_0))))
+      (a!2 (not (= (f_0 x_10 x_2 x_0) (f_0 x_15 x_1 x_0)))))
+(let ((a!3 (= a!2 (= (f_0 x_1 x_2 x_0) (f_0 x_15 x_1 x_0)))))
+(let ((a!4 (and (not (= (f_0 x_2 x_0 x_0) x_7))
+                (or (= (f_0 x_2 x_0 x_0) x_7) a!1 a!2 a!3 (not (= x_16 x_7))))))
+  (or a!4 a!2 a!3)))))
+(:added-eqs    27
+ :conflicts    1
+ :max-memory   1.23
+ :memory       1.23
+ :mk-bool-var  47
+ :num-allocs   20590
+ :num-checks   1
+ :rlimit-count 2330
+ :time         0.00)
+unsat
+(not (and (= x_7 x_16) (= (f_0 x_1 x_2 x_0) (f_0 x_15 x_1 x_0))))
+unsat
+(interpolants
+ (and (not (= (f_0 x_17 x_0 x_0 x_0) (f_0 x_19 x_0 x_0 x_0)))
+     (= (= (f_0 x_17 x_0 x_0 x_0) (f_0 x_13 x_3 x_0 x_0))
+        (= (f_0 x_17 x_0 x_0 x_0) (f_0 x_7 x_0 x_0 x_0)))))
+(:max-memory   1.21
+ :memory       1.21
+ :mk-bool-var  1
+ :num-allocs   20344
+ :num-checks   1
+ :rlimit-count 1309
+ :time         0.00)
+unsat
+(and (= (f_0 x_13 x_3 x_0 x_0) (f_0 x_7 x_0 x_0 x_0)) (not (= (f_0 x_17 x_0 x_0 x_0) (f_0 x_19 x_0 x_0 x_0))))
+unsat
+(interpolants
+ (and (not (= (f_0 x_19 x_3) (f_0 x_3 x_1)))
+     (= (f_0 x_19 x_3) (f_0 x_15 x_0))
+     (= (= (f_0 x_19 x_3) (f_0 x_14 x_1)) (= (f_0 x_15 x_0) (f_0 x_9 x_2)))
+     (= (f_0 x_3 x_1) (f_0 x_9 x_2))
+     (= (= (f_0 x_19 x_3) x_18) (= (f_0 x_15 x_0) x_18))))
+(:conflicts    1
+ :max-memory   1.21
+ :memory       1.21
+ :mk-bool-var  76
+ :num-allocs   20534
+ :num-checks   1
+ :rlimit-count 3415
+ :time         0.00)
+unsat
+(not (= (f_0 x_19 x_3) (f_0 x_14 x_1)))
+unsat
+(interpolants
+ (and (not (= (f_0 x_0 x_3 x_0) (f_0 x_6 x_2 x_0)))
+     (= (= (f_0 x_11 x_0 x_0) (f_0 x_4 x_1 x_0))
+        (= (f_0 x_6 x_2 x_0) (f_0 x_0 x_3 x_0)))
+     (= (= (f_0 x_12 x_2 x_0) (f_0 x_6 x_2 x_0)) (= x_19 (f_0 x_6 x_2 x_0)))))
+(:added-eqs    21
+ :conflicts    1
+ :max-memory   1.21
+ :memory       1.21
+ :mk-bool-var  67
+ :num-allocs   20429
+ :num-checks   1
+ :rlimit-count 3130
+ :time         0.00)
+unsat
+(not (= (f_0 x_11 x_0 x_0) (f_0 x_4 x_1 x_0)))
+unsat
+(interpolants
+ (let ((a!1 (and (not (= (f_0 x_18 x_1 x_0) (f_0 x_9 x_1 x_0)))
+                (= (= (f_0 x_9 x_3 x_0) x_18) (= x_9 x_18)))))
+  (or (not (= (f_0 x_7 x_1 x_0) (f_0 x_18 x_1 x_0))) a!1)))
+(:added-eqs    32
+ :conflicts    1
+ :max-memory   1.19
+ :memory       1.19
+ :mk-bool-var  44
+ :num-allocs   20662
+ :num-checks   1
+ :rlimit-count 2110
+ :time         0.00)
+unsat
+(not (= (f_0 x_7 x_1 x_0) (f_0 (f_0 x_9 x_3 x_0) x_1 x_0)))
+unsat
+(interpolants
+ (and (not (= (f_0 x_13 x_3) (f_0 x_9 x_1)))
+     (= (f_0 x_13 x_3) x_6)
+     (= x_17 (f_0 x_5 x_3))
+     (= (= (f_0 x_15 x_3) (f_0 x_12 x_3)) (= (f_0 x_5 x_3) (f_0 x_12 x_3)))
+     (= (= (f_0 x_1 x_0) (f_0 x_17 x_3)) (= x_2 (f_0 x_17 x_3)))
+     (= (f_0 x_1 x_0) (f_0 x_14 x_2))
+     (= (= x_9 (f_0 x_5 x_1)) (= x_9 x_14))
+     (= x_2 (f_0 x_1 x_0))))
+(:added-eqs    38
+ :conflicts    1
+ :max-memory   1.23
+ :memory       1.23
+ :mk-bool-var  64
+ :num-allocs   20584
+ :num-checks   1
+ :rlimit-count 2937
+ :time         0.00)
+unsat
+(let ((.def_64 (f_0 x_5 x_1))) (let ((.def_232 (f_0 .def_64 x_2))) (and (= x_15 (f_0 x_18 x_3)) (and (= x_2 .def_232) (not (and (and (= x_1 .def_232) (= .def_64 (f_0 x_6 x_2))) (not (= (f_0 x_4 x_1) (f_0 (f_0 x_15 x_3) x_0)))))))))
+unsat
+(interpolants
+ (and (not (= x_2 (f_0 x_7 x_1))) (= x_2 x_3)))
+(:conflicts    1
+ :max-memory   1.10
+ :memory       1.10
+ :mk-bool-var  41
+ :num-allocs   17186
+ :num-checks   1
+ :rlimit-count 1945
+ :time         0.00)
+unsat
+(not (= x_3 (f_0 x_7 x_1)))
+unsat
+(interpolants
+ (and (= (f_0 x_12 x_2 x_0) (f_0 x_19 x_2 x_0))
+     (= (= (f_0 x_17 x_2 x_0) (f_0 x_3 x_2 x_0))
+        (= (f_0 x_12 x_2 x_0) (f_0 x_3 x_2 x_0)))))
+(:added-eqs    31
+ :conflicts    1
+ :max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  70
+ :num-allocs   20473
+ :num-checks   1
+ :rlimit-count 3246
+ :time         0.00)
+unsat
+(= (f_0 x_19 x_2 x_0) (f_0 x_17 x_2 x_0))
+unsat
+(interpolants
+ (and (= (= (f_0 x_10 x_0 x_0) (f_0 x_5 x_0 x_0)) (= x_18 (f_0 x_5 x_0 x_0)))
+     (= x_18 (f_0 x_10 x_0 x_0))
+     (= (= (f_0 x_10 x_1 x_0) (f_0 x_17 x_2 x_0)) (= x_8 (f_0 x_3 x_1 x_0)))
+     (= (= x_2 (f_0 x_17 x_2 x_0)) (= x_2 (f_0 x_3 x_1 x_0)))
+     (= (= (f_0 x_7 x_3 x_0) (f_0 x_4 x_1 x_0))
+        (= (f_0 x_1 x_2 x_0) (f_0 x_4 x_1 x_0)))
+     (= (= (f_0 x_14 x_0 x_0) (f_0 x_18 x_2 x_0)) (= (f_0 x_10 x_2 x_0) x_5))
+     (= (= (f_0 x_7 x_3 x_0) (f_0 x_14 x_0 x_0))
+        (= (f_0 x_1 x_2 x_0) (f_0 x_10 x_2 x_0)))))
+(:added-eqs    41
+ :conflicts    1
+ :max-memory   1.31
+ :memory       1.31
+ :mk-bool-var  72
+ :num-allocs   24975
+ :num-checks   1
+ :rlimit-count 3479
+ :time         0.00)
+unsat
+(and (= x_8 (f_0 x_10 x_1 x_0)) (= x_5 (f_0 x_18 x_2 x_0)))
+unsat
+(interpolants
+ (not (= (f_0 x_13 x_2 x_0 x_0) (f_0 x_11 x_3 x_0 x_0))))
+(:added-eqs    29
+ :conflicts    1
+ :max-memory   1.21
+ :memory       1.21
+ :mk-bool-var  53
+ :num-allocs   20417
+ :num-checks   1
+ :rlimit-count 2440
+ :time         0.00)
+unsat
+(not (= (f_0 x_13 x_2 x_0 x_0) (f_0 x_11 x_3 x_0 x_0)))
+unsat
+(interpolants
+ (= (= (f_0 x_2 x_3 x_0) (f_0 x_11 x_1 x_0))
+   (= (f_0 x_2 x_3 x_0) (f_0 x_10 x_0 x_0))))
+(:max-memory   1.12
+ :memory       1.12
+ :mk-bool-var  1
+ :num-allocs   17205
+ :num-checks   1
+ :rlimit-count 1170
+ :time         0.00)
+unsat
+(= (f_0 x_10 x_0 x_0) (f_0 x_11 x_1 x_0))
+unsat
+(interpolants
+ (let ((a!1 (or (= (f_0 x_18 x_1) (f_0 x_11 x_0))
+               (not (= (f_0 x_11 x_2) (f_0 x_18 x_1)))
+               (not (= (f_0 x_11 x_0) (f_0 x_19 x_0)))
+               (not (= (f_0 x_2 x_2) (f_0 x_19 x_0))))))
+  (and (not (= (f_0 x_18 x_1) (f_0 x_11 x_0))) a!1)))
+(:max-memory   1.12
+ :memory       1.12
+ :mk-bool-var  1
+ :num-allocs   17193
+ :num-checks   1
+ :rlimit-count 1392
+ :time         0.00)
+unsat
+(and (not (= (f_0 x_18 x_1) (f_0 x_11 x_0))) (= (f_0 x_11 x_2) (f_0 x_2 x_2)))
+unsat
+(interpolants
+ (not (= (f_0 x_7 x_2 x_0) (f_0 x_1 x_0 x_0))))
+(:max-memory   1.10
+ :memory       1.10
+ :mk-bool-var  1
+ :num-allocs   17199
+ :num-checks   1
+ :rlimit-count 887
+ :time         0.00)
+unsat
+(not (= (f_0 x_7 x_2 x_0) (f_0 x_1 x_0 x_0)))
+unsat
+(interpolants
+ (and (not (= (f_0 x_4 x_1 x_0) (f_0 x_2 x_2 x_0)))
+     (= (= (f_0 x_15 x_3 x_0) (f_0 x_15 x_1 x_0))
+        (= (f_0 x_12 x_3 x_0) (f_0 x_15 x_1 x_0)))
+     (= (= (f_0 x_15 x_3 x_0) (f_0 x_4 x_1 x_0))
+        (= (f_0 x_12 x_3 x_0) (f_0 x_4 x_1 x_0)))
+     (= (f_0 x_11 x_0 x_0) (f_0 x_2 x_2 x_0))
+     (= (f_0 x_17 x_1 x_0) (f_0 x_11 x_0 x_0))))
+(:conflicts    1
+ :max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  65
+ :num-allocs   20476
+ :num-checks   1
+ :rlimit-count 2905
+ :time         0.00)
+unsat
+(not (= (f_0 x_4 x_1 x_0) (f_0 x_17 x_1 x_0)))
+unsat
+(interpolants
+ (and (= (f_0 x_18 x_2 x_0 x_0) (f_0 x_7 x_3 x_0 x_0))
+     (= (= (f_0 x_3 x_0 x_0 x_0) x_0) (= x_18 x_0))
+     (= (f_0 x_0 x_3 x_0 x_0) (f_0 x_0 x_2 x_0 x_0))
+     (= (= (f_0 x_2 x_2 x_0 x_0) x_6) (= (f_0 x_0 x_3 x_0 x_0) x_6))
+     (= (f_0 x_0 x_3 x_0 x_0) (f_0 x_12 x_3 x_0 x_0))))
+(:added-eqs    39
+ :conflicts    1
+ :max-memory   1.31
+ :memory       1.31
+ :mk-bool-var  72
+ :num-allocs   24661
+ :num-checks   1
+ :rlimit-count 3311
+ :time         0.00)
+unsat
+(and (= x_0 x_12) (not (and (= x_0 (f_0 x_3 x_0 x_0 x_0)) (not (= (f_0 x_0 x_3 x_0 x_0) (f_0 x_7 x_3 x_0 x_0))))))
+unsat
+(interpolants
+ (= (f_0 x_13 x_2 x_0) (f_0 x_18 x_0 x_0)))
+(:max-memory   1.12
+ :memory       1.12
+ :mk-bool-var  1
+ :num-allocs   17215
+ :num-checks   1
+ :rlimit-count 1315
+ :time         0.00)
+unsat
+(= (f_0 x_13 x_2 x_0) (f_0 x_18 x_0 x_0))
+unsat
+(interpolants
+ (and (= (= (f_0 x_17 x_3 x_0) (f_0 x_6 x_2 x_0))
+        (= (f_0 x_17 x_3 x_0) (f_0 x_6 x_1 x_0)))
+     (= (= (f_0 x_7 x_1 x_0) x_17) (= x_5 x_17))
+     (= (= (f_0 x_16 x_1 x_0) (f_0 x_6 x_1 x_0))
+        (= (f_0 x_5 x_3 x_0) (f_0 x_6 x_1 x_0)))))
+(:added-eqs    31
+ :conflicts    1
+ :max-memory   1.23
+ :memory       1.23
+ :mk-bool-var  60
+ :num-allocs   20464
+ :num-checks   1
+ :rlimit-count 2747
+ :time         0.00)
+unsat
+(and (= (f_0 x_6 x_2 x_0) (f_0 x_6 x_1 x_0)) (= (f_0 x_16 x_1 x_0) (f_0 (f_0 x_7 x_1 x_0) x_3 x_0)))
+unsat
+(interpolants
+ (and (not (= (f_0 x_10 x_2) (f_0 x_14 x_2)))
+     (= (f_0 x_9 x_0) (f_0 x_14 x_2))
+     (= (= (f_0 x_10 x_2) (f_0 x_14 x_2)) (= (f_0 x_10 x_2) (f_0 x_9 x_0)))))
+(:max-memory   1.10
+ :memory       1.10
+ :mk-bool-var  1
+ :num-allocs   17191
+ :num-checks   1
+ :rlimit-count 1173
+ :time         0.00)
+unsat
+(not (= (f_0 x_10 x_2) (f_0 x_14 x_2)))
+unsat
+(interpolants
+ (and (not (= (f_0 x_3 x_3 x_0 x_0) (f_0 x_5 x_3 x_0 x_0)))
+     (= (f_0 x_3 x_3 x_0 x_0) (f_0 x_19 x_0 x_0 x_0))
+     (= (= (f_0 x_13 x_2 x_0 x_0) (f_0 x_11 x_3 x_0 x_0))
+        (= x_19 (f_0 x_11 x_3 x_0 x_0)))
+     (= (= x_3 (f_0 x_12 x_2 x_0 x_0)) (= x_3 x_5))))
+(:conflicts    1
+ :max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  79
+ :num-allocs   20484
+ :num-checks   1
+ :rlimit-count 3523
+ :time         0.00)
+unsat
+(and (= x_12 x_16) (not (= x_3 (f_0 x_16 x_2 x_0 x_0))))
+unsat
+(interpolants
+ (and (not (= x_16 (f_0 x_10 x_1 x_0))) (= x_16 (f_0 x_3 x_1 x_0))))
+(:added-eqs    30
+ :conflicts    1
+ :max-memory   1.20
+ :memory       1.20
+ :mk-bool-var  71
+ :num-allocs   20479
+ :num-checks   1
+ :rlimit-count 3218
+ :time         0.00)
+unsat
+(not (= (f_0 x_3 x_1 x_0) (f_0 x_10 x_1 x_0)))
+unsat
+(interpolants
+ (and (not (= x_1 x_8)) (= (= x_8 (f_0 x_6 x_1)) (= x_8 x_1))))
+(:max-memory   1.13
+ :memory       1.13
+ :mk-bool-var  1
+ :num-allocs   19565
+ :num-checks   1
+ :rlimit-count 1519
+ :time         0.00)
+unsat
+(not (= (f_0 x_6 x_1) x_8))
+unsat
+(interpolants
+ (and (= (= (f_0 x_9 x_2) x_11) (= (f_0 x_0 x_2) x_11))
+     (= x_13 (f_0 x_7 x_0))
+     (= x_7 (f_0 x_16 x_0))
+     (= x_13 x_11)))
+(:added-eqs    39
+ :conflicts    1
+ :max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  72
+ :num-allocs   20534
+ :num-checks   1
+ :rlimit-count 3209
+ :time         0.00)
+unsat
+(and (= (f_0 x_0 x_2) (f_0 x_9 x_2)) (and (= (f_0 x_7 x_0) x_11) (and (= x_7 (f_0 x_16 x_0)) (= x_7 (f_0 x_14 x_3)))))
+unsat
+(interpolants
+ (and (= (f_0 x_2 x_3 x_0) (f_0 x_10 x_2 x_0))
+     (= (= (f_0 x_13 x_1 x_0) x_16) (= (f_0 x_1 x_2 x_0) x_16))
+     (= (f_0 x_9 x_2 x_0) (f_0 x_2 x_3 x_0))
+     (= x_9 (f_0 x_18 x_3 x_0))))
+(:added-eqs    37
+ :conflicts    1
+ :max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  68
+ :num-allocs   20511
+ :num-checks   1
+ :rlimit-count 3193
+ :time         0.00)
+unsat
+(and (= (f_0 x_1 x_2 x_0) (f_0 x_13 x_1 x_0)) (and (= x_9 (f_0 x_18 x_3 x_0)) (= (f_0 x_9 x_2 x_0) (f_0 x_10 x_2 x_0))))
+unsat
+(interpolants
+ (and (not (= x_0 (f_0 x_18 x_0 x_0)))
+     (= (= x_13 (f_0 x_18 x_0 x_0)) (= x_0 (f_0 x_18 x_0 x_0)))))
+(:max-memory   1.11
+ :memory       1.11
+ :mk-bool-var  1
+ :num-allocs   17212
+ :num-checks   1
+ :rlimit-count 1074
+ :time         0.00)
+unsat
+(not (= x_13 (f_0 x_18 x_0 x_0)))
+unsat
+(interpolants
+ (and (not (= (f_0 x_18 x_0) (f_0 x_13 x_1)))
+     (= x_0 (f_0 x_18 x_0))
+     (= x_0 (f_0 x_17 x_0))
+     (= (= (f_0 x_7 x_1) (f_0 x_9 x_3)) (= (f_0 x_7 x_1) (f_0 x_1 x_0)))))
+(:added-eqs    29
+ :conflicts    1
+ :max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  63
+ :num-allocs   20409
+ :num-checks   1
+ :rlimit-count 2810
+ :time         0.00)
+unsat
+(= (f_0 x_18 x_2) (f_0 x_14 x_1))
+unsat
+(interpolants
+ (and (= (= (f_0 x_13 x_0 x_0) (f_0 x_14 x_1 x_0))
+        (= (f_0 x_6 x_3 x_0) (f_0 x_10 x_2 x_0)))
+     (= (= (f_0 x_14 x_1 x_0) x_7) (= (f_0 x_10 x_2 x_0) x_7))
+     (= (f_0 x_6 x_3 x_0) (f_0 x_6 x_2 x_0))
+     (= (= (f_0 x_4 x_2 x_0) (f_0 x_7 x_2 x_0))
+        (= (f_0 x_4 x_2 x_0) (f_0 x_6 x_2 x_0)))
+     (= (f_0 x_6 x_2 x_0) (f_0 x_7 x_2 x_0))
+     (= (f_0 x_16 x_1 x_0) (f_0 x_14 x_2 x_0))
+     (= (= x_14 (f_0 x_14 x_1 x_0)) (= x_14 (f_0 x_10 x_2 x_0)))
+     (= x_16 (f_0 x_7 x_1 x_0))
+     (= (f_0 x_14 x_1 x_0) (f_0 x_10 x_2 x_0))))
+(:added-eqs    40
+ :conflicts    1
+ :max-memory   1.31
+ :memory       1.31
+ :mk-bool-var  80
+ :num-allocs   24280
+ :num-checks   1
+ :rlimit-count 3861
+ :time         0.00)
+unsat
+(let ((.def_297 (= x_16 (f_0 x_7 x_1 x_0)))) (and .def_297 (and (= (f_0 x_16 x_1 x_0) (f_0 x_14 x_2 x_0)) (and (= (f_0 x_14 x_1 x_0) (f_0 x_10 x_2 x_0)) .def_297))))
+unsat
+(interpolants
+ (and (not (= (f_0 x_1 x_3) (f_0 x_8 x_3)))
+     (= (= (f_0 x_8 x_3) (f_0 x_3 x_1)) (= (f_0 x_8 x_3) x_12))
+     (= (= (f_0 x_12 x_2) (f_0 x_1 x_3)) (= (f_0 x_10 x_0) (f_0 x_1 x_3)))
+     (= (= x_2 (f_0 x_12 x_2)) (= x_2 (f_0 x_10 x_0)))
+     (= (f_0 x_15 x_3) (f_0 x_5 x_2))))
+(:conflicts    1
+ :max-memory   1.20
+ :memory       1.20
+ :mk-bool-var  88
+ :num-allocs   20453
+ :num-checks   1
+ :rlimit-count 4111
+ :time         0.00)
+unsat
+(and (not (= (f_0 x_1 x_3) (f_0 x_8 x_3))) (and (= x_12 (f_0 x_3 x_1)) (and (= (f_0 x_15 x_3) (f_0 x_5 x_2)) (= (f_0 x_10 x_0) (f_0 x_12 x_2)))))
+unsat
+(interpolants
+ (and (not (= x_16 (f_0 x_6 x_3)))
+     (= (= x_16 (f_0 x_14 x_3)) (= x_16 (f_0 x_3 x_2)))
+     (= x_14 (f_0 x_0 x_2))
+     (= x_14 (f_0 x_3 x_3))
+     (= (= x_5 (f_0 x_19 x_0)) (= x_5 (f_0 x_3 x_3)))
+     (= (f_0 x_7 x_3) (f_0 x_16 x_2))
+     (= x_6 (f_0 x_7 x_3))
+     (= (f_0 x_3 x_2) (f_0 x_14 x_3))))
+(:added-eqs    42
+ :conflicts    1
+ :max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  56
+ :num-allocs   20542
+ :num-checks   1
+ :rlimit-count 2571
+ :time         0.00)
+unsat
+(let ((.def_113 (f_0 x_14 x_3))) (and (= (f_0 x_3 x_2) .def_113) (not (and (= x_16 .def_113) (= (f_0 x_0 x_2) (f_0 x_16 x_2))))))
+unsat
+(interpolants
+ (not (= (f_0 x_16 x_1 x_0 x_0) (f_0 x_19 x_0 x_0 x_0))))
+(:added-eqs    20
+ :conflicts    1
+ :max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  56
+ :num-allocs   20410
+ :num-checks   1
+ :rlimit-count 2549
+ :time         0.00)
+unsat
+(not (= (f_0 x_16 x_1 x_0 x_0) (f_0 x_19 x_0 x_0 x_0)))
+unsat
+(interpolants
+ (and (not (= (f_0 x_6 x_2 x_0 x_0) (f_0 x_6 x_0 x_0 x_0)))
+     (= (= x_14 (f_0 x_9 x_1 x_0 x_0)) (= x_14 (f_0 x_3 x_1 x_0 x_0)))
+     (= x_6 (f_0 x_8 x_1 x_0 x_0))))
+(:added-eqs    28
+ :conflicts    1
+ :max-memory   1.21
+ :memory       1.21
+ :mk-bool-var  61
+ :num-allocs   20473
+ :num-checks   1
+ :rlimit-count 3026
+ :time         0.00)
+unsat
+(and (not (= (f_0 x_6 x_2 x_0 x_0) (f_0 x_6 x_0 x_0 x_0))) (and (= (f_0 x_9 x_1 x_0 x_0) (f_0 x_3 x_1 x_0 x_0)) (= x_6 (f_0 x_8 x_1 x_0 x_0))))
+unsat
+(interpolants
+ (and (not (= (f_0 x_6 x_2 x_0 x_0) (f_0 x_6 x_0 x_0 x_0)))
+     (= (f_0 x_6 x_0 x_0 x_0) (f_0 x_2 x_1 x_0 x_0))
+     (= (f_0 x_9 x_2 x_0 x_0) x_5)
+     (= (= (f_0 x_16 x_0 x_0 x_0) (f_0 x_19 x_3 x_0 x_0))
+        (= (f_0 x_6 x_2 x_0 x_0) (f_0 x_9 x_2 x_0 x_0)))
+     (= (f_0 x_6 x_0 x_0 x_0) (f_0 x_3 x_1 x_0 x_0))))
+(:added-eqs    25
+ :conflicts    1
+ :max-memory   1.23
+ :memory       1.23
+ :mk-bool-var  53
+ :num-allocs   20627
+ :num-checks   1
+ :rlimit-count 2407
+ :time         0.00)
+unsat
+(not (= (f_0 x_6 x_2 x_0 x_0) (f_0 x_3 x_1 x_0 x_0)))
+unsat
+(interpolants
+ (let ((a!1 (= (not (= x_9 (f_0 x_6 x_3 x_0 x_0))) (= x_9 x_4))))
+(let ((a!2 (or (= x_9 x_4)
+               (not (= (f_0 x_15 x_1 x_0 x_0) x_9))
+               (and a!1 (= (f_0 x_6 x_3 x_0 x_0) x_4)))))
+  (and (= (= x_16 (f_0 x_15 x_0 x_0 x_0)) (= x_16 (f_0 x_2 x_2 x_0 x_0)))
+       (= (= x_13 (f_0 x_7 x_2 x_0 x_0)) (= x_13 (f_0 x_2 x_2 x_0 x_0)))
+       (= (f_0 x_11 x_1 x_0 x_0) (f_0 x_9 x_2 x_0 x_0))
+       a!2
+       (= (= (f_0 x_17 x_1 x_0 x_0) (f_0 x_16 x_3 x_0 x_0))
+          (= (f_0 x_11 x_1 x_0 x_0) (f_0 x_16 x_3 x_0 x_0)))
+       (= (f_0 x_13 x_1 x_0 x_0) (f_0 x_13 x_3 x_0 x_0))))))
+(:added-eqs    42
+ :conflicts    1
+ :max-memory   1.31
+ :memory       1.31
+ :mk-bool-var  79
+ :num-allocs   24372
+ :num-checks   1
+ :rlimit-count 3664
+ :time         0.00)
+unsat
+(and (= x_4 (f_0 x_15 x_1 x_0 x_0)) (and (= (f_0 x_17 x_1 x_0 x_0) (f_0 x_9 x_2 x_0 x_0)) (and (= (f_0 x_13 x_1 x_0 x_0) (f_0 x_13 x_3 x_0 x_0)) (= (f_0 x_7 x_2 x_0 x_0) (f_0 x_15 x_0 x_0 x_0)))))
+unsat
+(interpolants
+ (= (= (f_0 x_14 x_0) x_14) (= (f_0 x_12 x_3) x_14)))
+(:max-memory   1.11
+ :memory       1.11
+ :mk-bool-var  1
+ :num-allocs   17156
+ :num-checks   1
+ :rlimit-count 960
+ :time         0.00)
+unsat
+(= (f_0 x_14 x_0) (f_0 x_12 x_3))
+unsat
+(interpolants
+ (and (not (= (f_0 x_13 x_2) (f_0 x_2 x_0)))
+     (= (f_0 x_13 x_2) (f_0 x_10 x_3))
+     (= (= (f_0 x_4 x_2) (f_0 x_2 x_0)) (= x_13 (f_0 x_2 x_0)))
+     (= x_13 (f_0 x_10 x_3))))
+(:conflicts    1
+ :max-memory   1.23
+ :memory       1.23
+ :mk-bool-var  72
+ :num-allocs   22873
+ :num-checks   1
+ :rlimit-count 3235
+ :time         0.00)
+unsat
+(not (= (f_0 x_4 x_2) (f_0 x_2 x_0)))
+unsat
+(interpolants
+ (not (= (f_0 x_9 x_0) (f_0 x_9 x_3))))
+(:max-memory   1.10
+ :memory       1.10
+ :mk-bool-var  1
+ :num-allocs   17164
+ :num-checks   1
+ :rlimit-count 947
+ :time         0.00)
+unsat
+(not (= (f_0 x_9 x_0) (f_0 x_9 x_3)))
+unsat
+(interpolants
+ (and (not (= x_2 (f_0 x_6 x_0 x_0 x_0)))
+     (= x_17 (f_0 x_6 x_0 x_0 x_0))
+     (= (f_0 x_6 x_1 x_0 x_0) (f_0 x_6 x_0 x_0 x_0))
+     (= (= (f_0 x_10 x_1 x_0 x_0) (f_0 x_0 x_0 x_0 x_0))
+        (= (f_0 x_10 x_1 x_0 x_0) x_2))))
+(:added-eqs    18
+ :conflicts    1
+ :max-memory   1.24
+ :memory       1.24
+ :mk-bool-var  55
+ :num-allocs   20555
+ :num-checks   1
+ :rlimit-count 2550
+ :time         0.00)
+unsat
+(not (= (f_0 x_6 x_1 x_0 x_0) (f_0 x_0 x_0 x_0 x_0)))
+unsat
+(interpolants
+ (and (not (= (f_0 x_0 x_1 x_0) (f_0 x_12 x_3 x_0)))
+     (= (f_0 x_1 x_2 x_0) (f_0 x_13 x_1 x_0))
+     (= (= (f_0 x_16 x_1 x_0) x_0) (= (f_0 x_1 x_2 x_0) x_0))
+     (= (f_0 x_15 x_1 x_0) x_9)
+     (= (= x_13 (f_0 x_8 x_3 x_0)) (= x_13 x_15))
+     (= x_15 (f_0 x_8 x_3 x_0))))
+(:added-eqs    38
+ :conflicts    1
+ :max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  79
+ :num-allocs   20543
+ :num-checks   1
+ :rlimit-count 3792
+ :time         0.00)
+unsat
+(and (not (= (f_0 x_0 x_1 x_0) (f_0 x_12 x_3 x_0))) (and (= (f_0 x_15 x_1 x_0) x_9) (and (= x_15 (f_0 x_8 x_3 x_0)) (= (f_0 x_13 x_1 x_0) (f_0 x_16 x_1 x_0)))))
+unsat
+(interpolants
+ (and (not (= x_4 (f_0 x_4 x_2 x_0)))
+     (= (= (f_0 x_16 x_2 x_0) (f_0 x_19 x_3 x_0)) (= (f_0 x_4 x_2 x_0) x_16))
+     (= x_4 x_16)))
+(:conflicts    1
+ :max-memory   1.20
+ :memory       1.20
+ :mk-bool-var  79
+ :num-allocs   20517
+ :num-checks   1
+ :rlimit-count 3432
+ :time         0.00)
+unsat
+(not (= (f_0 x_19 x_3 x_0) (f_0 x_16 x_2 x_0)))
+unsat
+(interpolants
+ (= (f_0 x_15 x_0 x_0 x_0) (f_0 x_1 x_3 x_0 x_0)))
+(:max-memory   1.10
+ :memory       1.10
+ :mk-bool-var  1
+ :num-allocs   17225
+ :num-checks   1
+ :rlimit-count 1015
+ :time         0.00)
+unsat
+(= (f_0 x_15 x_0 x_0 x_0) (f_0 x_1 x_3 x_0 x_0))
+unsat
+(interpolants
+ (not (= x_0 x_6)))
+(:max-memory   1.21
+ :memory       1.21
+ :mk-bool-var  1
+ :num-allocs   20277
+ :num-checks   1
+ :rlimit-count 1864
+ :time         0.00)
+unsat
+(not (= x_0 x_6))
+unsat
+(interpolants
+ (not (= (f_0 x_17 x_3 x_0) (f_0 x_12 x_2 x_0))))
+(:max-memory   1.13
+ :memory       1.13
+ :mk-bool-var  1
+ :num-allocs   17216
+ :num-checks   1
+ :rlimit-count 1185
+ :time         0.00)
+unsat
+(not (= (f_0 x_17 x_3 x_0) (f_0 x_12 x_2 x_0)))
+unsat
+(interpolants
+ (= (f_0 x_3 x_2) (f_0 x_11 x_2)))
+(:max-memory   1.14
+ :memory       1.14
+ :mk-bool-var  1
+ :num-allocs   19524
+ :num-checks   1
+ :rlimit-count 1436
+ :time         0.00)
+unsat
+(= (f_0 x_3 x_2) (f_0 x_11 x_2))
+unsat
+(interpolants
+ (and (= (= (f_0 x_16 x_0 x_0 x_0) (f_0 x_12 x_0 x_0 x_0))
+        (= (f_0 x_14 x_3 x_0 x_0) (f_0 x_12 x_0 x_0 x_0)))
+     (= (= (f_0 x_16 x_0 x_0 x_0) (f_0 x_18 x_1 x_0 x_0))
+        (= (f_0 x_14 x_3 x_0 x_0) (f_0 x_3 x_0 x_0 x_0)))))
+(:conflicts    1
+ :max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  75
+ :num-allocs   20564
+ :num-checks   1
+ :rlimit-count 3503
+ :time         0.00)
+unsat
+(= (f_0 x_18 x_1 x_0 x_0) (f_0 x_3 x_0 x_0 x_0))
+unsat
+(interpolants
+ (not (= x_7 (f_0 x_12 x_2 x_0 x_0))))
+(:max-memory   1.13
+ :memory       1.13
+ :mk-bool-var  1
+ :num-allocs   17212
+ :num-checks   1
+ :rlimit-count 1201
+ :time         0.00)
+unsat
+(not (= x_7 (f_0 x_12 x_2 x_0 x_0)))
+unsat
+(interpolants
+ (= x_10 (f_0 x_4 x_0 x_0 x_0)))
+(:added-eqs    40
+ :conflicts    1
+ :max-memory   1.21
+ :memory       1.21
+ :mk-bool-var  88
+ :num-allocs   20552
+ :num-checks   1
+ :rlimit-count 4073
+ :time         0.00)
+unsat
+(= x_10 (f_0 x_4 x_0 x_0 x_0))
+unsat
+(interpolants
+ (and (= (= (f_0 x_12 x_1 x_0) (f_0 x_6 x_2 x_0)) (= (f_0 x_12 x_1 x_0) x_3))
+     (= x_3 (f_0 x_7 x_1 x_0))))
+(:added-eqs    21
+ :conflicts    1
+ :max-memory   1.21
+ :memory       1.21
+ :mk-bool-var  72
+ :num-allocs   20471
+ :num-checks   1
+ :rlimit-count 3365
+ :time         0.00)
+unsat
+(= (f_0 x_6 x_2 x_0) (f_0 x_10 x_1 x_0))
+unsat
+(interpolants
+ (and (= x_12 x_7)
+     (= (= (f_0 x_3 x_3 x_0 x_0) (f_0 x_1 x_1 x_0 x_0))
+        (= x_12 (f_0 x_1 x_1 x_0 x_0)))
+     (= (= x_14 (f_0 x_15 x_3 x_0 x_0)) (= x_14 (f_0 x_1 x_2 x_0 x_0)))
+     (= (= (f_0 x_16 x_3 x_0 x_0) x_14) (= x_7 x_14))
+     (= (= (f_0 x_4 x_1 x_0 x_0) (f_0 x_8 x_0 x_0 x_0))
+        (= x_1 (f_0 x_8 x_0 x_0 x_0)))))
+(:max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  1
+ :num-allocs   20326
+ :num-checks   1
+ :rlimit-count 1478
+ :time         0.00)
+unsat
+(and (= (f_0 x_2 x_1 x_0 x_0) (f_0 x_1 x_1 x_0 x_0)) (and (= x_1 (f_0 x_4 x_1 x_0 x_0)) (= (f_0 x_3 x_3 x_0 x_0) (f_0 x_16 x_3 x_0 x_0))))
+unsat
+(interpolants
+ (= (f_0 x_16 x_2 x_0 x_0) (f_0 x_17 x_2 x_0 x_0)))
+(:max-memory   1.12
+ :memory       1.12
+ :mk-bool-var  1
+ :num-allocs   17191
+ :num-checks   1
+ :rlimit-count 1098
+ :time         0.00)
+unsat
+(= (f_0 x_16 x_2 x_0 x_0) (f_0 x_17 x_2 x_0 x_0))
+unsat
+(interpolants
+ (and (not (= (f_0 x_3 x_2 x_0 x_0) (f_0 x_5 x_3 x_0 x_0)))
+     (= (= x_14 (f_0 x_4 x_1 x_0 x_0)) (= x_14 x_15))
+     (= (= (f_0 x_14 x_3 x_0 x_0) (f_0 x_8 x_0 x_0 x_0))
+        (= (f_0 x_14 x_3 x_0 x_0) (f_0 x_6 x_0 x_0 x_0)))
+     (= (f_0 x_7 x_3 x_0 x_0) (f_0 x_6 x_0 x_0 x_0))
+     (= (= (f_0 x_10 x_2 x_0 x_0) (f_0 x_13 x_3 x_0 x_0))
+        (= (f_0 x_7 x_3 x_0 x_0) (f_0 x_13 x_3 x_0 x_0)))
+     (= x_12 (f_0 x_16 x_0 x_0 x_0))
+     (= (= (f_0 x_11 x_2 x_0 x_0) (f_0 x_17 x_0 x_0 x_0))
+        (= x_13 (f_0 x_16 x_0 x_0 x_0)))
+     (= (= x_12 (f_0 x_18 x_1 x_0 x_0)) (= x_12 x_5))))
+(:added-eqs    46
+ :conflicts    1
+ :max-memory   1.31
+ :memory       1.31
+ :mk-bool-var  85
+ :num-allocs   24251
+ :num-checks   1
+ :rlimit-count 3968
+ :time         0.00)
+unsat
+(and (and (= x_15 (f_0 x_4 x_1 x_0 x_0)) (= (f_0 x_10 x_2 x_0 x_0) (f_0 x_8 x_0 x_0 x_0))) (not (and (and (= x_12 (f_0 x_18 x_1 x_0 x_0)) (= (f_0 x_17 x_0 x_0 x_0) (f_0 x_11 x_2 x_0 x_0))) (= (f_0 x_3 x_2 x_0 x_0) (f_0 x_13 x_3 x_0 x_0)))))
+unsat
+(interpolants
+ (and (not (= (f_0 x_12 x_1) x_19))
+     (= (f_0 x_9 x_3) (f_0 x_15 x_1))
+     (= (= x_19 (f_0 x_14 x_3)) (= x_19 (f_0 x_3 x_2)))
+     (= (= (f_0 x_15 x_1) (f_0 x_10 x_1)) (= (f_0 x_9 x_3) (f_0 x_10 x_1)))))
+(:max-memory   1.23
+ :memory       1.23
+ :mk-bool-var  1
+ :num-allocs   23024
+ :num-checks   1
+ :rlimit-count 1734
+ :time         0.00)
+unsat
+(and (not (= (f_0 x_12 x_1) x_19)) (= (f_0 x_14 x_3) (f_0 x_3 x_2)))
+unsat
+(interpolants
+ (= (f_0 x_5 x_3 x_0) (f_0 x_12 x_0 x_0)))
+(:max-memory   1.10
+ :memory       1.10
+ :mk-bool-var  1
+ :num-allocs   17233
+ :num-checks   1
+ :rlimit-count 1028
+ :time         0.00)
+unsat
+(= (f_0 x_5 x_3 x_0) (f_0 x_12 x_0 x_0))
+unsat
+(interpolants
+ (let ((a!1 (and (not (= x_5 (f_0 x_5 x_2 x_0 x_0)))
+                (= (f_0 x_5 x_2 x_0 x_0) x_11)
+                (= (f_0 x_3 x_0 x_0 x_0) x_11)))
+      (a!2 (and (not (= (f_0 x_11 x_2 x_0 x_0) (f_0 x_5 x_2 x_0 x_0)))
+                (= (f_0 x_3 x_0 x_0 x_0) x_11))))
+  (or a!1 a!2)))
+(:added-eqs    9
+ :conflicts    1
+ :max-memory   1.21
+ :memory       1.21
+ :mk-bool-var  60
+ :num-allocs   20439
+ :num-checks   1
+ :rlimit-count 2831
+ :time         0.00)
+unsat
+(not (= x_5 (f_0 x_3 x_0 x_0 x_0)))
+unsat
+(interpolants
+ (and (not (= (f_0 x_5 x_0) x_17))
+     (= (= (f_0 x_18 x_1) x_17) (= (f_0 x_5 x_0) x_17))))
+(:max-memory   1.13
+ :memory       1.13
+ :mk-bool-var  1
+ :num-allocs   17215
+ :num-checks   1
+ :rlimit-count 1382
+ :time         0.00)
+unsat
+(not (= (f_0 x_18 x_1) x_17))
+unsat
+(interpolants
+ (and (not (= (f_0 x_2 x_3) (f_0 x_17 x_3)))
+     (= (= (f_0 x_2 x_3) (f_0 x_9 x_2)) (= (f_0 x_2 x_3) (f_0 x_0 x_2)))
+     (= (f_0 x_17 x_3) (f_0 x_0 x_2))))
+(:max-memory   1.09
+ :memory       1.09
+ :mk-bool-var  1
+ :num-allocs   17222
+ :num-checks   1
+ :rlimit-count 1188
+ :time         0.00)
+unsat
+(not (= (f_0 x_2 x_3) (f_0 x_9 x_2)))
+unsat
+(interpolants
+ (and (= x_9 (f_0 x_6 x_2 x_0 x_0))
+     (= (= (f_0 x_11 x_3 x_0 x_0) (f_0 x_6 x_2 x_0 x_0))
+        (= (f_0 x_6 x_2 x_0 x_0) x_9))))
+(:max-memory   1.13
+ :memory       1.13
+ :mk-bool-var  1
+ :num-allocs   17228
+ :num-checks   1
+ :rlimit-count 1358
+ :time         0.00)
+unsat
+(= (f_0 x_6 x_2 x_0 x_0) (f_0 x_11 x_3 x_0 x_0))
+unsat
+(interpolants
+ (and (= (= (f_0 x_3 x_3) (f_0 x_14 x_3)) (= (f_0 x_3 x_1) x_11))
+     (= (= (f_0 x_18 x_2) (f_0 x_3 x_3)) (= x_11 (f_0 x_3 x_1)))
+     (= (= x_10 (f_0 x_3 x_3)) (= x_10 (f_0 x_3 x_1)))))
+(:added-eqs    40
+ :conflicts    1
+ :max-memory   1.23
+ :memory       1.23
+ :mk-bool-var  71
+ :num-allocs   22874
+ :num-checks   1
+ :rlimit-count 3254
+ :time         0.00)
+unsat
+(= (f_0 x_14 x_3) (f_0 x_18 x_2))
+unsat
+(interpolants
+ (or (= (f_0 x_15 x_1 x_0) (f_0 x_19 x_0 x_0))
+    (not (= (f_0 x_12 x_0 x_0) (f_0 x_4 x_0 x_0)))))
+(:added-eqs    23
+ :conflicts    1
+ :max-memory   1.25
+ :memory       1.25
+ :mk-bool-var  50
+ :num-allocs   20569
+ :num-checks   1
+ :rlimit-count 2490
+ :time         0.00)
+unsat
+(= (f_0 x_19 x_0 x_0) (f_0 x_15 x_1 x_0))
+unsat
+(interpolants
+ (not (= x_15 (f_0 x_7 x_3 x_0 x_0))))
+(:max-memory   1.11
+ :memory       1.11
+ :mk-bool-var  1
+ :num-allocs   17204
+ :num-checks   1
+ :rlimit-count 1065
+ :time         0.00)
+unsat
+(not (= x_15 (f_0 x_7 x_3 x_0 x_0)))
+unsat
+(interpolants
+ (let ((a!1 (or (= x_4 x_6)
+               (not (= x_4 (f_0 x_16 x_1 x_0)))
+               (not (= (f_0 x_1 x_3 x_0) (f_0 x_16 x_1 x_0))))))
+(let ((a!2 (or (= (f_0 x_6 x_3 x_0) (f_0 x_6 x_1 x_0))
+               (and (not (= x_6 x_4)) a!1))))
+  (and (not (= (f_0 x_6 x_1 x_0) (f_0 x_6 x_3 x_0))) a!2))))
+(:added-eqs    25
+ :conflicts    1
+ :max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  57
+ :num-allocs   20476
+ :num-checks   1
+ :rlimit-count 2806
+ :time         0.00)
+unsat
+(not (= x_4 (f_0 x_1 x_3 x_0)))
+unsat
+(interpolants
+ (let ((a!1 (or (= (f_0 x_5 x_2) (f_0 x_8 x_1))
+               (not (= (f_0 x_8 x_1) (f_0 x_18 x_2))))))
+  (and (not (= (f_0 x_5 x_2) (f_0 x_8 x_1))) a!1)))
+(:max-memory   1.12
+ :memory       1.12
+ :mk-bool-var  1
+ :num-allocs   17184
+ :num-checks   1
+ :rlimit-count 1151
+ :time         0.00)
+unsat
+(not (= (f_0 x_18 x_2) (f_0 x_8 x_1)))
+unsat
+(interpolants
+ (and (= (f_0 x_3 x_3 x_0 x_0) (f_0 x_7 x_3 x_0 x_0))
+     (= (= (f_0 x_2 x_2 x_0 x_0) (f_0 x_9 x_3 x_0 x_0))
+        (= (f_0 x_2 x_2 x_0 x_0) (f_0 x_7 x_3 x_0 x_0)))))
+(:conflicts    1
+ :max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  69
+ :num-allocs   20528
+ :num-checks   1
+ :rlimit-count 3219
+ :time         0.00)
+unsat
+(= (f_0 x_9 x_3 x_0 x_0) (f_0 x_7 x_3 x_0 x_0))
+unsat
+(interpolants
+ (and (not (= (f_0 x_2 x_1) (f_0 x_18 x_2)))
+     (= (f_0 x_18 x_2) (f_0 x_9 x_2))
+     (= (= (f_0 x_18 x_2) (f_0 x_19 x_0)) (= (f_0 x_9 x_2) (f_0 x_19 x_0)))
+     (= (f_0 x_2 x_1) (f_0 x_3 x_0))
+     (= x_3 (f_0 x_4 x_3))
+     (= (= (f_0 x_12 x_0) x_1) (= (f_0 x_4 x_3) x_1))))
+(:added-eqs    43
+ :conflicts    1
+ :max-memory   1.31
+ :memory       1.31
+ :mk-bool-var  85
+ :num-allocs   24755
+ :num-checks   1
+ :rlimit-count 3766
+ :time         0.00)
+unsat
+(and (= x_15 (f_0 x_8 x_0)) (and (= x_3 (f_0 x_12 x_0)) (= (f_0 x_3 x_1) (f_0 x_11 x_2))))
+unsat
+(interpolants
+ (let ((a!1 (= (not (= (f_0 x_9 x_2 x_0) (f_0 x_4 x_3 x_0)))
+              (= x_11 (f_0 x_4 x_3 x_0))))
+      (a!2 (= (= (f_0 x_3 x_1 x_0) (f_0 x_9 x_0 x_0))
+              (= (f_0 x_0 x_3 x_0) x_11)))
+      (a!3 (and (not (= x_12 (f_0 x_11 x_3 x_0))) (= x_12 (f_0 x_17 x_3 x_0))))
+      (a!7 (and (not (= (f_0 x_11 x_3 x_0) x_12)) (= x_12 (f_0 x_17 x_3 x_0)))))
+(let ((a!4 (and (not (= (f_0 x_0 x_2 x_0) x_11)) a!2)))
+(let ((a!5 (or (= x_3 x_11)
+               (not (= x_3 (f_0 x_12 x_1 x_0)))
+               a!3
+               (not (= (f_0 x_14 x_2 x_0) (f_0 x_19 x_1 x_0)))
+               a!4)))
+(let ((a!6 (and (not (= x_3 (f_0 x_12 x_3 x_0)))
+                a!5
+                (= (f_0 x_0 x_2 x_0) (f_0 x_12 x_3 x_0))
+                a!2)))
+(let ((a!8 (and (not (= x_11 (f_0 x_4 x_3 x_0))) (or (= x_3 x_1) a!6 a!7))))
+  (or (and a!1 (= (f_0 x_0 x_2 x_0) (f_0 x_9 x_2 x_0)) a!2) a!8)))))))
+(:added-eqs    51
+ :conflicts    1
+ :max-memory   1.34
+ :memory       1.34
+ :mk-bool-var  60
+ :num-allocs   25067
+ :num-checks   1
+ :rlimit-count 2892
+ :time         0.00)
+unsat
+(let ((.def_109 (f_0 x_3 x_1 x_0))) (and (= .def_109 (f_0 x_13 x_3 x_0)) (and (and (= x_12 (f_0 x_17 x_3 x_0)) (= x_19 (f_0 x_11 x_3 x_0))) (and (= (f_0 x_14 x_2 x_0) (f_0 x_0 x_2 x_0)) (and (= x_11 (f_0 x_9 x_0 x_0)) (= .def_109 (f_0 x_0 x_3 x_0)))))))
+unsat
+(interpolants
+ (and (= x_19 (f_0 x_3 x_3))
+     (= (= (f_0 x_3 x_3) (f_0 x_15 x_3)) (= x_19 (f_0 x_3 x_3)))))
+(:max-memory   1.11
+ :memory       1.11
+ :mk-bool-var  1
+ :num-allocs   17190
+ :num-checks   1
+ :rlimit-count 1299
+ :time         0.00)
+unsat
+(= x_3 x_15)
+unsat
+(interpolants
+ (let ((a!1 (= (= (f_0 x_2 x_3 x_0) (f_0 x_15 x_0 x_0))
+              (= (f_0 x_2 x_3 x_0) x_1)))
+      (a!2 (= (= (f_0 x_12 x_1 x_0) (f_0 x_10 x_0 x_0))
+              (= x_16 (f_0 x_10 x_0 x_0)))))
+(let ((a!3 (and (not (= x_16 (f_0 x_1 x_1 x_0)))
+                (= x_18 (f_0 x_2 x_2 x_0))
+                (= (f_0 x_2 x_0 x_0) x_18)
+                a!2
+                a!1))
+      (a!4 (and (not (= (f_0 x_1 x_1 x_0) (f_0 x_4 x_1 x_0)))
+                (= (f_0 x_5 x_3 x_0) (f_0 x_1 x_2 x_0))
+                (= (f_0 x_5 x_3 x_0) (f_0 x_13 x_3 x_0))
+                (= (= x_13 (f_0 x_8 x_0 x_0)) (= x_13 x_18))
+                (= (f_0 x_2 x_0 x_0) x_18)
+                a!2
+                a!1)))
+  (or (= (f_0 x_18 x_1 x_0) (f_0 x_4 x_1 x_0))
+      (and (not (= x_2 x_1)) a!1)
+      (and (not (= x_18 x_16)) (= (f_0 x_2 x_0 x_0) x_18) a!2)
+      a!3
+      a!4))))
+(:added-eqs    13
+ :conflicts    1
+ :max-memory   1.33
+ :memory       1.33
+ :mk-bool-var  62
+ :num-allocs   24978
+ :num-checks   1
+ :rlimit-count 2861
+ :time         0.00)
+unsat
+(not (= x_2 (f_0 x_15 x_0 x_0)))
+unsat
+(interpolants
+ (and (not (= x_12 (f_0 x_19 x_0))) (= x_4 (f_0 x_19 x_0))))
+(:max-memory   1.21
+ :memory       1.21
+ :mk-bool-var  1
+ :num-allocs   20319
+ :num-checks   1
+ :rlimit-count 2065
+ :time         0.00)
+unsat
+(not (= x_12 x_4))
+unsat
+(interpolants
+ (= (f_0 x_1 x_0 x_0 x_0) (f_0 x_12 x_0 x_0 x_0)))
+(:max-memory   1.11
+ :memory       1.11
+ :mk-bool-var  1
+ :num-allocs   17211
+ :num-checks   1
+ :rlimit-count 1176
+ :time         0.00)
+unsat
+(= (f_0 x_1 x_0 x_0 x_0) (f_0 x_12 x_0 x_0 x_0))
+unsat
+(interpolants
+ (and (not (= x_11 x_6)) (= (= (f_0 x_17 x_2 x_0) x_6) (= x_11 x_6))))
+(:max-memory   1.12
+ :memory       1.12
+ :mk-bool-var  1
+ :num-allocs   17265
+ :num-checks   1
+ :rlimit-count 1511
+ :time         0.00)
+unsat
+(not (= x_6 (f_0 x_17 x_2 x_0)))
+unsat
+(interpolants
+ (and (not (= (f_0 x_19 x_2 x_0 x_0) (f_0 x_17 x_0 x_0 x_0)))
+     (= (= (f_0 x_19 x_3 x_0 x_0) x_18) (= x_19 x_18))
+     (= x_2 (f_0 x_0 x_1 x_0 x_0))
+     (= (f_0 x_0 x_1 x_0 x_0) (f_0 x_4 x_1 x_0 x_0))
+     (= (f_0 x_3 x_0 x_0 x_0) (f_0 x_2 x_2 x_0 x_0))))
+(:added-eqs    45
+ :conflicts    1
+ :max-memory   1.31
+ :memory       1.31
+ :mk-bool-var  75
+ :num-allocs   24646
+ :num-checks   1
+ :rlimit-count 3422
+ :time         0.00)
+unsat
+(let ((.def_129 (= x_19 (f_0 x_19 x_3 x_0 x_0)))) (and (not (= (f_0 x_19 x_2 x_0 x_0) (f_0 x_17 x_0 x_0 x_0))) (and .def_129 (and (= (f_0 x_3 x_0 x_0 x_0) (f_0 x_2 x_2 x_0 x_0)) (and .def_129 (= x_2 (f_0 x_4 x_1 x_0 x_0)))))))
+unsat
+(interpolants
+ (= (f_0 x_19 x_2 x_0) (f_0 x_1 x_2 x_0)))
+(:added-eqs    29
+ :conflicts    1
+ :max-memory   1.23
+ :memory       1.23
+ :mk-bool-var  60
+ :num-allocs   20443
+ :num-checks   1
+ :rlimit-count 2821
+ :time         0.00)
+unsat
+(= x_1 x_19)
+unsat
+(interpolants
+ (= (f_0 x_14 x_3 x_0 x_0) (f_0 x_7 x_0 x_0 x_0)))
+(:added-eqs    23
+ :conflicts    1
+ :max-memory   1.19
+ :memory       1.19
+ :mk-bool-var  43
+ :num-allocs   20618
+ :num-checks   1
+ :rlimit-count 2056
+ :time         0.00)
+unsat
+(= (f_0 x_14 x_3 x_0 x_0) (f_0 x_7 x_0 x_0 x_0))
+unsat
+(interpolants
+ (not (= x_10 (f_0 x_19 x_1 x_0))))
+(:max-memory   1.13
+ :memory       1.13
+ :mk-bool-var  1
+ :num-allocs   17224
+ :num-checks   1
+ :rlimit-count 1303
+ :time         0.00)
+unsat
+(not (= x_10 (f_0 x_19 x_1 x_0)))
+unsat
+(interpolants
+ (and (= x_12 x_7)
+     (= x_7 (f_0 x_3 x_0 x_0 x_0))
+     (= (= (f_0 x_19 x_0 x_0 x_0) (f_0 x_15 x_3 x_0 x_0))
+        (= x_12 (f_0 x_15 x_3 x_0 x_0)))))
+(:max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  1
+ :num-allocs   20289
+ :num-checks   1
+ :rlimit-count 1203
+ :time         0.00)
+unsat
+(= (f_0 x_19 x_0 x_0 x_0) (f_0 x_3 x_0 x_0 x_0))
+unsat
+(interpolants
+ (let ((a!1 (or (= x_10 x_9)
+               (not (= (f_0 x_13 x_0 x_0 x_0) x_9))
+               (not (= (f_0 x_12 x_3 x_0 x_0) x_10)))))
+  (and (= (= (f_0 x_9 x_1 x_0 x_0) (f_0 x_12 x_0 x_0 x_0))
+          (= (f_0 x_6 x_0 x_0 x_0) (f_0 x_0 x_2 x_0 x_0)))
+       a!1
+       (= (f_0 x_9 x_1 x_0 x_0) (f_0 x_6 x_0 x_0 x_0)))))
+(:added-eqs    37
+ :conflicts    1
+ :max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  65
+ :num-allocs   20513
+ :num-checks   1
+ :rlimit-count 2985
+ :time         0.00)
+unsat
+(and (= (f_0 x_9 x_1 x_0 x_0) (f_0 x_6 x_0 x_0 x_0)) (= (f_0 x_13 x_0 x_0 x_0) (f_0 x_12 x_3 x_0 x_0)))
+unsat
+(interpolants
+ (and (= (= (f_0 x_19 x_3) (f_0 x_14 x_3)) (= (f_0 x_10 x_2) (f_0 x_14 x_3)))
+     (= (= (f_0 x_10 x_1) (f_0 x_19 x_3)) (= (f_0 x_8 x_2) (f_0 x_10 x_2)))
+     (= (= (f_0 x_15 x_2) (f_0 x_0 x_2)) (= (f_0 x_8 x_2) (f_0 x_0 x_2)))))
+(:conflicts    1
+ :max-memory   1.23
+ :memory       1.23
+ :mk-bool-var  58
+ :num-allocs   20671
+ :num-checks   1
+ :rlimit-count 2876
+ :time         0.00)
+unsat
+(= (f_0 x_10 x_1) (f_0 x_8 x_2))
+unsat
+(interpolants
+ (and (= (= (f_0 x_18 x_1 x_0 x_0) (f_0 x_8 x_2 x_0 x_0))
+        (= (f_0 x_15 x_1 x_0 x_0) (f_0 x_3 x_2 x_0 x_0)))
+     (= (f_0 x_13 x_0 x_0 x_0) x_17)
+     (= (= (f_0 x_0 x_1 x_0 x_0) (f_0 x_6 x_2 x_0 x_0))
+        (= x_13 (f_0 x_6 x_2 x_0 x_0)))
+     (= (f_0 x_13 x_0 x_0 x_0) (f_0 x_17 x_1 x_0 x_0))
+     (= (= (f_0 x_17 x_2 x_0 x_0) (f_0 x_9 x_3 x_0 x_0))
+        (= (f_0 x_17 x_1 x_0 x_0) (f_0 x_9 x_3 x_0 x_0)))))
+(:added-eqs    41
+ :conflicts    1
+ :max-memory   1.32
+ :memory       1.32
+ :mk-bool-var  77
+ :num-allocs   24276
+ :num-checks   1
+ :rlimit-count 3535
+ :time         0.00)
+unsat
+(and (and (= x_13 (f_0 x_0 x_1 x_0 x_0)) (= x_3 x_8)) (and (= (f_0 x_18 x_1 x_0 x_0) (f_0 x_15 x_1 x_0 x_0)) (= x_17 (f_0 x_17 x_2 x_0 x_0))))
+unsat
+(interpolants
+ (and (= (= (f_0 x_12 x_0 x_0) (f_0 x_14 x_3 x_0))
+        (= (f_0 x_7 x_1 x_0) (f_0 x_14 x_3 x_0)))
+     (= (= (f_0 x_3 x_2 x_0) (f_0 x_2 x_1 x_0)) (= (f_0 x_3 x_2 x_0) x_6))
+     (= (= (f_0 x_6 x_1 x_0) (f_0 x_2 x_1 x_0)) (= x_5 x_6))
+     (= (f_0 x_6 x_1 x_0) x_5)))
+(:added-eqs    46
+ :conflicts    1
+ :max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  86
+ :num-allocs   20557
+ :num-checks   1
+ :rlimit-count 3971
+ :time         0.00)
+unsat
+(and (= x_6 (f_0 x_2 x_1 x_0)) (= (f_0 x_6 x_1 x_0) x_5))
+unsat
+(interpolants
+ (and (= (= (f_0 x_11 x_1) (f_0 x_12 x_0)) (= x_8 (f_0 x_6 x_3)))
+     (= (= x_9 (f_0 x_12 x_0)) (= x_9 (f_0 x_6 x_3)))
+     (= x_8 (f_0 x_11 x_1))
+     (= (= (f_0 x_4 x_0) (f_0 x_16 x_1)) (= x_9 (f_0 x_16 x_1)))))
+(:max-memory   1.22
+ :memory       1.22
+ :mk-bool-var  1
+ :num-allocs   20350
+ :num-checks   1
+ :rlimit-count 1840
+ :time         0.00)
+unsat
+(= x_9 (f_0 x_4 x_0))
+unsat
+(interpolants
+ (not (= (f_0 x_7 x_3 x_0) (f_0 x_3 x_2 x_0))))
+(:max-memory   1.11
+ :memory       1.11
+ :mk-bool-var  1
+ :num-allocs   17283
+ :num-checks   1
+ :rlimit-count 1800
+ :time         0.00)
+unsat
+(not (= (f_0 x_7 x_3 x_0) (f_0 x_3 x_2 x_0)))
+unsat
+(interpolants
+ (= (= (f_0 x_16 x_2) (f_0 x_9 x_0)) (= x_0 (f_0 x_9 x_0))))
+(:max-memory   1.13
+ :memory       1.13
+ :mk-bool-var  1
+ :num-allocs   19595
+ :num-checks   1
+ :rlimit-count 1716
+ :time         0.00)
+unsat
+(= x_0 (f_0 x_16 x_2))
+unsat
+(interpolants
+ (and (= x_10 (f_0 x_7 x_3 x_0 x_0))
+     (= (= (f_0 x_17 x_0 x_0 x_0) (f_0 x_8 x_0 x_0 x_0))
+        (= x_10 (f_0 x_7 x_3 x_0 x_0)))))
+(:max-memory   1.12
+ :memory       1.12
+ :mk-bool-var  1
+ :num-allocs   17263
+ :num-checks   1
+ :rlimit-count 1510
+ :time         0.00)
+unsat
+(= (f_0 x_8 x_0 x_0 x_0) (f_0 x_17 x_0 x_0 x_0))
+rm -rf tests/benchmarks
+make[1]: Leaving directory '/home/jose/Documents/GithubProjects/master-thesis/Software/Cpp/EUFInterpolant'

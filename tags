@@ -1,0 +1,774 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+$(ODIR)/%.o	Makefile	/^$(ODIR)\/%.o: $(SDIR)\/%.cpp $(DEPS)$/;"	t
+0	compile_commands.json	/^   "g++", $/;"	s	array:0.arguments
+0	compile_commands.json	/^   "g++", $/;"	s	array:1.arguments
+0	compile_commands.json	/^   "g++", $/;"	s	array:10.arguments
+0	compile_commands.json	/^   "g++", $/;"	s	array:11.arguments
+0	compile_commands.json	/^   "g++", $/;"	s	array:12.arguments
+0	compile_commands.json	/^   "g++", $/;"	s	array:13.arguments
+0	compile_commands.json	/^   "g++", $/;"	s	array:14.arguments
+0	compile_commands.json	/^   "g++", $/;"	s	array:2.arguments
+0	compile_commands.json	/^   "g++", $/;"	s	array:3.arguments
+0	compile_commands.json	/^   "g++", $/;"	s	array:4.arguments
+0	compile_commands.json	/^   "g++", $/;"	s	array:5.arguments
+0	compile_commands.json	/^   "g++", $/;"	s	array:6.arguments
+0	compile_commands.json	/^   "g++", $/;"	s	array:7.arguments
+0	compile_commands.json	/^   "g++", $/;"	s	array:8.arguments
+0	compile_commands.json	/^   "g++", $/;"	s	array:9.arguments
+0	compile_commands.json	/^ {$/;"	o
+1	compile_commands.json	/^   "-g", $/;"	s	array:0.arguments
+1	compile_commands.json	/^   "-g", $/;"	s	array:1.arguments
+1	compile_commands.json	/^   "-g", $/;"	s	array:10.arguments
+1	compile_commands.json	/^   "-g", $/;"	s	array:11.arguments
+1	compile_commands.json	/^   "-g", $/;"	s	array:12.arguments
+1	compile_commands.json	/^   "-g", $/;"	s	array:13.arguments
+1	compile_commands.json	/^   "-g", $/;"	s	array:14.arguments
+1	compile_commands.json	/^   "-g", $/;"	s	array:2.arguments
+1	compile_commands.json	/^   "-g", $/;"	s	array:3.arguments
+1	compile_commands.json	/^   "-g", $/;"	s	array:4.arguments
+1	compile_commands.json	/^   "-g", $/;"	s	array:5.arguments
+1	compile_commands.json	/^   "-g", $/;"	s	array:6.arguments
+1	compile_commands.json	/^   "-g", $/;"	s	array:7.arguments
+1	compile_commands.json	/^   "-g", $/;"	s	array:8.arguments
+1	compile_commands.json	/^   "-g", $/;"	s	array:9.arguments
+1	compile_commands.json	/^ {$/;"	o
+10	compile_commands.json	/^ {$/;"	o
+11	compile_commands.json	/^ {$/;"	o
+12	compile_commands.json	/^ {$/;"	o
+13	compile_commands.json	/^ {$/;"	o
+14	compile_commands.json	/^ {$/;"	o
+2	compile_commands.json	/^   "-c", $/;"	s	array:0.arguments
+2	compile_commands.json	/^   "-c", $/;"	s	array:1.arguments
+2	compile_commands.json	/^   "-c", $/;"	s	array:10.arguments
+2	compile_commands.json	/^   "-c", $/;"	s	array:11.arguments
+2	compile_commands.json	/^   "-c", $/;"	s	array:12.arguments
+2	compile_commands.json	/^   "-c", $/;"	s	array:13.arguments
+2	compile_commands.json	/^   "-c", $/;"	s	array:14.arguments
+2	compile_commands.json	/^   "-c", $/;"	s	array:2.arguments
+2	compile_commands.json	/^   "-c", $/;"	s	array:3.arguments
+2	compile_commands.json	/^   "-c", $/;"	s	array:4.arguments
+2	compile_commands.json	/^   "-c", $/;"	s	array:5.arguments
+2	compile_commands.json	/^   "-c", $/;"	s	array:6.arguments
+2	compile_commands.json	/^   "-c", $/;"	s	array:7.arguments
+2	compile_commands.json	/^   "-c", $/;"	s	array:8.arguments
+2	compile_commands.json	/^   "-c", $/;"	s	array:9.arguments
+2	compile_commands.json	/^ {$/;"	o
+3	compile_commands.json	/^   "-o", $/;"	s	array:0.arguments
+3	compile_commands.json	/^   "-o", $/;"	s	array:1.arguments
+3	compile_commands.json	/^   "-o", $/;"	s	array:10.arguments
+3	compile_commands.json	/^   "-o", $/;"	s	array:11.arguments
+3	compile_commands.json	/^   "-o", $/;"	s	array:12.arguments
+3	compile_commands.json	/^   "-o", $/;"	s	array:13.arguments
+3	compile_commands.json	/^   "-o", $/;"	s	array:14.arguments
+3	compile_commands.json	/^   "-o", $/;"	s	array:2.arguments
+3	compile_commands.json	/^   "-o", $/;"	s	array:3.arguments
+3	compile_commands.json	/^   "-o", $/;"	s	array:4.arguments
+3	compile_commands.json	/^   "-o", $/;"	s	array:5.arguments
+3	compile_commands.json	/^   "-o", $/;"	s	array:6.arguments
+3	compile_commands.json	/^   "-o", $/;"	s	array:7.arguments
+3	compile_commands.json	/^   "-o", $/;"	s	array:8.arguments
+3	compile_commands.json	/^   "-o", $/;"	s	array:9.arguments
+3	compile_commands.json	/^ {$/;"	o
+4	compile_commands.json	/^   "obj\/CongruenceClosure.o", $/;"	s	array:5.arguments
+4	compile_commands.json	/^   "obj\/CongruenceClosureDST.o", $/;"	s	array:13.arguments
+4	compile_commands.json	/^   "obj\/CongruenceClosureExplain.o", $/;"	s	array:4.arguments
+4	compile_commands.json	/^   "obj\/CongruenceClosureNO.o", $/;"	s	array:9.arguments
+4	compile_commands.json	/^   "obj\/CurryNode.o", $/;"	s	array:7.arguments
+4	compile_commands.json	/^   "obj\/EUFInterpolant.o", $/;"	s	array:2.arguments
+4	compile_commands.json	/^   "obj\/FactoryCurryNodes.o", $/;"	s	array:11.arguments
+4	compile_commands.json	/^   "obj\/HornClause.o", $/;"	s	array:10.arguments
+4	compile_commands.json	/^   "obj\/HornClauses.o", $/;"	s	array:14.arguments
+4	compile_commands.json	/^   "obj\/Hornsat.o", $/;"	s	array:3.arguments
+4	compile_commands.json	/^   "obj\/Match.o", $/;"	s	array:0.arguments
+4	compile_commands.json	/^   "obj\/Rename.o", $/;"	s	array:1.arguments
+4	compile_commands.json	/^   "obj\/UnionFind.o", $/;"	s	array:8.arguments
+4	compile_commands.json	/^   "obj\/UnionFindExplain.o", $/;"	s	array:12.arguments
+4	compile_commands.json	/^   "obj\/main.o", $/;"	s	array:6.arguments
+4	compile_commands.json	/^ {$/;"	o
+5	compile_commands.json	/^   "-I.\/src", $/;"	s	array:0.arguments
+5	compile_commands.json	/^   "-I.\/src", $/;"	s	array:1.arguments
+5	compile_commands.json	/^   "-I.\/src", $/;"	s	array:10.arguments
+5	compile_commands.json	/^   "-I.\/src", $/;"	s	array:11.arguments
+5	compile_commands.json	/^   "-I.\/src", $/;"	s	array:12.arguments
+5	compile_commands.json	/^   "-I.\/src", $/;"	s	array:13.arguments
+5	compile_commands.json	/^   "-I.\/src", $/;"	s	array:14.arguments
+5	compile_commands.json	/^   "-I.\/src", $/;"	s	array:2.arguments
+5	compile_commands.json	/^   "-I.\/src", $/;"	s	array:3.arguments
+5	compile_commands.json	/^   "-I.\/src", $/;"	s	array:4.arguments
+5	compile_commands.json	/^   "-I.\/src", $/;"	s	array:5.arguments
+5	compile_commands.json	/^   "-I.\/src", $/;"	s	array:6.arguments
+5	compile_commands.json	/^   "-I.\/src", $/;"	s	array:7.arguments
+5	compile_commands.json	/^   "-I.\/src", $/;"	s	array:8.arguments
+5	compile_commands.json	/^   "-I.\/src", $/;"	s	array:9.arguments
+5	compile_commands.json	/^ {$/;"	o
+6	compile_commands.json	/^   "-I.\/include", $/;"	s	array:0.arguments
+6	compile_commands.json	/^   "-I.\/include", $/;"	s	array:1.arguments
+6	compile_commands.json	/^   "-I.\/include", $/;"	s	array:10.arguments
+6	compile_commands.json	/^   "-I.\/include", $/;"	s	array:11.arguments
+6	compile_commands.json	/^   "-I.\/include", $/;"	s	array:12.arguments
+6	compile_commands.json	/^   "-I.\/include", $/;"	s	array:13.arguments
+6	compile_commands.json	/^   "-I.\/include", $/;"	s	array:14.arguments
+6	compile_commands.json	/^   "-I.\/include", $/;"	s	array:2.arguments
+6	compile_commands.json	/^   "-I.\/include", $/;"	s	array:3.arguments
+6	compile_commands.json	/^   "-I.\/include", $/;"	s	array:4.arguments
+6	compile_commands.json	/^   "-I.\/include", $/;"	s	array:5.arguments
+6	compile_commands.json	/^   "-I.\/include", $/;"	s	array:6.arguments
+6	compile_commands.json	/^   "-I.\/include", $/;"	s	array:7.arguments
+6	compile_commands.json	/^   "-I.\/include", $/;"	s	array:8.arguments
+6	compile_commands.json	/^   "-I.\/include", $/;"	s	array:9.arguments
+6	compile_commands.json	/^ {$/;"	o
+7	compile_commands.json	/^   "-std=c++11", $/;"	s	array:0.arguments
+7	compile_commands.json	/^   "-std=c++11", $/;"	s	array:1.arguments
+7	compile_commands.json	/^   "-std=c++11", $/;"	s	array:10.arguments
+7	compile_commands.json	/^   "-std=c++11", $/;"	s	array:11.arguments
+7	compile_commands.json	/^   "-std=c++11", $/;"	s	array:12.arguments
+7	compile_commands.json	/^   "-std=c++11", $/;"	s	array:13.arguments
+7	compile_commands.json	/^   "-std=c++11", $/;"	s	array:14.arguments
+7	compile_commands.json	/^   "-std=c++11", $/;"	s	array:2.arguments
+7	compile_commands.json	/^   "-std=c++11", $/;"	s	array:3.arguments
+7	compile_commands.json	/^   "-std=c++11", $/;"	s	array:4.arguments
+7	compile_commands.json	/^   "-std=c++11", $/;"	s	array:5.arguments
+7	compile_commands.json	/^   "-std=c++11", $/;"	s	array:6.arguments
+7	compile_commands.json	/^   "-std=c++11", $/;"	s	array:7.arguments
+7	compile_commands.json	/^   "-std=c++11", $/;"	s	array:8.arguments
+7	compile_commands.json	/^   "-std=c++11", $/;"	s	array:9.arguments
+7	compile_commands.json	/^ {$/;"	o
+8	compile_commands.json	/^   "-Wall", $/;"	s	array:0.arguments
+8	compile_commands.json	/^   "-Wall", $/;"	s	array:1.arguments
+8	compile_commands.json	/^   "-Wall", $/;"	s	array:10.arguments
+8	compile_commands.json	/^   "-Wall", $/;"	s	array:11.arguments
+8	compile_commands.json	/^   "-Wall", $/;"	s	array:12.arguments
+8	compile_commands.json	/^   "-Wall", $/;"	s	array:13.arguments
+8	compile_commands.json	/^   "-Wall", $/;"	s	array:14.arguments
+8	compile_commands.json	/^   "-Wall", $/;"	s	array:2.arguments
+8	compile_commands.json	/^   "-Wall", $/;"	s	array:3.arguments
+8	compile_commands.json	/^   "-Wall", $/;"	s	array:4.arguments
+8	compile_commands.json	/^   "-Wall", $/;"	s	array:5.arguments
+8	compile_commands.json	/^   "-Wall", $/;"	s	array:6.arguments
+8	compile_commands.json	/^   "-Wall", $/;"	s	array:7.arguments
+8	compile_commands.json	/^   "-Wall", $/;"	s	array:8.arguments
+8	compile_commands.json	/^   "-Wall", $/;"	s	array:9.arguments
+8	compile_commands.json	/^ {$/;"	o
+9	compile_commands.json	/^   "src\/CongruenceClosure.cpp"$/;"	s	array:5.arguments
+9	compile_commands.json	/^   "src\/CongruenceClosureDST.cpp"$/;"	s	array:13.arguments
+9	compile_commands.json	/^   "src\/CongruenceClosureExplain.cpp"$/;"	s	array:4.arguments
+9	compile_commands.json	/^   "src\/CongruenceClosureNO.cpp"$/;"	s	array:9.arguments
+9	compile_commands.json	/^   "src\/CurryNode.cpp"$/;"	s	array:7.arguments
+9	compile_commands.json	/^   "src\/EUFInterpolant.cpp"$/;"	s	array:2.arguments
+9	compile_commands.json	/^   "src\/FactoryCurryNodes.cpp"$/;"	s	array:11.arguments
+9	compile_commands.json	/^   "src\/HornClause.cpp"$/;"	s	array:10.arguments
+9	compile_commands.json	/^   "src\/HornClauses.cpp"$/;"	s	array:14.arguments
+9	compile_commands.json	/^   "src\/Hornsat.cpp"$/;"	s	array:3.arguments
+9	compile_commands.json	/^   "src\/Match.cpp"$/;"	s	array:0.arguments
+9	compile_commands.json	/^   "src\/Rename.cpp"$/;"	s	array:1.arguments
+9	compile_commands.json	/^   "src\/UnionFind.cpp"$/;"	s	array:8.arguments
+9	compile_commands.json	/^   "src\/UnionFindExplain.cpp"$/;"	s	array:12.arguments
+9	compile_commands.json	/^   "src\/main.cpp"$/;"	s	array:6.arguments
+9	compile_commands.json	/^ {$/;"	o
+APPLY_EQ	include/CurryNode.h	/^enum KindEquation { CONST_EQ, APPLY_EQ  };$/;"	e	enum:KindEquation
+CC	Makefile	/^CC = g++$/;"	m
+CONST_EQ	include/CurryNode.h	/^enum KindEquation { CONST_EQ, APPLY_EQ  };$/;"	e	enum:KindEquation
+ClassList	include/Hornsat.h	/^typedef std::vector<std::vector<ClassListPos> > ClassList;$/;"	t	typeref:typename:std::vector<std::vector<ClassListPos>>
+ClassListPos	include/Hornsat.h	/^  ClassListPos(Literal * lit_pointer, SideOfEquation eq_side) :$/;"	f	struct:ClassListPos
+ClassListPos	include/Hornsat.h	/^struct ClassListPos {$/;"	s
+Clause	include/Hornsat.h	/^  Clause(ClauseId id, struct Clause * clause) : clause_id(id), next(clause){}$/;"	f	struct:Clause
+Clause	include/Hornsat.h	/^struct Clause {$/;"	s
+ClauseId	include/Hornsat.h	/^typedef unsigned ClauseId;$/;"	t	typeref:typename:unsigned
+Cloning the repository	tests/QF_UF/README.md	/^## Cloning the repository$/;"	s
+CongruenceClosure	include/CongruenceClosure.h	/^class CongruenceClosure {$/;"	c
+CongruenceClosure	src/CongruenceClosure.cpp	/^CongruenceClosure::CongruenceClosure(const Z3Subterms & subterms,$/;"	f	class:CongruenceClosure
+CongruenceClosureDST	include/CongruenceClosureDST.h	/^class CongruenceClosureDST : public CongruenceClosure {$/;"	c
+CongruenceClosureDST	src/CongruenceClosureDST.cpp	/^CongruenceClosureDST::CongruenceClosureDST(const Z3Subterms & subterms,$/;"	f	class:CongruenceClosureDST
+CongruenceClosureExplain	include/CongruenceClosureExplain.h	/^class CongruenceClosureExplain : public CongruenceClosure {$/;"	c
+CongruenceClosureExplain	src/CongruenceClosureExplain.cpp	/^CongruenceClosureExplain::CongruenceClosureExplain($/;"	f	class:CongruenceClosureExplain
+CongruenceClosureExplain	src/CongruenceClosureExplain.cpp	/^CongruenceClosureExplain::CongruenceClosureExplain(Z3Subterms const & subterms,$/;"	f	class:CongruenceClosureExplain
+CongruenceClosureNO	include/CongruenceClosureNO.h	/^class CongruenceClosureNO : public CongruenceClosure {$/;"	c
+CongruenceClosureNO	src/CongruenceClosureNO.cpp	/^CongruenceClosureNO::CongruenceClosureNO(const Z3Subterms & subterms,$/;"	f	class:CongruenceClosureNO
+CurryDeclarations	include/CurryNode.h	/^typedef std::map<unsigned, CurryNode*> CurryDeclarations;$/;"	t	typeref:typename:std::map<unsigned,CurryNode * >
+CurryNode	include/CurryNode.h	/^class CurryNode {$/;"	c
+CurryNode	src/CurryNode.cpp	/^CurryNode::CurryNode(unsigned id, std::string func_name, CurryNode * left, CurryNode * right) :$/;"	f	class:CurryNode
+CurryPreds	include/CurryNode.h	/^typedef std::map<const CurryNode *, std::list<PredNode> > CurryPreds;$/;"	t	typeref:typename:std::map<const CurryNode *,std::list<PredNode>>
+DEBUGGING_CONSTRUCTOR	include/Hornsat.h	/^#define DEBUGGING_CONSTRUCTOR /;"	d
+DEBUGGING_SATISFIABLE	include/Hornsat.h	/^#define DEBUGGING_SATISFIABLE /;"	d
+DEBUGGING_UNIONUPDATE	include/Hornsat.h	/^#define DEBUGGING_UNIONUPDATE /;"	d
+DEBUG_ADDINGHC	include/HornClauses.h	/^#define DEBUG_ADDINGHC /;"	d
+DEBUG_BUILD_INTERP	include/EUFInterpolant.h	/^#define DEBUG_BUILD_INTERP /;"	d
+DEBUG_COND_ELIM	include/EUFInterpolant.h	/^#define DEBUG_COND_ELIM /;"	d
+DEBUG_COND_ELIM_EQS	include/EUFInterpolant.h	/^#define DEBUG_COND_ELIM_EQS /;"	d
+DEBUG_CONSTRUCT_CCE	include/CongruenceClosureExplain.h	/^#define DEBUG_CONSTRUCT_CCE /;"	d
+DEBUG_DESTRUCTORS	include/Hornsat.h	/^#define DEBUG_DESTRUCTORS /;"	d
+DEBUG_DESTRUCTORS_CC	include/CongruenceClosure.h	/^#define DEBUG_DESTRUCTORS_CC /;"	d
+DEBUG_DESTRUCTOR_EUF	include/EUFInterpolant.h	/^#define DEBUG_DESTRUCTOR_EUF /;"	d
+DEBUG_DESTRUCTOR_HC	include/HornClause.h	/^#define DEBUG_DESTRUCTOR_HC /;"	d
+DEBUG_DESTRUCTOR_HCS	include/HornClauses.h	/^#define DEBUG_DESTRUCTOR_HCS /;"	d
+DEBUG_DESTRUCTOR_UF	include/UnionFind.h	/^#define DEBUG_DESTRUCTOR_UF /;"	d
+DEBUG_DESTRUCTOR_UFE	include/UnionFindExplain.h	/^#define DEBUG_DESTRUCTOR_UFE /;"	d
+DEBUG_EUFINTERPOLANT	include/EUFInterpolant.h	/^#define DEBUG_EUFINTERPOLANT /;"	d
+DEBUG_EXPLAIN_OP	include/UnionFindExplain.h	/^#define DEBUG_EXPLAIN_OP /;"	d
+DEBUG_EXPOSE_UNCOMMS	include/EUFInterpolant.h	/^#define DEBUG_EXPOSE_UNCOMMS /;"	d
+DEBUG_HORN_CLAUSES	include/HornClauses.h	/^#define DEBUG_HORN_CLAUSES /;"	d
+DEBUG_HSAT_INTER	include/EUFInterpolant.h	/^#define DEBUG_HSAT_INTER /;"	d
+DEBUG_MERGE	include/CongruenceClosureExplain.h	/^#define DEBUG_MERGE /;"	d
+DEBUG_PROPAGATE	include/CongruenceClosureExplain.h	/^#define DEBUG_PROPAGATE /;"	d
+DEBUG_PROPAGATE_AUX	include/CongruenceClosureExplain.h	/^#define DEBUG_PROPAGATE_AUX /;"	d
+DEBUG_RENAME	include/Rename.h	/^#define DEBUG_RENAME /;"	d
+DEBUG_SANITY_CHECK	include/CongruenceClosureExplain.h	/^#define DEBUG_SANITY_CHECK /;"	d
+DEBUG_SIMPLIFY	include/HornClauses.h	/^#define DEBUG_SIMPLIFY /;"	d
+DEBUG_SIMPLIFY_BLOCK	include/HornClauses.h	/^#define DEBUG_SIMPLIFY_BLOCK /;"	d
+DEBUG_TEMP	include/EUFInterpolant.h	/^#define DEBUG_TEMP /;"	d
+DEBUG_TEST_EXPLAIN	include/CongruenceClosureExplain.h	/^#define DEBUG_TEST_EXPLAIN /;"	d
+DEPS	Makefile	/^DEPS = $(wildcard $(IDIR)\/*.h)$/;"	m
+EQ	include/CurryNode.h	/^enum PendingTag { EQ, EQ_EQ };$/;"	e	enum:PendingTag
+EQ_EQ	include/CurryNode.h	/^enum PendingTag { EQ, EQ_EQ };$/;"	e	enum:PendingTag
+EUFInterpolant	include/EUFInterpolant.h	/^class EUFInterpolant : public Input {$/;"	c
+EUFInterpolant	src/EUFInterpolant.cpp	/^EUFInterpolant::EUFInterpolant(z3::expr_vector const & assertions) : $/;"	f	class:EUFInterpolant
+EUFInterpolantWithExpressions	include/EUFInterpolantWithExpressions.h	/^class EUFInterpolantWithExpressions : public RenameWithExpressions, public EUFInterpolant {$/;"	c
+EUFInterpolantWithExpressions	src/EUFInterpolantWithExpressions.cpp	/^EUFInterpolantWithExpressions::EUFInterpolantWithExpressions(z3::expr_vector const & input_a, z3/;"	f	class:EUFInterpolantWithExpressions
+EUFInterpolantWithUncomSymbols	include/EUFInterpolantWithUncomSymbols.h	/^class EUFInterpolantWithUncomSymbols: public RenameWithUncomSymbols, public EUFInterpolant {$/;"	c
+EUFInterpolantWithUncomSymbols	src/EUFInterpolantWithUncomSymbols.cpp	/^EUFInterpolantWithUncomSymbols::EUFInterpolantWithUncomSymbols(z3::expr_vector const & input_a, /;"	f	class:EUFInterpolantWithUncomSymbols
+EqClass	include/UnionFind.h	/^typedef unsigned EqClass;$/;"	t	typeref:typename:unsigned
+EquationCurryNodes	include/CurryNode.h	/^  EquationCurryNodes(CurryNode & lhs, CurryNode & rhs) :$/;"	f	struct:EquationCurryNodes
+EquationCurryNodes	include/CurryNode.h	/^  EquationCurryNodes(CurryNode & lhs, CurryNode & rhs, KindEquation kind_equation) :$/;"	f	struct:EquationCurryNodes
+EquationCurryNodes	include/CurryNode.h	/^struct EquationCurryNodes {$/;"	s
+EquationZ3Ids	include/CurryNode.h	/^  EquationZ3Ids(unsigned lhs_id, unsigned rhs_id) :$/;"	f	struct:EquationZ3Ids
+EquationZ3Ids	include/CurryNode.h	/^struct EquationZ3Ids {$/;"	s
+ExplainEquation	include/UnionFindExplain.h	/^  ExplainEquation(EqClass source, EqClass target) :$/;"	f	struct:ExplainEquation
+ExplainEquation	include/UnionFindExplain.h	/^struct ExplainEquation {$/;"	s
+ExplainEquations	include/UnionFindExplain.h	/^typedef std::list<ExplainEquation> ExplainEquations;$/;"	t	typeref:typename:std::list<ExplainEquation>
+Explanation	include/Explanation.h	/^struct Explanation $/;"	s
+Explanation	src/Explanation.cpp	/^Explanation::Explanation(z3::context & ctx) :$/;"	f	class:Explanation
+FALSELITERAL	include/Hornsat.h	/^#define FALSELITERAL /;"	d
+FRESH_PREFIX	include/FactoryCurryNodes.h	/^#define FRESH_PREFIX /;"	d
+FSymPositions	include/Input.h	/^typedef std::map<std::string, std::vector<unsigned> > FSymPositions;$/;"	t	typeref:typename:std::map<std::string,std::vector<unsigned>>
+FULL_OSTREAM	include/CurryNode.h	/^#define FULL_OSTREAM /;"	d
+FactoryCurryNodes	include/FactoryCurryNodes.h	/^class FactoryCurryNodes {$/;"	c
+FactoryCurryNodes	src/FactoryCurryNodes.cpp	/^FactoryCurryNodes::FactoryCurryNodes(const unsigned & num_terms, const CurryDeclarations & curry/;"	f	class:FactoryCurryNodes
+HornClause	include/HornClause.h	/^class HornClause {$/;"	c
+HornClause	src/HornClause.cpp	/^HornClause::HornClause(z3::context & ctx, z3::expr_vector antecedent, z3::expr consequent) :$/;"	f	class:HornClause
+HornClause	src/HornClause.cpp	/^HornClause::HornClause(z3::context & ctx, z3::expr_vector antecedent, z3::expr consequent, Union/;"	f	class:HornClause
+HornClauses	include/HornClauses.h	/^class HornClauses {$/;"	c
+HornClauses	src/HornClauses.cpp	/^HornClauses::HornClauses(UnionFindExplain & ufe) : $/;"	f	class:HornClauses
+Hornsat	include/Hornsat.h	/^class Hornsat {$/;"	c
+Hornsat	src/Hornsat.cpp	/^Hornsat::Hornsat(CongruenceClosureExplain & cce, $/;"	f	class:Hornsat
+IDIR	Makefile	/^IDIR = .\/include$/;"	m
+IdsToMerge	include/CurryNode.h	/^typedef std::list<EquationZ3Ids> IdsToMerge;$/;"	t	typeref:typename:std::list<EquationZ3Ids>
+Input	include/Input.h	/^struct Input {$/;"	s
+Input	src/Input.cpp	/^Input::Input(z3::expr_vector const & assertions) :$/;"	f	class:Input
+IsMember	include/Explanation.h	/^#define IsMember(/;"	d
+KindEquation	include/CurryNode.h	/^enum KindEquation { CONST_EQ, APPLY_EQ  };$/;"	g
+LHS	include/CurryNode.h	/^enum SideOfEquation { LHS, RHS } ;$/;"	e	enum:SideOfEquation
+License	tests/QF_UF/README.md	/^## License$/;"	s
+Literal	include/Hornsat.h	/^  Literal() : Literal(curr_num_literals++, false, nullptr) {}$/;"	f	struct:Literal
+Literal	include/Hornsat.h	/^  Literal(LiteralId literal_id, bool val, struct Clause * clause_list) :$/;"	f	struct:Literal
+Literal	include/Hornsat.h	/^struct Literal {$/;"	s
+LiteralId	include/Hornsat.h	/^typedef unsigned LiteralId;$/;"	t	typeref:typename:unsigned
+LookupTable	include/CongruenceClosureExplain.h	/^  LookupTable() {}$/;"	f	class:LookupTable
+LookupTable	include/CongruenceClosureExplain.h	/^class LookupTable {$/;"	c
+OBJS	Makefile	/^OBJS = $(patsubst $(SDIR)\/%.cpp, $(ODIR)\/%.o, $(SRC)) $(Z3DIR)\/build\/libz3.$(Z3EXT) $/;"	m
+ODIR	Makefile	/^ODIR = .\/obj$/;"	m
+PairEquationCurryNodes	include/CurryNode.h	/^  PairEquationCurryNodes(const EquationCurryNodes & first, const EquationCurryNodes & second) :$/;"	f	struct:PairEquationCurryNodes
+PairEquationCurryNodes	include/CurryNode.h	/^struct PairEquationCurryNodes {$/;"	s
+PendingElement	include/CurryNode.h	/^  PendingElement(CurryNode & lhs, CurryNode & rhs) : $/;"	f	struct:PendingElement
+PendingElement	include/CurryNode.h	/^  PendingElement(const EquationCurryNodes eq_cn) :$/;"	f	struct:PendingElement
+PendingElement	include/CurryNode.h	/^  PendingElement(const PairEquationCurryNodes p_eq_cn) :$/;"	f	struct:PendingElement
+PendingElement	include/CurryNode.h	/^struct PendingElement {$/;"	s
+PendingElements	include/CurryNode.h	/^typedef std::list<PendingElement>         PendingElements;$/;"	t	typeref:typename:std::list<PendingElement>
+PendingPointers	include/CurryNode.h	/^typedef std::list<const PendingElement *> PendingPointers;$/;"	t	typeref:typename:std::list<const PendingElement * >
+PendingTag	include/CurryNode.h	/^enum PendingTag { EQ, EQ_EQ };$/;"	g
+PredList	include/UnionFind.h	/^typedef std::vector<std::list<EqClass> > PredList;$/;"	t	typeref:typename:std::vector<std::list<EqClass>>
+PredNode	include/CurryNode.h	/^  PredNode(CurryNode & pred, const SideOfEquation side_of_equation) :$/;"	f	struct:PredNode
+PredNode	include/CurryNode.h	/^struct PredNode {$/;"	s
+RHS	include/CurryNode.h	/^enum SideOfEquation { LHS, RHS } ;$/;"	e	enum:SideOfEquation
+Rename	include/Rename.h	/^struct Rename {$/;"	s
+Rename	src/Rename.cpp	/^Rename::Rename(z3::context & ctx) : $/;"	f	class:Rename
+RenameWithExpressions	include/Rename.h	/^struct RenameWithExpressions : public Rename {$/;"	s
+RenameWithExpressions	src/RenameWithExpressions.cpp	/^RenameWithExpressions::RenameWithExpressions($/;"	f	class:RenameWithExpressions
+RenameWithUncomSymbols	include/Rename.h	/^struct RenameWithUncomSymbols : public Rename {$/;"	s
+RenameWithUncomSymbols	src/RenameWithUncomSymbols.cpp	/^RenameWithUncomSymbols::RenameWithUncomSymbols($/;"	f	class:RenameWithUncomSymbols
+SDIR	Makefile	/^SDIR = .\/src$/;"	m
+SRC	Makefile	/^SRC = $(wildcard $(SDIR)\/*.cpp)$/;"	m
+SideOfEquation	include/CurryNode.h	/^enum SideOfEquation { LHS, RHS } ;$/;"	g
+SignatureTable	include/CongruenceClosure.h	/^  SignatureTable(UnionFindExplain & uf) : uf(uf){}$/;"	f	class:SignatureTable
+SignatureTable	include/CongruenceClosure.h	/^class SignatureTable {$/;"	c
+SimplHornEntry	include/HornClauses.h	/^typedef std::list<HornClause *>                    SimplHornEntry;$/;"	t	typeref:typename:std::list<HornClause * >
+SimplificationTable	include/HornClauses.h	/^typedef std::unordered_map<unsigned, SimplHornEntry> SimplificationTable;$/;"	t	typeref:typename:std::unordered_map<unsigned,SimplHornEntry>
+TermId	include/Hornsat.h	/^typedef unsigned TermId;$/;"	t	typeref:typename:unsigned
+TermIdPair	include/Hornsat.h	/^  TermIdPair(TermId lhs, TermId rhs) : lhs(lhs), rhs(rhs) {}$/;"	f	struct:TermIdPair
+TermIdPair	include/Hornsat.h	/^struct TermIdPair {$/;"	s
+TestCongruenceClosureExplain	tests/TestCongruenceClosureExplain.cpp	/^TestCongruenceClosureExplain::TestCongruenceClosureExplain(z3::expr_vector const & assertions) :$/;"	f	class:TestCongruenceClosureExplain
+TestCongruenceClosureExplain	tests/TestCongruenceClosureExplain.h	/^class TestCongruenceClosureExplain {$/;"	c
+ToZ3Exprc	src/HornClause.cpp	/^z3::expr HornClause::ToZ3Exprc() const{$/;"	f	class:HornClause	typeref:typename:z3::expr
+UNAME	Makefile	/^UNAME = $(shell uname)$/;"	m
+UNIONFINDEXPLAIN_H	include/UnionFindExplain.h	/^#define UNIONFINDEXPLAIN_H$/;"	d
+UNIONFIND_H	include/UnionFind.h	/^#define UNIONFIND_H$/;"	d
+UnOrdMapHornClauses	include/HornClauses.h	/^typedef std::unordered_map<unsigned, HornClause *>   UnOrdMapHornClauses;$/;"	t	typeref:typename:std::unordered_map<unsigned,HornClause * >
+UnionFind	include/UnionFind.h	/^class UnionFind {$/;"	c
+UnionFind	src/UnionFind.cpp	/^UnionFind::UnionFind() : size(0){$/;"	f	class:UnionFind
+UnionFind	src/UnionFind.cpp	/^UnionFind::UnionFind(EqClass array[], unsigned size) :$/;"	f	class:UnionFind
+UnionFind	src/UnionFind.cpp	/^UnionFind::UnionFind(const UnionFind & other) :$/;"	f	class:UnionFind
+UnionFind	src/UnionFind.cpp	/^UnionFind::UnionFind(unsigned size) : representative(size, 0), rank(size, 1), size(size){$/;"	f	class:UnionFind
+UnionFindExplain	include/UnionFindExplain.h	/^class UnionFindExplain :  public UnionFind {$/;"	c
+UnionFindExplain	src/UnionFindExplain.cpp	/^UnionFindExplain::UnionFindExplain() :$/;"	f	class:UnionFindExplain
+UnionFindExplain	src/UnionFindExplain.cpp	/^UnionFindExplain::UnionFindExplain(const UnionFindExplain & other) :$/;"	f	class:UnionFindExplain
+UnionFindExplain	src/UnionFindExplain.cpp	/^UnionFindExplain::UnionFindExplain(unsigned size) :$/;"	f	class:UnionFindExplain
+UseList	include/CongruenceClosureExplain.h	/^typedef std::vector<std::list<const EquationCurryNodes *> > UseList;$/;"	t	typeref:typename:std::vector<std::list<const EquationCurryNodes * >>
+Util	include/Util.h	/^namespace Util {$/;"	n
+VectorCurryNode	include/CurryNode.h	/^typedef std::vector<CurryNode*>        VectorCurryNode;$/;"	t	typeref:typename:std::vector<CurryNode * >
+WHO	Makefile	/^WHO = $(shell whoami)$/;"	m
+Z3DIR	Makefile	/^	Z3DIR = \/home\/jose\/Documents\/GithubProjects\/z3__$/;"	m
+Z3DIR	Makefile	/^	Z3DIR = \/nfs\/student\/j\/jose.castellanosjoo\/Documents\/GitProjects\/z3__$/;"	m
+Z3DIR	Makefile	/^Z3DIR = \/Users\/joseabelcastellanosjoo\/Documents\/Applications\/z3__$/;"	m
+Z3EXT	Makefile	/^Z3EXT = dylib$/;"	m
+Z3EXT	Makefile	/^Z3EXT = so$/;"	m
+Z3EquationPointers	include/CurryNode.h	/^typedef std::list<EquationZ3Ids>          Z3EquationPointers;$/;"	t	typeref:typename:std::list<EquationZ3Ids>
+Z3Index	include/EUFInterpolant.h	/^typedef unsigned Z3Index ;$/;"	t	typeref:typename:unsigned
+Z3Subterms	include/Z3Subterms.h	/^struct Z3Subterms {$/;"	s
+Z3Subterms	src/Z3Subterms.cpp	/^Z3Subterms::Z3Subterms(z3::context & ctx): $/;"	f	class:Z3Subterms
+_CONG_CLOSUREDST__	include/CongruenceClosureDST.h	/^#define _CONG_CLOSUREDST__$/;"	d
+_CONG_CLOSURENO__	include/CongruenceClosureNO.h	/^#define _CONG_CLOSURENO__$/;"	d
+_CONG_CLOSURE_E__	include/CongruenceClosureExplain.h	/^#define _CONG_CLOSURE_E__$/;"	d
+_CONG_CLOSURE__	include/CongruenceClosure.h	/^#define _CONG_CLOSURE__$/;"	d
+_CURRY_NODE_	include/CurryNode.h	/^#define _CURRY_NODE_ /;"	d
+_EUF_INTERPOLANT_	include/EUFInterpolant.h	/^#define _EUF_INTERPOLANT_$/;"	d
+_EUF_INTERPOLANT_US_	include/EUFInterpolantWithUncomSymbols.h	/^#define _EUF_INTERPOLANT_US_$/;"	d
+_EUF_INTERPOLANT_WE_	include/EUFInterpolantWithExpressions.h	/^#define _EUF_INTERPOLANT_WE_$/;"	d
+_EXPLAINATION_	include/Explanation.h	/^#define _EXPLAINATION_$/;"	d
+_FAC_CURRY_NODES_	include/FactoryCurryNodes.h	/^#define _FAC_CURRY_NODES_$/;"	d
+_HORNSAT_	include/Hornsat.h	/^#define _HORNSAT_$/;"	d
+_HORN_CLAUSES_	include/HornClauses.h	/^#define _HORN_CLAUSES_$/;"	d
+_HORN_CLAUSE_	include/HornClause.h	/^#define _HORN_CLAUSE_$/;"	d
+_INPUT_	include/Input.h	/^#define _INPUT_$/;"	d
+_RENAME_	include/Rename.h	/^#define _RENAME_$/;"	d
+_TEST_CONG_CLOSURE_EXPLAIN_	tests/TestCongruenceClosureExplain.h	/^#define _TEST_CONG_CLOSURE_EXPLAIN_$/;"	d
+_UTIL_	include/Util.h	/^#define _UTIL_$/;"	d
+_Z3_SUBTERMS_	include/Z3Subterms.h	/^#define _Z3_SUBTERMS_$/;"	d
+__anon025c8ea9010a	include/CurryNode.h	/^  union{$/;"	u	struct:PendingElement
+a_local_names	include/Rename.h	/^  std::set<std::string> a_local_names, common_names;$/;"	m	struct:RenameWithExpressions	typeref:typename:std::set<std::string>
+add	include/Hornsat.h	/^  struct Clause * add(ClauseId element){$/;"	f	struct:Clause	typeref:struct:Clause *
+add	src/Explanation.cpp	/^void Explanation::add(z3::expr_vector const & explanation){$/;"	f	class:Explanation	typeref:typename:void
+add	src/HornClauses.cpp	/^void HornClauses::add(HornClause * hc){$/;"	f	class:HornClauses	typeref:typename:void
+addExtraNodes	src/FactoryCurryNodes.cpp	/^unsigned FactoryCurryNodes::addExtraNodes(unsigned num){$/;"	f	class:FactoryCurryNodes	typeref:typename:unsigned
+all	Makefile	/^all: tests\/current_progress$/;"	t
+allCandidates	src/EUFInterpolant.cpp	/^std::list<std::list<z3::expr> > EUFInterpolant::allCandidates(z3::expr const & t){$/;"	f	class:EUFInterpolant	typeref:typename:std::list<std::list<z3::expr>>
+antecedent	include/HornClause.h	/^  z3::expr_vector antecedent;$/;"	m	class:HornClause	typeref:typename:z3::expr_vector
+areCongruent	src/CongruenceClosureNO.cpp	/^bool CongruenceClosureNO::areCongruent(unsigned x, unsigned y){$/;"	f	class:CongruenceClosureNO	typeref:typename:bool
+areSameClass	src/CongruenceClosureExplain.cpp	/^bool CongruenceClosureExplain::areSameClass(EqClass x, EqClass y){$/;"	f	class:CongruenceClosureExplain	typeref:typename:bool
+areSameClass	src/CongruenceClosureExplain.cpp	/^bool CongruenceClosureExplain::areSameClass(z3::expr const & x, z3::expr const & y){$/;"	f	class:CongruenceClosureExplain	typeref:typename:bool
+arguments	compile_commands.json	/^  "arguments": [$/;"	a	object:0
+arguments	compile_commands.json	/^  "arguments": [$/;"	a	object:1
+arguments	compile_commands.json	/^  "arguments": [$/;"	a	object:10
+arguments	compile_commands.json	/^  "arguments": [$/;"	a	object:11
+arguments	compile_commands.json	/^  "arguments": [$/;"	a	object:12
+arguments	compile_commands.json	/^  "arguments": [$/;"	a	object:13
+arguments	compile_commands.json	/^  "arguments": [$/;"	a	object:14
+arguments	compile_commands.json	/^  "arguments": [$/;"	a	object:2
+arguments	compile_commands.json	/^  "arguments": [$/;"	a	object:3
+arguments	compile_commands.json	/^  "arguments": [$/;"	a	object:4
+arguments	compile_commands.json	/^  "arguments": [$/;"	a	object:5
+arguments	compile_commands.json	/^  "arguments": [$/;"	a	object:6
+arguments	compile_commands.json	/^  "arguments": [$/;"	a	object:7
+arguments	compile_commands.json	/^  "arguments": [$/;"	a	object:8
+arguments	compile_commands.json	/^  "arguments": [$/;"	a	object:9
+assertions	include/EUFInterpolant.h	/^  z3::expr_vector const & assertions;$/;"	m	class:EUFInterpolant	typeref:typename:z3::expr_vector const &
+begin	include/HornClauses.h	/^  iterator begin() {$/;"	f	class:HornClauses	typeref:typename:iterator
+begin	include/Hornsat.h	/^  iterator begin() const {$/;"	f	struct:Clause	typeref:typename:iterator
+begin	include/UnionFind.h	/^  iterator begin(EqClass m_element){$/;"	f	class:UnionFind	typeref:typename:iterator
+begin	src/Z3Subterms.cpp	/^Z3Subterms::iterator Z3Subterms::begin() const { $/;"	f	class:Z3Subterms	typeref:typename:Z3Subterms::iterator
+build	src/Hornsat.cpp	/^void Hornsat::build(CongruenceClosureExplain & cce, HornClauses const & hcs){$/;"	f	class:Hornsat	typeref:typename:void
+buildHCBody	src/EUFInterpolant.cpp	/^z3::expr_vector EUFInterpolant::buildHCBody(z3::expr const & t1, z3::expr const & t2){$/;"	f	class:EUFInterpolant	typeref:typename:z3::expr_vector
+buildInterpolant	src/EUFInterpolant.cpp	/^void EUFInterpolant::buildInterpolant(){$/;"	f	class:EUFInterpolant	typeref:typename:void
+candidates	src/EUFInterpolant.cpp	/^std::list<z3::expr> EUFInterpolant::candidates(z3::expr const & e){$/;"	f	class:EUFInterpolant	typeref:typename:std::list<z3::expr>
+cartesianProd	src/EUFInterpolant.cpp	/^std::vector<z3::expr_vector> EUFInterpolant::cartesianProd(std::list<std::list<z3::expr> > candi/;"	f	class:EUFInterpolant	typeref:typename:std::vector<z3::expr_vector>
+cce	include/Input.h	/^  CongruenceClosureExplain cce;$/;"	m	struct:Input	typeref:typename:CongruenceClosureExplain
+checkTriviality	src/HornClause.cpp	/^bool HornClause::checkTriviality(UnionFindExplain & ufe){$/;"	f	class:HornClause	typeref:typename:bool
+class_list	include/Hornsat.h	/^  ClassList              class_list;$/;"	m	class:Hornsat	typeref:typename:ClassList
+clause_id	include/Hornsat.h	/^  ClauseId clause_id;$/;"	m	struct:Clause	typeref:typename:ClauseId
+clause_list	include/Hornsat.h	/^  struct Clause * clause_list;$/;"	m	struct:Literal	typeref:struct:Clause *
+clean	Makefile	/^clean:$/;"	t
+closure	src/Hornsat.cpp	/^void Hornsat::closure(){ $/;"	f	class:Hornsat	typeref:typename:void
+combine	src/CongruenceClosureNO.cpp	/^void CongruenceClosureNO::combine(unsigned u, unsigned v){$/;"	f	class:CongruenceClosureNO	typeref:typename:void
+combine	src/UnionFind.cpp	/^void UnionFind::combine(EqClass x, EqClass y){$/;"	f	class:UnionFind	typeref:typename:void
+combine	src/UnionFindExplain.cpp	/^void UnionFindExplain::combine(EqClass target, EqClass source, const PendingElement * pe){$/;"	f	class:UnionFindExplain	typeref:typename:void
+commonAncestor	src/UnionFindExplain.cpp	/^EqClass UnionFindExplain::commonAncestor(EqClass x, EqClass y) {$/;"	f	class:UnionFindExplain	typeref:typename:EqClass
+commonAncestorHelper	src/UnionFindExplain.cpp	/^EqClass UnionFindExplain::commonAncestorHelper(EqClass aux_x, EqClass aux_y, unsigned depth_diff/;"	f	class:UnionFindExplain	typeref:typename:EqClass
+common_names	include/Rename.h	/^  std::set<std::string> a_local_names, common_names;$/;"	m	struct:RenameWithExpressions	typeref:typename:std::set<std::string>
+compareEquation	src/Util.cpp	/^bool Util::compareEquation(const z3::expr & eq1, const z3::expr & eq2){$/;"	f	class:Util	typeref:typename:bool
+compareTerm	src/Util.cpp	/^bool Util::compareTerm(const z3::expr & t1, const z3::expr & t2){$/;"	f	class:Util	typeref:typename:bool
+conditionalElimination	src/EUFInterpolant.cpp	/^void EUFInterpolant::conditionalElimination(){$/;"	f	class:EUFInterpolant	typeref:typename:void
+conditionalEliminationEqs	src/EUFInterpolant-conditionalEliminationEqs.cpp	/^void EUFInterpolant::conditionalEliminationEqs(){$/;"	f	class:EUFInterpolant	typeref:typename:void
+consequent	include/HornClause.h	/^  z3::expr        consequent;$/;"	m	class:HornClause	typeref:typename:z3::expr
+consistent	include/Hornsat.h	/^  bool consistent;$/;"	m	class:Hornsat	typeref:typename:bool
+const_id	include/CurryNode.h	/^  unsigned id, z3_id, const_id;$/;"	m	class:CurryNode	typeref:typename:unsigned
+constantCurryNode	src/FactoryCurryNodes.cpp	/^CurryNode * FactoryCurryNodes::constantCurryNode(unsigned index) const {$/;"	f	class:FactoryCurryNodes	typeref:typename:CurryNode *
+constantId	src/CongruenceClosureExplain.cpp	/^EqClass CongruenceClosureExplain::constantId(EqClass i){$/;"	f	class:CongruenceClosureExplain	typeref:typename:EqClass
+contradiction	include/Input.h	/^  z3::expr        contradiction;$/;"	m	struct:Input	typeref:typename:z3::expr
+ctx	include/HornClause.h	/^  z3::context &   ctx;$/;"	m	class:HornClause	typeref:typename:z3::context &
+ctx	include/Input.h	/^  z3::context &   ctx;$/;"	m	struct:Input	typeref:typename:z3::context &
+curr_num_horn_clauses	include/HornClauses.h	/^  unsigned            curr_num_horn_clauses;$/;"	m	class:HornClauses	typeref:typename:unsigned
+curr_num_literals	include/Hornsat.h	/^  static unsigned curr_num_literals;$/;"	m	struct:Literal	typeref:typename:unsigned
+curr_num_literals	src/Hornsat.cpp	/^unsigned Literal::curr_num_literals = 0;$/;"	m	class:Literal	typeref:typename:unsigned
+currentProgress	tests/current_progress.cpp	/^void currentProgress(){$/;"	f	typeref:typename:void
+current_ids	include/Explanation.h	/^  std::set<unsigned> current_ids;$/;"	m	struct:Explanation	typeref:typename:std::set<unsigned>
+curry_decl	include/FactoryCurryNodes.h	/^  const CurryDeclarations & curry_decl;$/;"	m	class:FactoryCurryNodes	typeref:typename:const CurryDeclarations &
+curry_decl	include/Input.h	/^  CurryDeclarations        curry_decl;  $/;"	m	struct:Input	typeref:typename:CurryDeclarations
+curry_hasher	include/FactoryCurryNodes.h	/^  std::hash<CurryNode*>                       curry_hasher;$/;"	m	class:FactoryCurryNodes	typeref:typename:std::hash<CurryNode * >
+curry_nodes	include/FactoryCurryNodes.h	/^  VectorCurryNode           curry_nodes;$/;"	m	class:FactoryCurryNodes	typeref:typename:VectorCurryNode
+curry_predecessors	include/FactoryCurryNodes.h	/^  CurryPreds                curry_predecessors;$/;"	m	class:FactoryCurryNodes	typeref:typename:CurryPreds
+curryfication	src/FactoryCurryNodes.cpp	/^void FactoryCurryNodes::curryfication(Z3Subterms const & e){$/;"	f	class:FactoryCurryNodes	typeref:typename:void
+curryficationHelper	src/FactoryCurryNodes.cpp	/^void FactoryCurryNodes::curryficationHelper(z3::expr const & e, std::vector<bool> & visited){$/;"	f	class:FactoryCurryNodes	typeref:typename:void
+depth	src/UnionFindExplain.cpp	/^unsigned UnionFindExplain::depth(EqClass x){$/;"	f	class:UnionFindExplain	typeref:typename:unsigned
+directory	compile_commands.json	/^  "directory": "\/home\/jose\/Documents\/GithubProjects\/master-thesis\/Software\/Cpp\/EUFInterp/;"	s	object:0
+directory	compile_commands.json	/^  "directory": "\/home\/jose\/Documents\/GithubProjects\/master-thesis\/Software\/Cpp\/EUFInterp/;"	s	object:1
+directory	compile_commands.json	/^  "directory": "\/home\/jose\/Documents\/GithubProjects\/master-thesis\/Software\/Cpp\/EUFInterp/;"	s	object:10
+directory	compile_commands.json	/^  "directory": "\/home\/jose\/Documents\/GithubProjects\/master-thesis\/Software\/Cpp\/EUFInterp/;"	s	object:11
+directory	compile_commands.json	/^  "directory": "\/home\/jose\/Documents\/GithubProjects\/master-thesis\/Software\/Cpp\/EUFInterp/;"	s	object:12
+directory	compile_commands.json	/^  "directory": "\/home\/jose\/Documents\/GithubProjects\/master-thesis\/Software\/Cpp\/EUFInterp/;"	s	object:13
+directory	compile_commands.json	/^  "directory": "\/home\/jose\/Documents\/GithubProjects\/master-thesis\/Software\/Cpp\/EUFInterp/;"	s	object:14
+directory	compile_commands.json	/^  "directory": "\/home\/jose\/Documents\/GithubProjects\/master-thesis\/Software\/Cpp\/EUFInterp/;"	s	object:2
+directory	compile_commands.json	/^  "directory": "\/home\/jose\/Documents\/GithubProjects\/master-thesis\/Software\/Cpp\/EUFInterp/;"	s	object:3
+directory	compile_commands.json	/^  "directory": "\/home\/jose\/Documents\/GithubProjects\/master-thesis\/Software\/Cpp\/EUFInterp/;"	s	object:4
+directory	compile_commands.json	/^  "directory": "\/home\/jose\/Documents\/GithubProjects\/master-thesis\/Software\/Cpp\/EUFInterp/;"	s	object:5
+directory	compile_commands.json	/^  "directory": "\/home\/jose\/Documents\/GithubProjects\/master-thesis\/Software\/Cpp\/EUFInterp/;"	s	object:6
+directory	compile_commands.json	/^  "directory": "\/home\/jose\/Documents\/GithubProjects\/master-thesis\/Software\/Cpp\/EUFInterp/;"	s	object:7
+directory	compile_commands.json	/^  "directory": "\/home\/jose\/Documents\/GithubProjects\/master-thesis\/Software\/Cpp\/EUFInterp/;"	s	object:8
+directory	compile_commands.json	/^  "directory": "\/home\/jose\/Documents\/GithubProjects\/master-thesis\/Software\/Cpp\/EUFInterp/;"	s	object:9
+disequalities	include/Input.h	/^  z3::expr_vector disequalities;$/;"	m	struct:Input	typeref:typename:z3::expr_vector
+disequalitiesToHCS	src/Input.cpp	/^void Input::disequalitiesToHCS(){$/;"	f	class:Input	typeref:typename:void
+end	include/HornClauses.h	/^  iterator end() {$/;"	f	class:HornClauses	typeref:typename:iterator
+end	include/Hornsat.h	/^  iterator end() const {$/;"	f	struct:Clause	typeref:typename:iterator
+end	include/UnionFind.h	/^  iterator end(EqClass m_element){ return iterator(this, m_element, size); }$/;"	f	class:UnionFind	typeref:typename:iterator
+end	src/Z3Subterms.cpp	/^Z3Subterms::iterator Z3Subterms::end() const { $/;"	f	class:Z3Subterms	typeref:typename:Z3Subterms::iterator
+enter	include/CongruenceClosure.h	/^  void enter(const z3::expr & e){$/;"	f	class:SignatureTable	typeref:typename:void
+enter	include/CongruenceClosureExplain.h	/^  void enter(EqClass a1, EqClass a2, const EquationCurryNodes * ecn){$/;"	f	class:LookupTable	typeref:typename:void
+eq_cn	include/CurryNode.h	/^    const EquationCurryNodes eq_cn;$/;"	m	union:PendingElement::__anon025c8ea9010a	typeref:typename:const EquationCurryNodes
+eq_side	include/Hornsat.h	/^  SideOfEquation eq_side;$/;"	m	struct:ClassListPos	typeref:typename:SideOfEquation
+equations_to_merge	include/CongruenceClosureExplain.h	/^  PendingPointers equations_to_merge;$/;"	m	class:CongruenceClosureExplain	typeref:typename:PendingPointers
+equiv_classes	include/Hornsat.h	/^  CongruenceClosureExplain equiv_classes;$/;"	m	class:Hornsat	typeref:typename:CongruenceClosureExplain
+erase	include/CongruenceClosure.h	/^  void erase(const z3::expr & e){$/;"	f	class:SignatureTable	typeref:typename:void
+erase	include/CongruenceClosureExplain.h	/^  void erase(EqClass a1, EqClass a2){$/;"	f	class:LookupTable	typeref:typename:void
+explain	src/CongruenceClosureExplain.cpp	/^PendingPointers CongruenceClosureExplain::explain(EqClass x, EqClass y){$/;"	f	class:CongruenceClosureExplain	typeref:typename:PendingPointers
+explain	src/CongruenceClosureExplain.cpp	/^PendingPointers CongruenceClosureExplain::explain(const z3::expr & lhs, const z3::expr & rhs){$/;"	f	class:CongruenceClosureExplain	typeref:typename:PendingPointers
+explain	src/UnionFindExplain.cpp	/^ExplainEquations UnionFindExplain::explain(EqClass x, EqClass y){$/;"	f	class:UnionFindExplain	typeref:typename:ExplainEquations
+explainAlongPath	src/CongruenceClosureExplain.cpp	/^void CongruenceClosureExplain::explainAlongPath(EqClass a, EqClass c, $/;"	f	class:CongruenceClosureExplain	typeref:typename:void
+explainAlongPath	src/UnionFindExplain.cpp	/^void UnionFindExplain::explainAlongPath(EqClass node, EqClass representative, ExplainEquations &/;"	f	class:UnionFindExplain	typeref:typename:void
+explainUncommons	src/EUFInterpolant.cpp	/^z3::expr_vector EUFInterpolant::explainUncommons(z3::expr const & t1, z3::expr const & t2){$/;"	f	class:EUFInterpolant	typeref:typename:z3::expr_vector
+exposeUncommons	src/EUFInterpolant.cpp	/^void EUFInterpolant::exposeUncommons(){$/;"	f	class:EUFInterpolant	typeref:typename:void
+factory_curry_nodes	include/CongruenceClosureExplain.h	/^  FactoryCurryNodes const & factory_curry_nodes;$/;"	m	class:CongruenceClosureExplain	typeref:typename:FactoryCurryNodes const &
+factory_curry_nodes	include/Input.h	/^  FactoryCurryNodes        factory_curry_nodes;$/;"	m	struct:Input	typeref:typename:FactoryCurryNodes
+facts	include/Hornsat.h	/^  std::queue<LiteralId>  facts;$/;"	m	class:Hornsat	typeref:typename:std::queue<LiteralId>
+file	compile_commands.json	/^  "file": "src\/CongruenceClosure.cpp"$/;"	s	object:5
+file	compile_commands.json	/^  "file": "src\/CongruenceClosureDST.cpp"$/;"	s	object:13
+file	compile_commands.json	/^  "file": "src\/CongruenceClosureExplain.cpp"$/;"	s	object:4
+file	compile_commands.json	/^  "file": "src\/CongruenceClosureNO.cpp"$/;"	s	object:9
+file	compile_commands.json	/^  "file": "src\/CurryNode.cpp"$/;"	s	object:7
+file	compile_commands.json	/^  "file": "src\/EUFInterpolant.cpp"$/;"	s	object:2
+file	compile_commands.json	/^  "file": "src\/FactoryCurryNodes.cpp"$/;"	s	object:11
+file	compile_commands.json	/^  "file": "src\/HornClause.cpp"$/;"	s	object:10
+file	compile_commands.json	/^  "file": "src\/HornClauses.cpp"$/;"	s	object:14
+file	compile_commands.json	/^  "file": "src\/Hornsat.cpp"$/;"	s	object:3
+file	compile_commands.json	/^  "file": "src\/Match.cpp"$/;"	s	object:0
+file	compile_commands.json	/^  "file": "src\/Rename.cpp"$/;"	s	object:1
+file	compile_commands.json	/^  "file": "src\/UnionFind.cpp"$/;"	s	object:8
+file	compile_commands.json	/^  "file": "src\/UnionFindExplain.cpp"$/;"	s	object:12
+file	compile_commands.json	/^  "file": "src\/main.cpp"$/;"	s	object:6
+filterCommons	src/HornClauses.cpp	/^void HornClauses::filterCommons(){$/;"	f	class:HornClauses	typeref:typename:void
+find	src/CongruenceClosureExplain.cpp	/^EqClass CongruenceClosureExplain::find(EqClass i){$/;"	f	class:CongruenceClosureExplain	typeref:typename:EqClass
+find	src/UnionFind.cpp	/^EqClass UnionFind::find(EqClass x){$/;"	f	class:UnionFind	typeref:typename:EqClass
+first	include/CurryNode.h	/^  const EquationCurryNodes & first, & second;$/;"	m	struct:PairEquationCurryNodes	typeref:typename:const EquationCurryNodes &
+flattening	src/FactoryCurryNodes.cpp	/^void FactoryCurryNodes::flattening(PendingElements & pending_elements,$/;"	f	class:FactoryCurryNodes	typeref:typename:void
+fsym_positions	include/Input.h	/^  FSymPositions    fsym_positions;$/;"	m	struct:Input	typeref:typename:FSymPositions
+func_name	include/CurryNode.h	/^  std::string func_name;$/;"	m	class:CurryNode	typeref:typename:std::string
+getAntecedent	src/HornClause.cpp	/^z3::expr_vector const & HornClause::getAntecedent() const {$/;"	f	class:HornClause	typeref:typename:z3::expr_vector const &
+getConsequent	src/HornClause.cpp	/^const z3::expr & HornClause::getConsequent() const {$/;"	f	class:HornClause	typeref:typename:const z3::expr &
+getConstId	src/CurryNode.cpp	/^const unsigned CurryNode::getConstId() const {$/;"	f	class:CurryNode	typeref:typename:const unsigned
+getCurryNode	src/FactoryCurryNodes.cpp	/^CurryNode * FactoryCurryNodes::getCurryNode(std::size_t index) const {$/;"	f	class:FactoryCurryNodes	typeref:typename:CurryNode *
+getCurryNode	src/FactoryCurryNodes.cpp	/^CurryNode * FactoryCurryNodes::getCurryNode(std::string const &  func_name,$/;"	f	class:FactoryCurryNodes	typeref:typename:CurryNode *
+getCurryNode	src/FactoryCurryNodes.cpp	/^CurryNode * FactoryCurryNodes::getCurryNode(unsigned i) const {$/;"	f	class:FactoryCurryNodes	typeref:typename:CurryNode *
+getHornClauses	src/HornClauses.cpp	/^std::vector<HornClause *> const HornClauses::getHornClauses() const {$/;"	f	class:HornClauses	typeref:typename:std::vector<HornClause * > const
+getId	src/CurryNode.cpp	/^const unsigned CurryNode::getId() const {$/;"	f	class:CurryNode	typeref:typename:const unsigned
+getIndex	include/Z3Subterms.h	/^    unsigned getIndex() const {$/;"	f	class:Z3Subterms::iterator	typeref:typename:unsigned
+getInterpolant	src/EUFInterpolant.cpp	/^z3::expr_vector EUFInterpolant::getInterpolant() const {$/;"	f	class:EUFInterpolant	typeref:typename:z3::expr_vector
+getLabel	src/UnionFindExplain.cpp	/^const PendingElement * UnionFindExplain::getLabel(EqClass x){$/;"	f	class:UnionFindExplain	typeref:typename:const PendingElement *
+getLeftId	src/CurryNode.cpp	/^const unsigned CurryNode::getLeftId() const {$/;"	f	class:CurryNode	typeref:typename:const unsigned
+getLocalMaxLitId	src/HornClause.cpp	/^unsigned HornClause::getLocalMaxLitId() const {$/;"	f	class:HornClause	typeref:typename:unsigned
+getMaxLitId	src/HornClauses.cpp	/^unsigned HornClauses::getMaxLitId() const {$/;"	f	class:HornClauses	typeref:typename:unsigned
+getRank	include/UnionFind.h	/^  const unsigned getRank(EqClass i) { return rank[find(i)]; }$/;"	f	class:UnionFind	typeref:typename:const unsigned
+getRightId	src/CurryNode.cpp	/^const unsigned CurryNode::getRightId() const {$/;"	f	class:CurryNode	typeref:typename:const unsigned
+getSize	include/UnionFind.h	/^  const unsigned getSize() const { return size; }$/;"	f	class:UnionFind	typeref:typename:const unsigned
+getUFESize	src/HornClauses.cpp	/^unsigned HornClauses::getUFESize() const {$/;"	f	class:HornClauses	typeref:typename:unsigned
+getUnionFindExplain	src/CongruenceClosure.cpp	/^UnionFindExplain & CongruenceClosure::getUnionFindExplain() const {$/;"	f	class:CongruenceClosure	typeref:typename:UnionFindExplain &
+getZ3Id	src/CurryNode.cpp	/^const unsigned CurryNode::getZ3Id() const {$/;"	f	class:CurryNode	typeref:typename:const unsigned
+giveExplanation	src/CongruenceClosureExplain.cpp	/^std::ostream & CongruenceClosureExplain::giveExplanation($/;"	f	class:CongruenceClosureExplain	typeref:typename:std::ostream &
+giveExplanation	src/CongruenceClosureExplain.cpp	/^std::ostream & CongruenceClosureExplain::giveExplanation(std::ostream & os, z3::expr const & lhs/;"	f	class:CongruenceClosureExplain	typeref:typename:std::ostream &
+giveExplanation	src/UnionFindExplain.cpp	/^std::ostream & UnionFindExplain::giveExplanation(std::ostream & os, EqClass x, EqClass y){$/;"	f	class:UnionFindExplain	typeref:typename:std::ostream &
+greater	src/UnionFind.cpp	/^bool UnionFind::greater(EqClass x, EqClass y){$/;"	f	class:UnionFind	typeref:typename:bool
+hash	src/CurryNode.cpp	/^std::size_t CurryNode::hash(){$/;"	f	class:CurryNode	typeref:typename:std::size_t
+hash_combine	include/CongruenceClosureExplain.h	/^  std::size_t hash_combine(EqClass a1, EqClass a2){$/;"	f	class:LookupTable	typeref:typename:std::size_t
+hash_combine	include/CurryNode.h	/^inline void hash_combine(std::size_t & seed, const T & v, const std::hash<T> & hasher){$/;"	f	typeref:typename:void
+hash_string	include/CongruenceClosure.h	/^  std::hash<std::string>                    hash_string;$/;"	m	class:SignatureTable	typeref:typename:std::hash<std::string>
+hash_table	include/FactoryCurryNodes.h	/^  std::unordered_map<std::size_t, CurryNode*> hash_table;$/;"	m	class:FactoryCurryNodes	typeref:typename:std::unordered_map<std::size_t,CurryNode * >
+hash_unsigned	include/CongruenceClosure.h	/^  std::hash<unsigned>                       hash_unsigned;$/;"	m	class:SignatureTable	typeref:typename:std::hash<unsigned>
+hash_z3expr	include/CongruenceClosure.h	/^  std::size_t hash_z3expr(const z3::expr & e){$/;"	f	class:SignatureTable	typeref:typename:std::size_t
+head_term_indexer	include/Hornsat.h	/^  std::unordered_map<unsigned, HornClause *> head_term_indexer;$/;"	m	class:Hornsat	typeref:typename:std::unordered_map<unsigned,HornClause * >
+highestNode	src/CongruenceClosureExplain.cpp	/^EqClass CongruenceClosureExplain::highestNode(EqClass a, UnionFind & uf){$/;"	f	class:CongruenceClosureExplain	typeref:typename:EqClass
+horn_clauses	include/HornClauses.h	/^  UnOrdMapHornClauses horn_clauses;$/;"	m	class:HornClauses	typeref:typename:UnOrdMapHornClauses
+horn_clauses	include/Input.h	/^  HornClauses      horn_clauses;$/;"	m	struct:Input	typeref:typename:HornClauses
+hsat	include/CongruenceClosureExplain.h	/^  Hornsat * hsat;$/;"	m	class:CongruenceClosureExplain	typeref:typename:Hornsat *
+hsat	include/EUFInterpolant.h	/^  Hornsat                 hsat;$/;"	m	class:EUFInterpolant	typeref:typename:Hornsat
+id	include/CurryNode.h	/^  unsigned id, z3_id, const_id;$/;"	m	class:CurryNode	typeref:typename:unsigned
+ids_to_merge	include/Input.h	/^  IdsToMerge ids_to_merge;$/;"	m	struct:Input	typeref:typename:IdsToMerge
+init	src/Input.cpp	/^void Input::init(z3::expr_vector const & assertions){$/;"	f	class:Input	typeref:typename:void
+initFormula	src/Input.cpp	/^void Input::initFormula(z3::expr const & e){$/;"	f	class:Input	typeref:typename:void
+input	tests/TestCongruenceClosureExplain.h	/^  Input input;$/;"	m	class:TestCongruenceClosureExplain	typeref:typename:Input
+inputFile	tests/cong_closure_expl_test.cpp	/^void inputFile(char const * file_name){$/;"	f	typeref:typename:void
+isCommon	src/CurryNode.cpp	/^const bool CurryNode::isCommon() const {$/;"	f	class:CurryNode	typeref:typename:const bool
+isCommon	src/HornClause.cpp	/^bool HornClause::isCommon() const {$/;"	f	class:HornClause	typeref:typename:bool
+isCommonAntecedent	src/HornClause.cpp	/^bool HornClause::isCommonAntecedent() const {$/;"	f	class:HornClause	typeref:typename:bool
+isCommonConsequent	src/HornClause.cpp	/^bool HornClause::isCommonConsequent() const {$/;"	f	class:HornClause	typeref:typename:bool
+isConsistent	src/Hornsat.cpp	/^bool Hornsat::isConsistent() const {$/;"	f	class:Hornsat	typeref:typename:bool
+isConstant	src/CurryNode.cpp	/^const bool CurryNode::isConstant() const {$/;"	f	class:CurryNode	typeref:typename:const bool
+isDefined	src/CurryNode.cpp	/^const bool CurryNode::isDefined() const {$/;"	f	class:CurryNode	typeref:typename:const bool
+isLeader	src/HornClause.cpp	/^bool HornClause::isLeader() const {$/;"	f	class:HornClause	typeref:typename:bool
+isReplaceable	src/CurryNode.cpp	/^const bool CurryNode::isReplaceable() const {$/;"	f	class:CurryNode	typeref:typename:const bool
+is_common	include/CurryNode.h	/^  bool is_common;$/;"	m	class:CurryNode	typeref:typename:bool
+is_common	include/Hornsat.h	/^  bool val, is_common;$/;"	m	struct:Literal	typeref:typename:bool
+is_common_antecedent	include/HornClause.h	/^  bool            is_common_antecedent;$/;"	m	class:HornClause	typeref:typename:bool
+is_leader	include/HornClause.h	/^  bool            is_leader;$/;"	m	class:HornClause	typeref:typename:bool
+it	include/HornClauses.h	/^    UnOrdMapHornClauses::iterator it;$/;"	m	class:HornClauses::iterator	typeref:typename:UnOrdMapHornClauses::iterator
+it	include/Hornsat.h	/^    struct Clause const * it;$/;"	m	class:Clause::iterator	typeref:struct:Clause const *
+iterator	include/HornClauses.h	/^      iterator(UnOrdMapHornClauses::iterator it) : $/;"	f	class:HornClauses::iterator
+iterator	include/HornClauses.h	/^  class iterator {$/;"	c	class:HornClauses
+iterator	include/Hornsat.h	/^    iterator(struct Clause const * n) : it(n){}$/;"	f	class:Clause::iterator
+iterator	include/Hornsat.h	/^  class iterator {$/;"	c	struct:Clause
+iterator	include/UnionFind.h	/^    iterator(UnionFind * m_uf, EqClass m_element, unsigned m_index) :$/;"	f	class:UnionFind::iterator
+iterator	include/UnionFind.h	/^  class iterator {$/;"	c	class:UnionFind
+iterator	include/Z3Subterms.h	/^    iterator(const Z3Subterms * s, unsigned i): m_subterms(s), m_index(i) {}$/;"	f	class:Z3Subterms::iterator
+iterator	include/Z3Subterms.h	/^  class iterator {$/;"	c	struct:Z3Subterms
+kind_equation	include/CurryNode.h	/^  KindEquation kind_equation;$/;"	m	struct:EquationCurryNodes	typeref:typename:KindEquation
+l_class	include/Hornsat.h	/^  EqClass l_class, r_class; $/;"	m	struct:Literal	typeref:typename:EqClass
+l_id	include/Hornsat.h	/^  TermId l_id, r_id;$/;"	m	struct:Literal	typeref:typename:TermId
+labels	include/UnionFindExplain.h	/^  std::vector<const PendingElement *> labels;$/;"	m	class:UnionFindExplain	typeref:typename:std::vector<const PendingElement * >
+left	include/CurryNode.h	/^  CurryNode * left, * right;$/;"	m	class:CurryNode	typeref:typename:CurryNode *
+lhs	include/CurryNode.h	/^  const CurryNode & lhs, & rhs;$/;"	m	struct:EquationCurryNodes	typeref:typename:const CurryNode &
+lhs	include/Hornsat.h	/^  TermId lhs, rhs;$/;"	m	struct:TermIdPair	typeref:typename:TermId
+lhs_id	include/CurryNode.h	/^  unsigned lhs_id, rhs_id;$/;"	m	struct:EquationZ3Ids	typeref:typename:unsigned
+link	src/UnionFind.cpp	/^void UnionFind::link(EqClass x, EqClass y){$/;"	f	class:UnionFind	typeref:typename:void
+list_of_literals	include/Hornsat.h	/^  std::vector<Literal>   list_of_literals;$/;"	m	class:Hornsat	typeref:typename:std::vector<Literal>
+lit_pointer	include/Hornsat.h	/^  Literal * lit_pointer;$/;"	m	struct:ClassListPos	typeref:typename:Literal *
+literal_id	include/Hornsat.h	/^  LiteralId literal_id;$/;"	m	struct:Literal	typeref:typename:LiteralId
+local_max_lit_id	include/HornClause.h	/^  unsigned        local_max_lit_id;$/;"	m	class:HornClause	typeref:typename:unsigned
+lookup_table	include/CongruenceClosureExplain.h	/^  LookupTable lookup_table;$/;"	m	class:CongruenceClosureExplain	typeref:typename:LookupTable
+m_element	include/UnionFind.h	/^    EqClass     m_element;$/;"	m	class:UnionFind::iterator	typeref:typename:EqClass
+m_index	include/UnionFind.h	/^    unsigned    m_index;$/;"	m	class:UnionFind::iterator	typeref:typename:unsigned
+m_index	include/Z3Subterms.h	/^    unsigned m_index;$/;"	m	class:Z3Subterms::iterator	typeref:typename:unsigned
+m_subterms	include/Z3Subterms.h	/^    const Z3Subterms * m_subterms;$/;"	m	class:Z3Subterms::iterator	typeref:typename:const Z3Subterms *
+m_uf	include/UnionFind.h	/^    UnionFind * m_uf;$/;"	m	class:UnionFind::iterator	typeref:typename:UnionFind *
+main	tests/cong_closure_expl_test.cpp	/^int main(int argc, char ** argv){$/;"	f	typeref:typename:int
+main	tests/current_progress.cpp	/^int main(int argc, char ** argv){$/;"	f	typeref:typename:int
+main	tests/qf_uf_test.cpp	/^int main(int argc, char ** argv){$/;"	f	typeref:typename:int
+maxIdFromAssertions	src/Input.cpp	/^unsigned Input::maxIdFromAssertions(z3::expr_vector const & assertions){$/;"	f	class:Input	typeref:typename:unsigned
+max_lit_id	include/HornClauses.h	/^  unsigned            max_lit_id;$/;"	m	class:HornClauses	typeref:typename:unsigned
+merge	src/CongruenceClosureExplain.cpp	/^void CongruenceClosureExplain::merge(){$/;"	f	class:CongruenceClosureExplain	typeref:typename:void
+merge	src/CongruenceClosureExplain.cpp	/^void CongruenceClosureExplain::merge(EqClass x, EqClass y){$/;"	f	class:CongruenceClosureExplain	typeref:typename:void
+merge	src/CongruenceClosureExplain.cpp	/^void CongruenceClosureExplain::merge(const EquationCurryNodes & equation){$/;"	f	class:CongruenceClosureExplain	typeref:typename:void
+merge	src/CongruenceClosureExplain.cpp	/^void CongruenceClosureExplain::merge(z3::expr const & e1, z3::expr const & e2){$/;"	f	class:CongruenceClosureExplain	typeref:typename:void
+merge	src/UnionFind.cpp	/^void UnionFind::merge(EqClass x, EqClass y){$/;"	f	class:UnionFind	typeref:typename:void
+merge	src/UnionFindExplain.cpp	/^void UnionFindExplain::merge(EqClass target, EqClass source, const PendingElement * pe){$/;"	f	class:UnionFindExplain	typeref:typename:void
+merge	tests/TestCongruenceClosureExplain.cpp	/^void TestCongruenceClosureExplain::merge(z3::expr const & e1, z3::expr const & e2){$/;"	f	class:TestCongruenceClosureExplain	typeref:typename:void
+nearestCommonAncestor	src/CongruenceClosureExplain.cpp	/^EqClass CongruenceClosureExplain::nearestCommonAncestor(EqClass a, EqClass b, UnionFind & uf_ext/;"	f	class:CongruenceClosureExplain	typeref:typename:EqClass
+next	include/Hornsat.h	/^  struct Clause * next;$/;"	m	struct:Clause	typeref:struct:Clause *
+noLongerLeader	src/HornClause.cpp	/^void HornClause::noLongerLeader(){$/;"	f	class:HornClause	typeref:typename:void
+normalize	src/HornClause.cpp	/^void HornClause::normalize(CongruenceClosureExplain & cce){$/;"	f	class:HornClause	typeref:typename:void
+normalize	src/HornClause.cpp	/^void HornClause::normalize(UnionFindExplain & ufe){$/;"	f	class:HornClause	typeref:typename:void
+notInSet	include/HornClauses.h	/^#define notInSet(/;"	d
+notValidPosition	include/Z3Subterms.h	/^    bool notValidPosition() const {$/;"	f	class:Z3Subterms::iterator	typeref:typename:bool
+notes	Makefile	/^notes:$/;"	t
+numUncommAntecedent	src/HornClause.cpp	/^unsigned HornClause::numUncommAntecedent() const {$/;"	f	class:HornClause	typeref:typename:unsigned
+num_args	include/Hornsat.h	/^  std::vector<unsigned>  num_args;$/;"	m	class:Hornsat	typeref:typename:std::vector<unsigned>
+num_hcs	include/Hornsat.h	/^  unsigned num_hcs, num_literals;$/;"	m	class:Hornsat	typeref:typename:unsigned
+num_literals	include/Hornsat.h	/^  unsigned num_hcs, num_literals;$/;"	m	class:Hornsat	typeref:typename:unsigned
+num_terms	include/FactoryCurryNodes.h	/^  unsigned const & num_terms;$/;"	m	class:FactoryCurryNodes	typeref:typename:unsigned const &
+num_uncomm_antecedent	include/HornClause.h	/^  unsigned        num_uncomm_antecedent;$/;"	m	class:HornClause	typeref:typename:unsigned
+operator !=	include/HornClauses.h	/^      bool operator !=(iterator const & other){$/;"	f	class:HornClauses::iterator	typeref:typename:bool
+operator !=	include/Hornsat.h	/^    bool operator !=(iterator const & other){$/;"	f	class:Clause::iterator	typeref:typename:bool
+operator !=	include/UnionFind.h	/^    bool operator !=(iterator const & other) { return m_element != other.m_element || m_index !=/;"	f	class:UnionFind::iterator	typeref:typename:bool
+operator !=	include/Z3Subterms.h	/^    bool operator!=(const iterator & other) const { $/;"	f	class:Z3Subterms::iterator	typeref:typename:bool
+operator *	include/HornClauses.h	/^      HornClause const * operator *() const {$/;"	f	class:HornClauses::iterator	typeref:typename:HornClause const *
+operator *	include/Hornsat.h	/^    struct Clause const * operator *() const {$/;"	f	class:Clause::iterator	typeref:struct:Clause const *
+operator *	include/UnionFind.h	/^    EqClass operator *(){ return m_index; }$/;"	f	class:UnionFind::iterator	typeref:typename:EqClass
+operator *	include/Z3Subterms.h	/^    z3::expr operator*() const {$/;"	f	class:Z3Subterms::iterator	typeref:typename:z3::expr
+operator ++	include/HornClauses.h	/^      iterator & operator ++(){$/;"	f	class:HornClauses::iterator	typeref:typename:iterator &
+operator ++	include/Hornsat.h	/^    iterator & operator ++(){$/;"	f	class:Clause::iterator	typeref:typename:iterator &
+operator ++	include/UnionFind.h	/^    iterator & operator ++(){$/;"	f	class:UnionFind::iterator	typeref:typename:iterator &
+operator ++	include/Z3Subterms.h	/^    iterator & operator++() {$/;"	f	class:Z3Subterms::iterator	typeref:typename:iterator &
+operator <	src/HornClause.cpp	/^bool operator < (HornClause const & hc1, HornClause const & hc2){$/;"	f	typeref:typename:bool
+operator <<	include/CongruenceClosure.h	/^  friend std::ostream & operator << (std::ostream & os, const SignatureTable & st){$/;"	f	typeref:typename:std::ostream &
+operator <<	include/CongruenceClosureExplain.h	/^  friend std::ostream & operator << (std::ostream & os, const LookupTable & lt){$/;"	f	typeref:typename:std::ostream &
+operator <<	include/CurryNode.h	/^  friend std::ostream & operator << (std::ostream & os, const EquationCurryNodes & ecns){$/;"	f	typeref:typename:std::ostream &
+operator <<	include/CurryNode.h	/^  friend std::ostream & operator << (std::ostream & os, const EquationZ3Ids & ez3ids){$/;"	f	typeref:typename:std::ostream &
+operator <<	include/CurryNode.h	/^  friend std::ostream & operator << (std::ostream & os, const PairEquationCurryNodes & pecns){$/;"	f	typeref:typename:std::ostream &
+operator <<	include/CurryNode.h	/^  friend std::ostream & operator << (std::ostream & os, const PendingElement & pe){$/;"	f	typeref:typename:std::ostream &
+operator <<	include/CurryNode.h	/^  friend std::ostream & operator << (std::ostream & os, const PredNode & pred_pair){$/;"	f	typeref:typename:std::ostream &
+operator <<	include/Hornsat.h	/^  friend std::ostream & operator << (std::ostream & os, TermIdPair const & tp){$/;"	f	typeref:typename:std::ostream &
+operator <<	include/Hornsat.h	/^  friend std::ostream & operator << (std::ostream & os, const ClassListPos & clp){$/;"	f	typeref:typename:std::ostream &
+operator <<	include/Hornsat.h	/^  friend std::ostream & operator << (std::ostream & os, const Literal & l){$/;"	f	typeref:typename:std::ostream &
+operator <<	include/Hornsat.h	/^  friend std::ostream & operator << (std::ostream & os, struct Clause const & clause){$/;"	f	typeref:typename:std::ostream &
+operator <<	include/UnionFindExplain.h	/^  friend std::ostream & operator << (std::ostream & os, const ExplainEquation & eq){$/;"	f	typeref:typename:std::ostream &
+operator <<	src/CongruenceClosure.cpp	/^std::ostream & operator << (std::ostream & os, const CongruenceClosure & cc){$/;"	f	typeref:typename:std::ostream &
+operator <<	src/CongruenceClosureDST.cpp	/^std::ostream & operator << (std::ostream & os, const CongruenceClosureDST & cc){$/;"	f	typeref:typename:std::ostream &
+operator <<	src/CongruenceClosureExplain.cpp	/^std::ostream & operator << (std::ostream & os, const CongruenceClosureExplain & cce){$/;"	f	typeref:typename:std::ostream &
+operator <<	src/CongruenceClosureNO.cpp	/^std::ostream & operator << (std::ostream & os, const CongruenceClosureNO & cc){$/;"	f	typeref:typename:std::ostream &
+operator <<	src/CurryNode.cpp	/^std::ostream & operator << (std::ostream & os, const CurryNode & cn){$/;"	f	typeref:typename:std::ostream &
+operator <<	src/EUFInterpolant.cpp	/^std::ostream & operator << (std::ostream & os, EUFInterpolant & euf){$/;"	f	typeref:typename:std::ostream &
+operator <<	src/FactoryCurryNodes.cpp	/^std::ostream & operator << (std::ostream & os, const FactoryCurryNodes & fcns){$/;"	f	typeref:typename:std::ostream &
+operator <<	src/HornClause.cpp	/^std::ostream & operator << (std::ostream & os, HornClause const & hc){$/;"	f	typeref:typename:std::ostream &
+operator <<	src/HornClauses.cpp	/^std::ostream & operator << (std::ostream & os, const HornClauses & hcs){$/;"	f	typeref:typename:std::ostream &
+operator <<	src/Hornsat.cpp	/^std::ostream & operator << (std::ostream & os, const Hornsat & hsat){$/;"	f	typeref:typename:std::ostream &
+operator <<	src/Input.cpp	/^std::ostream & operator << (std::ostream & os, Input const & input){$/;"	f	typeref:typename:std::ostream &
+operator <<	src/UnionFind.cpp	/^std::ostream & operator << (std::ostream & os, UnionFind & uf){$/;"	f	typeref:typename:std::ostream &
+operator <<	src/UnionFindExplain.cpp	/^std::ostream & operator << (std::ostream & os, UnionFindExplain & uf){$/;"	f	typeref:typename:std::ostream &
+operator <<	src/Z3Subterms.cpp	/^std::ostream & operator << (std::ostream & os, Z3Subterms const & z3subterms){$/;"	f	typeref:typename:std::ostream &
+operator <<	tests/TestCongruenceClosureExplain.cpp	/^std::ostream & operator << (std::ostream & os, TestCongruenceClosureExplain & test) {$/;"	f	typeref:typename:std::ostream &
+operator =	include/Z3Subterms.h	/^    iterator operator=(const iterator & other) {$/;"	f	class:Z3Subterms::iterator	typeref:typename:iterator
+operator ==	include/HornClauses.h	/^      bool operator ==(iterator const & other){$/;"	f	class:HornClauses::iterator	typeref:typename:bool
+operator ==	include/Hornsat.h	/^    bool operator ==(iterator const & other){$/;"	f	class:Clause::iterator	typeref:typename:bool
+operator ==	include/UnionFind.h	/^    bool operator ==(iterator const & other) { return m_element == other.m_element && m_index ==/;"	f	class:UnionFind::iterator	typeref:typename:bool
+operator ==	include/Z3Subterms.h	/^    bool operator==(const iterator & other) const { $/;"	f	class:Z3Subterms::iterator	typeref:typename:bool
+operator ==	src/UnionFind.cpp	/^bool UnionFind::operator ==(const UnionFind & other){$/;"	f	class:UnionFind	typeref:typename:bool
+operator >	src/HornClause.cpp	/^bool operator > (HornClause const & hc1, HornClause const & hc2){$/;"	f	typeref:typename:bool
+operator []	src/HornClauses.cpp	/^HornClause* HornClauses::operator[](unsigned i) const { $/;"	f	class:HornClauses	typeref:typename:HornClause *
+operator []	src/Z3Subterms.cpp	/^z3::expr Z3Subterms::operator[](unsigned i) const {$/;"	f	class:Z3Subterms	typeref:typename:z3::expr
+orient	src/HornClause.cpp	/^void HornClause::orient(){$/;"	f	class:HornClause	typeref:typename:void
+original_num_terms	include/Input.h	/^  unsigned original_num_terms;$/;"	m	struct:Input	typeref:typename:unsigned
+p_eq_cn	include/CurryNode.h	/^    const PairEquationCurryNodes p_eq_cn;$/;"	m	union:PendingElement::__anon025c8ea9010a	typeref:typename:const PairEquationCurryNodes
+paperExample	tests/cong_closure_expl_test.cpp	/^void paperExample(){$/;"	f	typeref:typename:void
+paperExample	tests/current_progress.cpp	/^void paperExample(){$/;"	f	typeref:typename:void
+parentProofForest	src/UnionFindExplain.cpp	/^EqClass UnionFindExplain::parentProofForest(EqClass x){$/;"	f	class:UnionFindExplain	typeref:typename:EqClass
+pending_elements	include/CongruenceClosureExplain.h	/^  PendingElements pending_elements;$/;"	m	class:CongruenceClosureExplain	typeref:typename:PendingElements
+pending_to_propagate	include/CongruenceClosureExplain.h	/^  PendingPointers pending_to_propagate;$/;"	m	class:CongruenceClosureExplain	typeref:typename:PendingPointers
+pos_lit_list	include/Hornsat.h	/^  std::vector<LiteralId> pos_lit_list;$/;"	m	class:Hornsat	typeref:typename:std::vector<LiteralId>
+pred	include/CurryNode.h	/^  CurryNode & pred;$/;"	m	struct:PredNode	typeref:typename:CurryNode &
+pred_list	include/CongruenceClosureDST.h	/^  PredList pred_list;$/;"	m	class:CongruenceClosureDST	typeref:typename:PredList
+pred_list	include/CongruenceClosureNO.h	/^  PredList & pred_list;$/;"	m	class:CongruenceClosureNO	typeref:typename:PredList &
+proof_forest	include/UnionFindExplain.h	/^  std::vector<EqClass>                proof_forest;$/;"	m	class:UnionFindExplain	typeref:typename:std::vector<EqClass>
+propagate	src/CongruenceClosureExplain.cpp	/^void CongruenceClosureExplain::propagate(){$/;"	f	class:CongruenceClosureExplain	typeref:typename:void
+propagateAux	src/CongruenceClosureExplain.cpp	/^void CongruenceClosureExplain::propagateAux(const CurryNode & a, const CurryNode & b,$/;"	f	class:CongruenceClosureExplain	typeref:typename:void
+pushPending	src/CongruenceClosureExplain.cpp	/^void CongruenceClosureExplain::pushPending(PendingPointers & pending_pointers, $/;"	f	class:CongruenceClosureExplain	typeref:typename:void
+query	include/CongruenceClosure.h	/^  unsigned query(const z3::expr & e){$/;"	f	class:SignatureTable	typeref:typename:unsigned
+query	include/CongruenceClosureExplain.h	/^  const EquationCurryNodes * query(EqClass a1, EqClass a2){$/;"	f	class:LookupTable	typeref:typename:const EquationCurryNodes *
+queryCurryNode	src/FactoryCurryNodes.cpp	/^CurryNode * FactoryCurryNodes::queryCurryNode(unsigned id, std::string const & func_name,$/;"	f	class:FactoryCurryNodes	typeref:typename:CurryNode *
+r_class	include/Hornsat.h	/^  EqClass l_class, r_class; $/;"	m	struct:Literal	typeref:typename:EqClass
+r_id	include/Hornsat.h	/^  TermId l_id, r_id;$/;"	m	struct:Literal	typeref:typename:TermId
+rank	include/UnionFind.h	/^  std::vector<unsigned> rank;$/;"	m	class:UnionFind	typeref:typename:std::vector<unsigned>
+reformulate	src/RenameWithExpressions.cpp	/^z3::expr RenameWithExpressions::reformulate(z3::expr const & e){$/;"	f	class:RenameWithExpressions	typeref:typename:z3::expr
+reformulate	src/RenameWithUncomSymbols.cpp	/^z3::expr RenameWithUncomSymbols::reformulate(z3::expr const & e){$/;"	f	class:RenameWithUncomSymbols	typeref:typename:z3::expr
+removePrefix	src/Rename.cpp	/^z3::expr Rename::removePrefix(z3::expr const & e){$/;"	f	class:Rename	typeref:typename:z3::expr
+removePrefix	src/Rename.cpp	/^z3::expr_vector Rename::removePrefix(z3::expr_vector const & input){$/;"	f	class:Rename	typeref:typename:z3::expr_vector
+renamed_input	include/Rename.h	/^  z3::expr_vector   renamed_input;$/;"	m	struct:Rename	typeref:typename:z3::expr_vector
+representative	include/UnionFind.h	/^  std::vector<EqClass> representative;$/;"	m	class:UnionFind	typeref:typename:std::vector<EqClass>
+resize	src/UnionFind.cpp	/^void UnionFind::resize(unsigned sz){$/;"	f	class:UnionFind	typeref:typename:void
+resize	src/UnionFindExplain.cpp	/^void UnionFindExplain::resize(unsigned sz){$/;"	f	class:UnionFindExplain	typeref:typename:void
+resize	src/Z3Subterms.cpp	/^void Z3Subterms::resize(unsigned size) { subterms.resize(size); visited.resize(size, false); }$/;"	f	class:Z3Subterms	typeref:typename:void
+result	include/EUFInterpolant.h	/^  z3::expr_vector         result;$/;"	m	class:EUFInterpolant	typeref:typename:z3::expr_vector
+result	include/Explanation.h	/^  z3::expr_vector    result;$/;"	m	struct:Explanation	typeref:typename:z3::expr_vector
+rhs	include/CurryNode.h	/^  const CurryNode & lhs, & rhs;$/;"	m	struct:EquationCurryNodes	typeref:typename:const CurryNode & &
+rhs	include/Hornsat.h	/^  TermId lhs, rhs;$/;"	m	struct:TermIdPair	typeref:typename:TermId
+rhs_id	include/CurryNode.h	/^  unsigned lhs_id, rhs_id;$/;"	m	struct:EquationZ3Ids	typeref:typename:unsigned
+right	include/CurryNode.h	/^  CurryNode * left, * right;$/;"	m	class:CurryNode	typeref:typename:CurryNode **
+satisfiable	src/Hornsat.cpp	/^void Hornsat::satisfiable(){$/;"	f	class:Hornsat	typeref:typename:void
+second	include/CurryNode.h	/^  const EquationCurryNodes & first, & second;$/;"	m	struct:PairEquationCurryNodes	typeref:typename:const EquationCurryNodes & &
+set	src/Z3Subterms.cpp	/^void Z3Subterms::set(unsigned index, const z3::expr & e) {$/;"	f	class:Z3Subterms	typeref:typename:void
+side_of_equation	include/CurryNode.h	/^  const SideOfEquation side_of_equation;$/;"	m	struct:PredNode	typeref:typename:const SideOfEquation
+sig_table	include/CongruenceClosure.h	/^  SignatureTable     sig_table;$/;"	m	class:CongruenceClosure	typeref:typename:SignatureTable
+sig_table	include/CongruenceClosure.h	/^  std::unordered_map<std::size_t, unsigned> sig_table;$/;"	m	class:SignatureTable	typeref:typename:std::unordered_map<std::size_t,unsigned>
+sig_table	include/CongruenceClosureExplain.h	/^  std::unordered_map<std::size_t, const EquationCurryNodes*> sig_table;$/;"	m	class:LookupTable	typeref:typename:std::unordered_map<std::size_t,const EquationCurryNodes * >
+simplification_table	include/HornClauses.h	/^  SimplificationTable simplification_table;$/;"	m	class:HornClauses	typeref:typename:SimplificationTable
+simplify	src/HornClauses.cpp	/^void HornClauses::simplify(){$/;"	f	class:HornClauses	typeref:typename:void
+simplifyBlock	src/HornClauses.cpp	/^void HornClauses::simplifyBlock(SimplHornEntry const & block){$/;"	f	class:HornClauses	typeref:typename:void
+size	include/UnionFind.h	/^  unsigned              size;$/;"	m	class:UnionFind	typeref:typename:unsigned
+size	src/FactoryCurryNodes.cpp	/^const unsigned FactoryCurryNodes::size() const {$/;"	f	class:FactoryCurryNodes	typeref:typename:const unsigned
+size	src/HornClauses.cpp	/^unsigned HornClauses::size() const { return horn_clauses.size(); }$/;"	f	class:HornClauses	typeref:typename:unsigned
+size	src/Z3Subterms.cpp	/^unsigned Z3Subterms::size() const { return subterms.size(); }$/;"	f	class:Z3Subterms	typeref:typename:unsigned
+source	include/UnionFindExplain.h	/^  EqClass source, target;$/;"	m	struct:ExplainEquation	typeref:typename:EqClass
+space	include/CurryNode.h	/^  unsigned space;$/;"	m	class:CurryNode	typeref:typename:unsigned
+string_hasher	include/FactoryCurryNodes.h	/^  std::hash<std::string>                      string_hasher;$/;"	m	class:FactoryCurryNodes	typeref:typename:std::hash<std::string>
+subterms	include/CongruenceClosure.h	/^  const Z3Subterms & subterms;$/;"	m	class:CongruenceClosure	typeref:typename:const Z3Subterms &
+subterms	include/Input.h	/^  Z3Subterms      subterms;$/;"	m	struct:Input	typeref:typename:Z3Subterms
+subterms	include/Z3Subterms.h	/^  z3::expr_vector subterms;$/;"	m	struct:Z3Subterms	typeref:typename:z3::expr_vector
+swapHornClauses	src/HornClauses.cpp	/^void HornClauses::swapHornClauses(unsigned i, unsigned j){$/;"	f	class:HornClauses	typeref:typename:void
+tag	include/CurryNode.h	/^  const PendingTag tag;$/;"	m	struct:PendingElement	typeref:typename:const PendingTag
+target	include/UnionFindExplain.h	/^  EqClass source, target;$/;"	m	struct:ExplainEquation	typeref:typename:EqClass
+testAdditionalMerge	tests/cong_closure_expl_test.cpp	/^void testAdditionalMerge(){$/;"	f	typeref:typename:void
+testCongClosureExpl	tests/cong_closure_expl_test.cpp	/^void testCongClosureExpl(){$/;"	f	typeref:typename:void
+testCongClosureExpl2	tests/cong_closure_expl_test.cpp	/^void testCongClosureExpl2(){$/;"	f	typeref:typename:void
+testCongClosureExpl3	tests/cong_closure_expl_test.cpp	/^void testCongClosureExpl3(){$/;"	f	typeref:typename:void
+testCongClosureExpl4	tests/cong_closure_expl_test.cpp	/^void testCongClosureExpl4(){$/;"	f	typeref:typename:void
+testCongClosureExpl5	tests/cong_closure_expl_test.cpp	/^void testCongClosureExpl5(){$/;"	f	typeref:typename:void
+testConsistency	tests/TestCongruenceClosureExplain.cpp	/^bool TestCongruenceClosureExplain::testConsistency(z3::expr_vector const & e, $/;"	f	class:TestCongruenceClosureExplain	typeref:typename:bool
+testExplanation	tests/TestCongruenceClosureExplain.cpp	/^void TestCongruenceClosureExplain::testExplanation(unsigned max_iter){$/;"	f	class:TestCongruenceClosureExplain	typeref:typename:void
+tests/cong_closure_expl_test	Makefile	/^tests\/cong_closure_expl_test: $(OBJS)$/;"	t
+tests/current_progress	Makefile	/^tests\/current_progress: $(OBJS)$/;"	t
+tests/qf_uf_test	Makefile	/^tests\/qf_uf_test: $(OBJS)$/;"	t
+to_combine	include/Hornsat.h	/^  std::queue<TermIdPair> to_combine;$/;"	m	class:Hornsat	typeref:typename:std::queue<TermIdPair>
+to_replace	include/FactoryCurryNodes.h	/^  std::list<CurryNode *>    to_replace;$/;"	m	class:FactoryCurryNodes	typeref:typename:std::list<CurryNode * >
+traversePartA	src/RenameWithExpressions.cpp	/^void RenameWithExpressions::traversePartA(z3::expr const & e){$/;"	f	class:RenameWithExpressions	typeref:typename:void
+traversePartB	src/RenameWithExpressions.cpp	/^void RenameWithExpressions::traversePartB(z3::expr const & e){$/;"	f	class:RenameWithExpressions	typeref:typename:void
+uf	include/CongruenceClosure.h	/^  UnionFindExplain &                        uf;$/;"	m	class:SignatureTable	typeref:typename:UnionFindExplain &
+ufe	include/CongruenceClosure.h	/^  UnionFindExplain & ufe;$/;"	m	class:CongruenceClosure	typeref:typename:UnionFindExplain &
+ufe	include/HornClauses.h	/^  UnionFindExplain &  ufe;$/;"	m	class:HornClauses	typeref:typename:UnionFindExplain &
+ufe	include/Hornsat.h	/^  UnionFindExplain         ufe;$/;"	m	class:Hornsat	typeref:typename:UnionFindExplain
+ufe	include/Input.h	/^  UnionFindExplain ufe;$/;"	m	struct:Input	typeref:typename:UnionFindExplain
+uncommon_names	include/Rename.h	/^  std::set<std::string> const & uncommon_names;$/;"	m	struct:RenameWithUncomSymbols	typeref:typename:std::set<std::string> const &
+unionReverseEdges	src/UnionFindExplain.cpp	/^void UnionFindExplain::unionReverseEdges(EqClass target, EqClass source){$/;"	f	class:UnionFindExplain	typeref:typename:void
+unionupdate	src/Hornsat.cpp	/^void Hornsat::unionupdate(TermId u, EqClass alpha){ $/;"	f	class:Hornsat	typeref:typename:void
+unsigned_hasher	include/FactoryCurryNodes.h	/^  std::hash<unsigned>                         unsigned_hasher;$/;"	m	class:FactoryCurryNodes	typeref:typename:std::hash<unsigned>
+update	include/Hornsat.h	/^  void update(z3::expr const & literal, CongruenceClosureExplain & cce){$/;"	f	struct:Literal	typeref:typename:void
+update	include/Hornsat.h	/^  void update(z3::expr const & literal, CongruenceClosureExplain & cce, ClauseId clause_id){$/;"	f	struct:Literal	typeref:typename:void
+updateAllIds	src/CurryNode.cpp	/^void CurryNode::updateAllIds(unsigned new_id){$/;"	f	class:CurryNode	typeref:typename:void
+updateCommon	src/CurryNode.cpp	/^void CurryNode::updateCommon(bool new_is_common){$/;"	f	class:CurryNode	typeref:typename:void
+updateConstId	src/CurryNode.cpp	/^void CurryNode::updateConstId(unsigned new_const_id){$/;"	f	class:CurryNode	typeref:typename:void
+updateLeft	src/CurryNode.cpp	/^void CurryNode::updateLeft(CurryNode * new_left){$/;"	f	class:CurryNode	typeref:typename:void
+updatePreds	src/FactoryCurryNodes.cpp	/^void FactoryCurryNodes::updatePreds(CurryNode * from, CurryNode * to){$/;"	f	class:FactoryCurryNodes	typeref:typename:void
+updateRight	src/CurryNode.cpp	/^void CurryNode::updateRight(CurryNode * new_right){$/;"	f	class:CurryNode	typeref:typename:void
+updateZ3Id	src/CurryNode.cpp	/^void CurryNode::updateZ3Id(unsigned new_z3_id){$/;"	f	class:CurryNode	typeref:typename:void
+updateZ3IdNotDefinedAndCommon	src/FactoryCurryNodes.cpp	/^void FactoryCurryNodes::updateZ3IdNotDefinedAndCommon(const Z3Subterms & subterms){$/;"	f	class:FactoryCurryNodes	typeref:typename:void
+use_list	include/CongruenceClosureExplain.h	/^  UseList     use_list;$/;"	m	class:CongruenceClosureExplain	typeref:typename:UseList
+val	include/Hornsat.h	/^  bool val, is_common;$/;"	m	struct:Literal	typeref:typename:bool
+valgrind_output	Makefile	/^valgrind_output: $(OBJS)$/;"	t
+valgrind_run	Makefile	/^valgrind_run: $(OBJS)$/;"	t
+visited	include/Rename.h	/^  std::vector<bool> visited;$/;"	m	struct:Rename	typeref:typename:std::vector<bool>
+visited	include/Z3Subterms.h	/^  std::vector<bool> visited;$/;"	m	struct:Z3Subterms	typeref:typename:std::vector<bool>
+z3Explain	src/CongruenceClosureExplain.cpp	/^z3::expr_vector CongruenceClosureExplain::z3Explain($/;"	f	class:CongruenceClosureExplain	typeref:typename:z3::expr_vector
+z3Explanation	src/CongruenceClosureExplain.cpp	/^std::ostream & CongruenceClosureExplain::z3Explanation(std::ostream & os, const z3::expr & lhs, /;"	f	class:CongruenceClosureExplain	typeref:typename:std::ostream &
+z3IndexToCurryConstant	src/FactoryCurryNodes.cpp	/^CurryNode * FactoryCurryNodes::z3IndexToCurryConstant(unsigned id) const {$/;"	f	class:FactoryCurryNodes	typeref:typename:CurryNode *
+z3Repr	src/CongruenceClosureExplain.cpp	/^z3::expr CongruenceClosureExplain::z3Repr(z3::expr const & e){$/;"	f	class:CongruenceClosureExplain	typeref:typename:z3::expr
+z3_id	include/CurryNode.h	/^  unsigned id, z3_id, const_id;$/;"	m	class:CurryNode	typeref:typename:unsigned
+z3_id_defined	include/CurryNode.h	/^  bool z3_id_defined;$/;"	m	class:CurryNode	typeref:typename:bool
+z3_repr	src/Input.cpp	/^z3::expr Input::z3_repr(z3::expr const & e){$/;"	f	class:Input	typeref:typename:z3::expr
+~ClassListPos	include/Hornsat.h	/^  ~ClassListPos(){$/;"	f	struct:ClassListPos
+~Clause	include/Hornsat.h	/^  ~Clause(){$/;"	f	struct:Clause
+~CongruenceClosure	src/CongruenceClosure.cpp	/^CongruenceClosure::~CongruenceClosure(){$/;"	f	class:CongruenceClosure
+~CongruenceClosureDST	src/CongruenceClosureDST.cpp	/^CongruenceClosureDST::~CongruenceClosureDST(){$/;"	f	class:CongruenceClosureDST
+~CongruenceClosureExplain	src/CongruenceClosureExplain.cpp	/^CongruenceClosureExplain::~CongruenceClosureExplain(){$/;"	f	class:CongruenceClosureExplain
+~CongruenceClosureNO	src/CongruenceClosureNO.cpp	/^CongruenceClosureNO::~CongruenceClosureNO(){$/;"	f	class:CongruenceClosureNO
+~EUFInterpolant	src/EUFInterpolant.cpp	/^EUFInterpolant::~EUFInterpolant(){$/;"	f	class:EUFInterpolant
+~EUFInterpolantWithExpressions	src/EUFInterpolantWithExpressions.cpp	/^EUFInterpolantWithExpressions::~EUFInterpolantWithExpressions()$/;"	f	class:EUFInterpolantWithExpressions
+~EUFInterpolantWithUncomSymbols	src/EUFInterpolantWithUncomSymbols.cpp	/^EUFInterpolantWithUncomSymbols::~EUFInterpolantWithUncomSymbols()$/;"	f	class:EUFInterpolantWithUncomSymbols
+~Explanation	src/Explanation.cpp	/^Explanation::~Explanation()$/;"	f	class:Explanation
+~FactoryCurryNodes	src/FactoryCurryNodes.cpp	/^FactoryCurryNodes::~FactoryCurryNodes(){$/;"	f	class:FactoryCurryNodes
+~HornClause	src/HornClause.cpp	/^HornClause::~HornClause(){$/;"	f	class:HornClause
+~HornClauses	src/HornClauses.cpp	/^HornClauses::~HornClauses(){$/;"	f	class:HornClauses
+~Hornsat	src/Hornsat.cpp	/^Hornsat::~Hornsat(){$/;"	f	class:Hornsat
+~Input	src/Input.cpp	/^Input::~Input(){$/;"	f	class:Input
+~Literal	include/Hornsat.h	/^  ~Literal(){$/;"	f	struct:Literal
+~LookupTable	include/CongruenceClosureExplain.h	/^  ~LookupTable(){$/;"	f	class:LookupTable
+~SignatureTable	include/CongruenceClosure.h	/^  ~SignatureTable(){$/;"	f	class:SignatureTable
+~UnionFind	src/UnionFind.cpp	/^UnionFind::~UnionFind(){$/;"	f	class:UnionFind
+~UnionFindExplain	src/UnionFindExplain.cpp	/^UnionFindExplain::~UnionFindExplain(){$/;"	f	class:UnionFindExplain

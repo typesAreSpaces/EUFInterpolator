@@ -1,0 +1,2966 @@
+g++ -g -c -o tests/TestCongruenceClosureExplain.o -I./src -I./include -std=c++11 -Wall tests/TestCongruenceClosureExplain.cpp
+g++ -g -c -o ./tests/qf_uf_test.o -I./src -I./include -std=c++11 -Wall ./tests/qf_uf_test.cpp
+g++ -g -o tests/qf_uf_test  ./obj/CongruenceClosure.o  ./obj/CongruenceClosureDST.o  ./obj/CongruenceClosureExplain.o  ./obj/CongruenceClosureNO.o  ./obj/CurryNode.o  ./obj/EUFInterpolant-conditionalEliminationEqs.o  ./obj/EUFInterpolant.o  ./obj/EUFInterpolantWithExpressions.o  ./obj/EUFInterpolantWithUncomSymbols.o  ./obj/Explanation.o  ./obj/FactoryCurryNodes.o  ./obj/HornClause.o  ./obj/HornClauses.o  ./obj/Hornsat.o  ./obj/Input.o  ./obj/Rename.o  ./obj/RenameWithExpressions.o  ./obj/RenameWithUncomSymbols.o  ./obj/UnionFind.o  ./obj/UnionFindExplain.o  ./obj/Util.o  ./obj/Z3Subterms.o /home/jose/Documents/GithubProjects/z3__/build/libz3.so  tests/TestCongruenceClosureExplain.o ./tests/qf_uf_test.o -lpthread
+./tests/qf_uf_test.sh
+Starting consistency test
+To check that grn_MR and grn are equivalent: They are.
+Processing file:  smt1300175744189082250.smt2
+Starting consistency test
+Processing file:  smt1468783596909311386.smt2
+Starting consistency test
+To check that grn_SR and rd1 are equivalent: They are.
+Processing file:  smt2061505268723161891.smt2
+Starting consistency test
+Processing file:  smt2080745738819601301.smt2
+Starting consistency test
+Processing file:  smt2325451563592377472.smt2
+Starting consistency test
+To check that nf and flash are equivalent: They are.
+Processing file:  smt249825283571301584.smt2
+Starting consistency test
+To check that mode and cir are equivalent: They are.
+Processing file:  smt2598599073465845145.smt2
+Starting consistency test
+Processing file:  smt2831655880469397696.smt2
+Starting consistency test
+To check that mode and cir are equivalent: They are.
+Processing file:  smt2970577543992530805.smt2
+Starting consistency test
+Processing file:  smt3166111930664231918.smt2
+Starting consistency test
+Processing file:  smt3232867547761696161.smt2
+Starting consistency test
+Processing file:  smt3248576982810563470.smt2
+Starting consistency test
+Processing file:  smt3508124013603727984.smt2
+Starting consistency test
+To check that reg and input are equivalent: They are.
+Processing file:  smt3534838651727683253.smt2
+Starting consistency test
+Processing file:  smt3809952321495040629.smt2
+Starting consistency test
+Processing file:  smt3910673230463462036.smt2
+Starting consistency test
+Processing file:  smt4027072204816894856.smt2
+Starting consistency test
+To check that grn_MR and grn are equivalent: They are.
+Processing file:  smt4057580428149921510.smt2
+Starting consistency test
+Processing file:  smt4241633917533372498.smt2
+Starting consistency test
+To check that nf and flash are equivalent: They are.
+Processing file:  smt4458073420585573738.smt2
+Starting consistency test
+Processing file:  smt4480564921249140261.smt2
+Starting consistency test
+To check that reg and input are equivalent: They are.
+Processing file:  smt5144869669709662262.smt2
+Starting consistency test
+To check that grn_MR and grn are equivalent: They are.
+Processing file:  smt5490086717622526120.smt2
+Starting consistency test
+To check that grn_MR and grn are equivalent: They are.
+Processing file:  smt5801285361354912971.smt2
+Starting consistency test
+To check that grn_SR and rd1 are equivalent: They are.
+Processing file:  smt5832055835117075398.smt2
+Starting consistency test
+To check that flash and nf0 are equivalent: They are.
+Processing file:  smt6109211130895037835.smt2
+Starting consistency test
+Processing file:  smt6377531776677660648.smt2
+Starting consistency test
+To check that grn_MR and grn are equivalent: They are.
+Processing file:  smt6739662804326223632.smt2
+Starting consistency test
+To check that grn_SR and rd1 are equivalent: They are.
+Processing file:  smt7452810379672948208.smt2
+Starting consistency test
+To check that mode and cir are equivalent: They are.
+Processing file:  smt7632939434921259240.smt2
+Starting consistency test
+Processing file:  smt7665342989239969743.smt2
+Starting consistency test
+Processing file:  smt834303034702425531.smt2
+Starting consistency test
+Processing file:  smt862177804180920815.smt2
+Starting consistency test
+Processing file:  smt8855268942650190404.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$13) are equivalent: They are.
+Processing file:  QF_UF_adding.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_Q_a1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_adding.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$13) are equivalent: They are.
+Processing file:  QF_UF_adding.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_Q_a1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_adding.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$13) are equivalent: They are.
+Processing file:  QF_UF_adding.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_Q_a1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_adding.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_Q_a1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_adding.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$13) are equivalent: They are.
+Processing file:  QF_UF_adding.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_Q_a1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_adding.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$13) are equivalent: They are.
+Processing file:  QF_UF_adding.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_Q_a1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_adding.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_anderson.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$31) are equivalent: They are.
+Processing file:  QF_UF_anderson.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_anderson.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$31) are equivalent: They are.
+Processing file:  QF_UF_anderson.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_anderson.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_anderson.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_anderson.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_anderson.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_anderson.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$61) are equivalent: They are.
+Processing file:  QF_UF_anderson.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_anderson.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$61) are equivalent: They are.
+Processing file:  QF_UF_anderson.7.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_anderson.7.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$71) are equivalent: They are.
+Processing file:  QF_UF_anderson.8.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_anderson.8.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$prop0_op and (not y$36) are equivalent: They are.
+Processing file:  QF_UF_AR_ab_cti_max.smt2
+Starting consistency test
+To check that y$58 and (not (= y$a y$b)) are equivalent: They are.
+Processing file:  QF_UF_AR_ab_fp_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$75) are equivalent: They are.
+Processing file:  QF_UF_at.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_at.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$75) are equivalent: They are.
+Processing file:  QF_UF_at.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_at.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$99) are equivalent: They are.
+Processing file:  QF_UF_at.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_at.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$123) are equivalent: They are.
+Processing file:  QF_UF_at.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_at.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$123) are equivalent: They are.
+Processing file:  QF_UF_at.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_at.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$123) are equivalent: They are.
+Processing file:  QF_UF_at.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_at.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$147) are equivalent: They are.
+Processing file:  QF_UF_at.7.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_at.7.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_bakery.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_bakery.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_bakery.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$31) are equivalent: They are.
+Processing file:  QF_UF_bakery.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_bakery.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_bakery.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_bakery.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_bakery.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_bakery.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_bakery.7.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_bakery.7.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_bakery.8.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_bakery.8.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$2 and (= y$n2s3 y$a) are equivalent: They are.
+Processing file:  QF_UF_bit-vector_ab_br_max.smt2
+Starting consistency test
+To check that y$w$3_op and (Concat_32_3_29 y$a y$n0s29) are equivalent: They are.
+Processing file:  QF_UF_bit-vector_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$7) are equivalent: They are.
+Processing file:  QF_UF_blocks.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_blocks.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$7) are equivalent: They are.
+Processing file:  QF_UF_blocks.3.prop1_ab_fp_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_blocks.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$7) are equivalent: They are.
+Processing file:  QF_UF_blocks.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_bridge.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_free and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_bridge.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$57) are equivalent: They are.
+Processing file:  QF_UF_bridge.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_free and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_bridge.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$73) are equivalent: They are.
+Processing file:  QF_UF_bridge.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_free and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_bridge.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_brp.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_check_Consumer and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_BAD_K and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp2.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.1.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_BAD_K and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp2.1.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.1.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_BAD_K and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp2.1.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_BAD_K and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp2.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.2.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_BAD_K and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp2.2.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.2.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_BAD_K and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp2.2.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_BAD_K and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp2.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.3.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_BAD_K and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp2.3.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_BAD_K and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp2.3.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.4.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_BAD_K and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp2.4.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.4.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_BAD_K and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp2.4.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_BAD_K and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp2.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.5.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_BAD_K and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp2.5.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.5.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_BAD_K and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp2.5.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_BAD_K and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp2.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.6.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$53) are equivalent: They are.
+Processing file:  QF_UF_brp2.6.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_BAD_K and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp2.6.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_brp.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_check_Consumer and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_brp.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_check_Consumer and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_brp.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_check_Consumer and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_brp.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_check_Consumer and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_brp.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$8 and (= y$impl_PC_valid y$prop) are equivalent: They are.
+Processing file:  QF_UF_bug-1_ab_cti_max.smt2
+Starting consistency test
+To check that y$8 and (= y$impl_PC_valid y$prop) are equivalent: They are.
+Processing file:  QF_UF_bug-1_ab_reg_max.smt2
+Starting consistency test
+To check that y$125 and y$374 are equivalent: They are.
+Processing file:  QF_UF_cache_coherence_three_ab_cti_max.smt2
+Starting consistency test
+To check that y$bus_arbiter.bus_ackA and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cache_coherence_three_ab_reg_max.smt2
+Starting consistency test
+To check that (not (= y$n1s2 y$pcacheB.next_state)) and y$801 are equivalent: They are.
+Processing file:  QF_UF_cache_coherence_two_ab_br_max.smt2
+Starting consistency test
+To check that y$88 and y$290 are equivalent: They are.
+Processing file:  QF_UF_cache_coherence_two_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_cambridge.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_E_Receiver and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cambridge.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_cambridge.1.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_E_Receiver and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cambridge.1.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_cambridge.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_idle_Receiver and (not y$17) are equivalent: They are.
+Processing file:  QF_UF_cambridge.2.prop1_ab_fp_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_cambridge.2.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_E_Receiver and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cambridge.2.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_cambridge.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_E_Receiver and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cambridge.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_cambridge.3.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_E_Receiver and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cambridge.3.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_cambridge.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_E_Receiver and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cambridge.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_cambridge.4.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_E_Receiver and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cambridge.4.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_cambridge.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_E_Receiver and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cambridge.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_cambridge.5.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_E_Receiver and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cambridge.5.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_cambridge.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_E_Receiver and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cambridge.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_cambridge.6.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_E_Receiver and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cambridge.6.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_cambridge.7.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_cambridge.7.prop1_ab_fp_max.smt2
+Starting consistency test
+To check that y$a_E_Receiver and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cambridge.7.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_cambridge.7.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_cambridge.7.prop2_ab_fp_max.smt2
+Starting consistency test
+To check that y$a_E_Receiver and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cambridge.7.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$s$8_op and (not y$34) are equivalent: They are.
+Processing file:  QF_UF_cav14_example_v_ab_cti_max.smt2
+Starting consistency test
+To check that y$2 and (= y$n1s4 y$X) are equivalent: They are.
+Processing file:  QF_UF_cav14_example_v_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$37) are equivalent: They are.
+Processing file:  QF_UF_collision.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_broadcast and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_collision.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$37) are equivalent: They are.
+Processing file:  QF_UF_collision.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_broadcast and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_collision.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$49) are equivalent: They are.
+Processing file:  QF_UF_collision.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_broadcast and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_collision.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$61) are equivalent: They are.
+Processing file:  QF_UF_collision.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_broadcast and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_collision.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$61) are equivalent: They are.
+Processing file:  QF_UF_collision.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_broadcast and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_collision.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$73) are equivalent: They are.
+Processing file:  QF_UF_collision.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_broadcast and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_collision.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$18 and (not (= y$n0s4 y$X)) are equivalent: They are.
+Processing file:  QF_UF_counter_ab_cti_max.smt2
+Starting consistency test
+To check that y$18 and (not (= y$n0s4 y$X)) are equivalent: They are.
+Processing file:  QF_UF_counter_ab_reg_max.smt2
+Starting consistency test
+To check that y$16 and (not (= y$n15s4 y$X)) are equivalent: They are.
+Processing file:  QF_UF_counter_v_ab_cti_max.smt2
+Starting consistency test
+To check that y$s$1_op and (Add_4_4_4 y$X y$n1s4) are equivalent: They are.
+Processing file:  QF_UF_counter_v_ab_fp_max.smt2
+Starting consistency test
+To check that y$2 and (= y$n1s4 y$X) are equivalent: They are.
+Processing file:  QF_UF_counter_v_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_finished_customer_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cyclic_scheduler.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$71) are equivalent: They are.
+Processing file:  QF_UF_cyclic_scheduler.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_finished_customer_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cyclic_scheduler.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$183) are equivalent: They are.
+Processing file:  QF_UF_cyclic_scheduler.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_finished_customer_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cyclic_scheduler.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$127) are equivalent: They are.
+Processing file:  QF_UF_cyclic_scheduler.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_finished_customer_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_cyclic_scheduler.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$s$17_op and (not y$49) are equivalent: They are.
+Processing file:  QF_UF_diagonal_ab_cti_max.smt2
+Starting consistency test
+To check that y$2 and (= y$n0s4 y$X) are equivalent: They are.
+Processing file:  QF_UF_diagonal_ab_reg_max.smt2
+Starting consistency test
+To check that y$s$17_op and (not y$49) are equivalent: They are.
+Processing file:  QF_UF_diagonal_v_ab_cti_max.smt2
+Starting consistency test
+To check that y$2 and (= y$n1s4 y$X) are equivalent: They are.
+Processing file:  QF_UF_diagonal_v_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_action_phil_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_driving_phils.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_action_phil_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_driving_phils.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_action_phil_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_driving_phils.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_action_phil_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_driving_phils.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_action_phil_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_driving_phils.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$b0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_dyn_partition_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$25) are equivalent: They are.
+Processing file:  QF_UF_elevator.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_choose_next and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_elevator.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$25) are equivalent: They are.
+Processing file:  QF_UF_elevator.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_choose_next and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_elevator.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$31) are equivalent: They are.
+Processing file:  QF_UF_elevator.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_choose_next and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_elevator.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$37) are equivalent: They are.
+Processing file:  QF_UF_elevator.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_choose_next and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_elevator.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$43) are equivalent: They are.
+Processing file:  QF_UF_elevator.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_choose_next and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_elevator.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$5) are equivalent: They are.
+Processing file:  QF_UF_elevator_planning.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_elevator_planning.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$5) are equivalent: They are.
+Processing file:  QF_UF_elevator_planning.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_elevator_planning.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$5) are equivalent: They are.
+Processing file:  QF_UF_elevator_planning.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_elevator_planning.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$107 and (= y$im.p3_n y$s3) are equivalent: They are.
+Processing file:  QF_UF_eq_sdp_v1_ab_cti_max.smt2
+Starting consistency test
+To check that y$106 and (= y$im.p3_n y$s3) are equivalent: They are.
+Processing file:  QF_UF_eq_sdp_v2_ab_cti_max.smt2
+Starting consistency test
+To check that y$im.p1_a and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_eq_sdp_v2_ab_reg_max.smt2
+Starting consistency test
+To check that y$107 and (= y$im.p3_n y$s3) are equivalent: They are.
+Processing file:  QF_UF_eq_sdp_v3_ab_cti_max.smt2
+Starting consistency test
+To check that y$106 and (= y$im.p3_n y$s3) are equivalent: They are.
+Processing file:  QF_UF_eq_sdp_v4_ab_cti_max.smt2
+Starting consistency test
+To check that y$138 and (Extract_1_0_0_8 y$ra3) are equivalent: They are.
+Processing file:  QF_UF_eq_sdp_v6_ab_cti_max.smt2
+Starting consistency test
+To check that y$134 and (Extract_1_0_0_8 y$ra3) are equivalent: They are.
+Processing file:  QF_UF_eq_sdp_v7_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$27) are equivalent: They are.
+Processing file:  QF_UF_exit.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_Burian and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_exit.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_exit.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_Burian_Person_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_exit.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_exit.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_exit.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_Burian_Person_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_exit.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$75) are equivalent: They are.
+Processing file:  QF_UF_exit.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_Burian_Person_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_exit.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_all_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_extinction.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$85) are equivalent: They are.
+Processing file:  QF_UF_extinction.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_all_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_extinction.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$113) are equivalent: They are.
+Processing file:  QF_UF_extinction.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_all_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_extinction.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$113) are equivalent: They are.
+Processing file:  QF_UF_extinction.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_all_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_extinction.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$361) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_become_child_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$361) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.1.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_become_child_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.1.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$361) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.1.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_become_child_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.1.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$209) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$209) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.2.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_become_child_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.2.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$209) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.2.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_become_child_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.2.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$361) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_become_child_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$361) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.3.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_become_child_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.3.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$361) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.3.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_become_child_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.3.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$449) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$449) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.4.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_become_child_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.4.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$449) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.4.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_become_child_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.4.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$761) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_become_child_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$761) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.5.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_become_child_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.5.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$761) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.5.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_become_child_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_firewire_tree.5.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$27) are equivalent: They are.
+Processing file:  QF_UF_fischer.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_fischer.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_fischer.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_fischer.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$59) are equivalent: They are.
+Processing file:  QF_UF_fischer.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_fischer.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$59) are equivalent: They are.
+Processing file:  QF_UF_fischer.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_fischer.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$67) are equivalent: They are.
+Processing file:  QF_UF_fischer.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_fischer.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$67) are equivalent: They are.
+Processing file:  QF_UF_fischer.7.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_fischer.7.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$9) are equivalent: They are.
+Processing file:  QF_UF_frogs.1.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$9) are equivalent: They are.
+Processing file:  QF_UF_frogs.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_frogs.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$9) are equivalent: They are.
+Processing file:  QF_UF_frogs.2.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_frogs.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$9) are equivalent: They are.
+Processing file:  QF_UF_frogs.3.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$9) are equivalent: They are.
+Processing file:  QF_UF_frogs.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_frogs.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$9) are equivalent: They are.
+Processing file:  QF_UF_frogs.4.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$9) are equivalent: They are.
+Processing file:  QF_UF_frogs.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_frogs.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$9) are equivalent: They are.
+Processing file:  QF_UF_frogs.5.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$9) are equivalent: They are.
+Processing file:  QF_UF_frogs.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_frogs.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$101) are equivalent: They are.
+Processing file:  QF_UF_gear.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_cclose_error and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_gear.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$101) are equivalent: They are.
+Processing file:  QF_UF_gear.1.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_cclose_error and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_gear.1.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$101) are equivalent: They are.
+Processing file:  QF_UF_gear.1.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_cclose_error and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_gear.1.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$101) are equivalent: They are.
+Processing file:  QF_UF_gear.1.prop4_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_cclose_error and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_gear.1.prop4_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$101) are equivalent: They are.
+Processing file:  QF_UF_gear.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_cclose_error and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_gear.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$101) are equivalent: They are.
+Processing file:  QF_UF_gear.2.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_cclose_error and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_gear.2.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$101) are equivalent: They are.
+Processing file:  QF_UF_gear.2.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_cclose_error and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_gear.2.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$101) are equivalent: They are.
+Processing file:  QF_UF_gear.2.prop4_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_cclose_error and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_gear.2.prop4_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_q_AtoB and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_hanoi.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that (= y$v_b_12 y$v_c_12) and y$2604 are equivalent: They are.
+Processing file:  QF_UF_hanoi.2.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$a_q_AtoB and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_hanoi.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$v3_1517448498_122_op and (BitWiseXor_8_8_8 y$n1s8 y$v_b_act) are equivalent: They are.
+Processing file:  QF_UF_hanoi.3.prop1_ab_br_max.smt2
+Starting consistency test
+To check that (= y$v_b_15 y$v_c_15) and y$2937 are equivalent: They are.
+Processing file:  QF_UF_hanoi.3.prop1_ab_fp_max.smt2
+Starting consistency test
+To check that y$a_q_AtoB and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_hanoi.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_q_AtoB and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_hanoi.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$2_op and (Concat_32_1_31 y$controllerA.ack y$n0s31) are equivalent: They are.
+Processing file:  QF_UF_h_Arbiter_ab_cti_max.smt2
+Starting consistency test
+To check that (not (= y$n1s2 y$controllerB.state)) and y$470 are equivalent: They are.
+Processing file:  QF_UF_h_Arbiter_ab_reg_max.smt2
+Starting consistency test
+To check that (not (= y$n4s3 y$stato)) and y$164 are equivalent: They are.
+Processing file:  QF_UF_h_b02_ab_br_max.smt2
+Starting consistency test
+To check that y$U and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_h_b02_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$1_op and (Concat_32_4_28 y$GRANT_O y$n0s28) are equivalent: They are.
+Processing file:  QF_UF_h_b03_ab_cti_max.smt2
+Starting consistency test
+To check that y$31 and (Extract_1_7_7_8 y$RMAX) are equivalent: They are.
+Processing file:  QF_UF_h_b04_ab_cti_max.smt2
+Starting consistency test
+To check that y$2 and (= y$DATA_OUT y$n0s8) are equivalent: They are.
+Processing file:  QF_UF_h_b04_ab_reg_max.smt2
+Starting consistency test
+To check that y$1287 and (= y$MAX y$TEMP) are equivalent: They are.
+Processing file:  QF_UF_h_b05_ab_br_max.smt2
+Starting consistency test
+To check that y$1278 and (not (= y$n2s3 y$STATO)) are equivalent: They are.
+Processing file:  QF_UF_h_b05_ab_cti_max.smt2
+Starting consistency test
+To check that y$EN_DISP and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_h_b05_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$1_op and (Concat_32_8_24 y$x y$n0s24) are equivalent: They are.
+Processing file:  QF_UF_h_b07_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$3_op and (Concat_32_3_29 y$MAR y$n0s29) are equivalent: They are.
+Processing file:  QF_UF_h_b08_ab_cti_max.smt2
+Starting consistency test
+To check that y$w$3_op and (Concat_32_3_29 y$MAR y$n0s29) are equivalent: They are.
+Processing file:  QF_UF_h_b08_ab_reg_max.smt2
+Starting consistency test
+To check that (not (= y$b0 y$n0s2)) and y$20 are equivalent: They are.
+Processing file:  QF_UF_h_Barrel_ab_cti_max.smt2
+Starting consistency test
+To check that y$busy_9_ and (not y$33) are equivalent: They are.
+Processing file:  QF_UF_h_BufAl_ab_br_max.smt2
+Starting consistency test
+To check that y$724 and (not y$763) are equivalent: They are.
+Processing file:  QF_UF_h_BufAl_ab_cti_max.smt2
+Starting consistency test
+To check that y$busy_14_ and (not y$13) are equivalent: They are.
+Processing file:  QF_UF_h_BufAl_ab_fp_max.smt2
+Starting consistency test
+To check that y$alloc and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_h_BufAl_ab_reg_max.smt2
+Starting consistency test
+To check that y$685 and (Extract_1_2_2_3 y$nitems) are equivalent: They are.
+Processing file:  QF_UF_Heap_ab_br_max.smt2
+Starting consistency test
+To check that y$w$12_op and (Concat_32_1_31 y$error y$n0s31) are equivalent: They are.
+Processing file:  QF_UF_Heap_ab_cti_max.smt2
+Starting consistency test
+To check that y$685 and (Extract_1_2_2_3 y$nitems) are equivalent: They are.
+Processing file:  QF_UF_Heap_ab_fp_max.smt2
+Starting consistency test
+To check that y$error and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_Heap_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$20_op and (Concat_32_4_28 y$sr.tail y$n0s28) are equivalent: They are.
+Processing file:  QF_UF_h_FIFO_ab_cti_max.smt2
+Starting consistency test
+To check that y$3 and (= y$n0s4 y$rb.head) are equivalent: They are.
+Processing file:  QF_UF_h_FIFO_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$1_op and (Concat_32_1_31 y$ack0 y$n0s31) are equivalent: They are.
+Processing file:  QF_UF_h_Rrobin_ab_cti_max.smt2
+Starting consistency test
+To check that y$ack0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_h_Rrobin_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$3_op and (Concat_32_8_24 y$state y$n0s24) are equivalent: They are.
+Processing file:  QF_UF_h_segments_ab_cti_max.smt2
+Starting consistency test
+To check that y$2 and (= y$n0s8 y$state) are equivalent: They are.
+Processing file:  QF_UF_h_segments_ab_reg_max.smt2
+Starting consistency test
+To check that (not (= y$n0s32 y$inr)) and y$412 are equivalent: They are.
+Processing file:  QF_UF_h_Spinner_ab_reg_max.smt2
+Starting consistency test
+To check that y$445 and (not y$447) are equivalent: They are.
+Processing file:  QF_UF_h_TicTacToe_ab_cti_max.smt2
+Starting consistency test
+To check that y$2 and (= y$n0s2 y$b_0_) are equivalent: They are.
+Processing file:  QF_UF_h_TicTacToe_ab_reg_max.smt2
+Starting consistency test
+To check that y$67 and (not (= y$n255s8 y$Counter)) are equivalent: They are.
+Processing file:  QF_UF_h_traffic_light_example_ab_cti_max.smt2
+Starting consistency test
+To check that y$2 and (= y$n0s8 y$Counter) are equivalent: They are.
+Processing file:  QF_UF_h_traffic_light_example_ab_reg_max.smt2
+Starting consistency test
+To check that y$23 and (= y$n0s2 y$P3.state) are equivalent: They are.
+Processing file:  QF_UF_h_TreeArb_ab_br_max.smt2
+Starting consistency test
+To check that y$60 and (= y$n2s2 y$P0.state) are equivalent: They are.
+Processing file:  QF_UF_h_TreeArb_ab_cti_max.smt2
+Starting consistency test
+To check that y$251 and (= y$n1s3 y$C0_3.state) are equivalent: They are.
+Processing file:  QF_UF_h_TreeArb_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$6_op and (Concat_32_10_22 y$decoder.state y$n0s22) are equivalent: They are.
+Processing file:  QF_UF_Huffman_dec_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$3_op and (Concat_32_10_22 y$encoder.shiftreg y$n0s22) are equivalent: They are.
+Processing file:  QF_UF_Huffman_enc_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$4_op and (Concat_4_3_1 y$v.l5 false) are equivalent: They are.
+Processing file:  QF_UF_h_Vending_ab_cti_max.smt2
+Starting consistency test
+To check that y$2 and (= y$n0s2 y$v.l10) are equivalent: They are.
+Processing file:  QF_UF_h_Vending_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$1_op and (Concat_32_1_31 y$c.Lcmd y$n0s31) are equivalent: They are.
+Processing file:  QF_UF_h_Vlunc_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$49) are equivalent: They are.
+Processing file:  QF_UF_iprotocol.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_ackOk and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_iprotocol.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$49) are equivalent: They are.
+Processing file:  QF_UF_iprotocol.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_ackOk and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_iprotocol.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_ackOk and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_iprotocol.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$49) are equivalent: They are.
+Processing file:  QF_UF_iprotocol.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_ackOk and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_iprotocol.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$49) are equivalent: They are.
+Processing file:  QF_UF_iprotocol.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_ackOk and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_iprotocol.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$49) are equivalent: They are.
+Processing file:  QF_UF_iprotocol.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_ackOk and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_iprotocol.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$49) are equivalent: They are.
+Processing file:  QF_UF_iprotocol.7.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_ackOk and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_iprotocol.7.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$69_op and (Concat_32_4_28 y$nl y$n0s28) are equivalent: They are.
+Processing file:  QF_UF_itc99_b12_ab_br_max.smt2
+Starting consistency test
+To check that y$w$66_op and (Concat_32_3_29 y$counter y$n0s29) are equivalent: They are.
+Processing file:  QF_UF_itc99_b12_ab_cti_max.smt2
+Starting consistency test
+To check that (not (= y$n23s5 y$gamma)) and y$2528 are equivalent: They are.
+Processing file:  QF_UF_itc99_b12_ab_fp_max.smt2
+Starting consistency test
+To check that y$w$2_op and (Concat_32_1_31 y$error y$n0s31) are equivalent: They are.
+Processing file:  QF_UF_itc99_b13_ab_cti_max.smt2
+Starting consistency test
+To check that y$S1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_itc99_b13_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$27) are equivalent: They are.
+Processing file:  QF_UF_krebs.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_citrat and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_krebs.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$43) are equivalent: They are.
+Processing file:  QF_UF_krebs.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_citrat_krebs_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_krebs.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$43) are equivalent: They are.
+Processing file:  QF_UF_krebs.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_citrat_krebs_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_krebs.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$59) are equivalent: They are.
+Processing file:  QF_UF_krebs.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_citrat_krebs_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_krebs.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$61) are equivalent: They are.
+Processing file:  QF_UF_lamport.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lamport.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$61) are equivalent: They are.
+Processing file:  QF_UF_lamport.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lamport.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$61) are equivalent: They are.
+Processing file:  QF_UF_lamport.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lamport.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$81) are equivalent: They are.
+Processing file:  QF_UF_lamport.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lamport.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lamport.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$101) are equivalent: They are.
+Processing file:  QF_UF_lamport.7.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lamport.7.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$101) are equivalent: They are.
+Processing file:  QF_UF_lamport.8.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lamport.8.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$85) are equivalent: They are.
+Processing file:  QF_UF_lamport_nonatomic.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lamport_nonatomic.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$85) are equivalent: They are.
+Processing file:  QF_UF_lamport_nonatomic.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lamport_nonatomic.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$85) are equivalent: They are.
+Processing file:  QF_UF_lamport_nonatomic.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lamport_nonatomic.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$113) are equivalent: They are.
+Processing file:  QF_UF_lamport_nonatomic.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lamport_nonatomic.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$141) are equivalent: They are.
+Processing file:  QF_UF_lamport_nonatomic.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lamport_nonatomic.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$31) are equivalent: They are.
+Processing file:  QF_UF_lann.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lann.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_lann.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lann.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_lann.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lann.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lann.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$61) are equivalent: They are.
+Processing file:  QF_UF_lann.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lann.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lann.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lann.7.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_lann.8.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lann.8.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$121) are equivalent: They are.
+Processing file:  QF_UF_leader_election.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_got_msg_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_leader_election.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$121) are equivalent: They are.
+Processing file:  QF_UF_leader_election.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_got_msg_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_leader_election.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$145) are equivalent: They are.
+Processing file:  QF_UF_leader_election.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_got_msg_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_leader_election.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$169) are equivalent: They are.
+Processing file:  QF_UF_leader_election.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_got_msg_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_leader_election.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$193) are equivalent: They are.
+Processing file:  QF_UF_leader_election.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_got_msg_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_leader_election.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$217) are equivalent: They are.
+Processing file:  QF_UF_leader_election.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_got_msg_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_leader_election.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$61) are equivalent: They are.
+Processing file:  QF_UF_leader_filters.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_elected_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_leader_filters.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$61) are equivalent: They are.
+Processing file:  QF_UF_leader_filters.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_elected_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_leader_filters.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_elected_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_leader_filters.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$81) are equivalent: They are.
+Processing file:  QF_UF_leader_filters.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_elected_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_leader_filters.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$101) are equivalent: They are.
+Processing file:  QF_UF_leader_filters.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_elected_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_leader_filters.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$101) are equivalent: They are.
+Processing file:  QF_UF_leader_filters.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_elected_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_leader_filters.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$121) are equivalent: They are.
+Processing file:  QF_UF_leader_filters.7.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_elected_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_leader_filters.7.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$99) are equivalent: They are.
+Processing file:  QF_UF_lifts.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_a_move_Lift_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lifts.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$97) are equivalent: They are.
+Processing file:  QF_UF_lifts.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_a_move_Lift_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lifts.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$143) are equivalent: They are.
+Processing file:  QF_UF_lifts.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_a_move_Lift_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lifts.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$139) are equivalent: They are.
+Processing file:  QF_UF_lifts.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_a_move_Lift_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lifts.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$137) are equivalent: They are.
+Processing file:  QF_UF_lifts.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_a_move_Lift_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lifts.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$183) are equivalent: They are.
+Processing file:  QF_UF_lifts.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_a_move_Lift_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lifts.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$179) are equivalent: They are.
+Processing file:  QF_UF_lifts.7.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_a_move_Lift_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lifts.7.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$177) are equivalent: They are.
+Processing file:  QF_UF_lifts.8.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_a_move_Lift_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lifts.8.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_loyd.1.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_loyd.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_loyd.2.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_loyd.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_loyd.3.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$7) are equivalent: They are.
+Processing file:  QF_UF_loyd.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_loyd.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_lup.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_comp_lup0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lup.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$99) are equivalent: They are.
+Processing file:  QF_UF_lup.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_comp_lup0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lup.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_lup.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_comp_lup0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lup.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$123) are equivalent: They are.
+Processing file:  QF_UF_lup.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_comp_lup0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_lup.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$61) are equivalent: They are.
+Processing file:  QF_UF_mcs.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$61) are equivalent: They are.
+Processing file:  QF_UF_mcs.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$81) are equivalent: They are.
+Processing file:  QF_UF_mcs.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_mcs.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_mcs.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$101) are equivalent: They are.
+Processing file:  QF_UF_mcs.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_mcs.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_mcs.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$16_op and (Concat_32_1_31 y$OutCtrl.MdoEn y$n0s31) are equivalent: They are.
+Processing file:  QF_UF_miim_ab_cti_max.smt2
+Starting consistency test
+To check that y$2 and (= y$n0s6 y$BitCounter) are equivalent: They are.
+Processing file:  QF_UF_miim_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$26_op and (Concat_32_1_31 y$mod3.stop y$n0s31) are equivalent: They are.
+Processing file:  QF_UF_mpeg_ab_cti_max.smt2
+Starting consistency test
+To check that y$2 and (= y$n255s8 y$mod1.output_buffer) are equivalent: They are.
+Processing file:  QF_UF_mpeg_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$79) are equivalent: They are.
+Processing file:  QF_UF_msmie.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_change_master_1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_msmie.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$193) are equivalent: They are.
+Processing file:  QF_UF_msmie.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_change_master_1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_msmie.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$193) are equivalent: They are.
+Processing file:  QF_UF_msmie.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_change_master_1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_msmie.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$301) are equivalent: They are.
+Processing file:  QF_UF_msmie.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_change_master_1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_msmie.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$43) are equivalent: They are.
+Processing file:  QF_UF_needham.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_c1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_needham.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$1295 and (= y$n1s8 y$v_kNa) are equivalent: They are.
+Processing file:  QF_UF_needham.1.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_c1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_needham.1.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$1295 and (= y$n1s8 y$v_kNa) are equivalent: They are.
+Processing file:  QF_UF_needham.1.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_c1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_needham.1.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$43) are equivalent: They are.
+Processing file:  QF_UF_needham.1.prop4_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_c1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_needham.1.prop4_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$69) are equivalent: They are.
+Processing file:  QF_UF_needham.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_c1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_needham.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_c1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_needham.2.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$2231 and (= y$n1s8 y$v_kNa) are equivalent: They are.
+Processing file:  QF_UF_needham.2.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_c1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_needham.2.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$69) are equivalent: They are.
+Processing file:  QF_UF_needham.2.prop4_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_c1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_needham.2.prop4_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$81) are equivalent: They are.
+Processing file:  QF_UF_needham.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_c1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_needham.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$2576 and (= y$n1s8 y$v_kNa) are equivalent: They are.
+Processing file:  QF_UF_needham.3.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_c1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_needham.3.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$2576 and (= y$n1s8 y$v_kNa) are equivalent: They are.
+Processing file:  QF_UF_needham.3.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_c1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_needham.3.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$81) are equivalent: They are.
+Processing file:  QF_UF_needham.3.prop4_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_c1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_needham.3.prop4_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$95) are equivalent: They are.
+Processing file:  QF_UF_needham.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_c1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_needham.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$3275 and (= y$n1s8 y$v_kNa) are equivalent: They are.
+Processing file:  QF_UF_needham.4.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_c1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_needham.4.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$3275 and (= y$n1s8 y$v_kNa) are equivalent: They are.
+Processing file:  QF_UF_needham.4.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_c1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_needham.4.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$95) are equivalent: They are.
+Processing file:  QF_UF_needham.4.prop4_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_c1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_needham.4.prop4_ab_reg_max.smt2
+Starting consistency test
+To check that y$s$8_op and (not y$34) are equivalent: They are.
+Processing file:  QF_UF_paper_v3_ab_cti_max.smt2
+Starting consistency test
+To check that y$20 and (= y$n0s8 y$v_a_15) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.1.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$3) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.1.prop1_ab_fp_max.smt2
+Starting consistency test
+To check that y$a_q and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$3) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.2.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$3) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$3) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.2.prop1_ab_fp_max.smt2
+Starting consistency test
+To check that y$a_q and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$3) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.3.prop1_ab_fp_max.smt2
+Starting consistency test
+To check that y$a_q and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$3) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.4.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$3) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.4.prop1_ab_fp_max.smt2
+Starting consistency test
+To check that y$a_q and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$3) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.5.prop1_ab_fp_max.smt2
+Starting consistency test
+To check that y$a_q and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$3) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.6.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$3) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$v3_1517448502_522_op and (BitWiseXor_8_8_8 y$n1s8 y$v_a_34) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.6.prop1_ab_fp_max.smt2
+Starting consistency test
+To check that y$a_q and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_peg_solitaire.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$31) are equivalent: They are.
+Processing file:  QF_UF_peterson.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_peterson.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$31) are equivalent: They are.
+Processing file:  QF_UF_peterson.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_peterson.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_peterson.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_peterson.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_peterson.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_peterson.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_peterson.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_peterson.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$51) are equivalent: They are.
+Processing file:  QF_UF_peterson.7.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_peterson.7.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.1.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.1.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.1.prop5_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.1.prop5_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.1.prop6_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.1.prop6_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.2.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.2.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.2.prop5_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.2.prop5_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.2.prop6_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.2.prop6_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$55_op and (Concat_32_8_24 y$v_TXW_LEAD y$n0s24) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.3.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.3.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.3.prop5_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.3.prop5_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.3.prop6_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.3.prop6_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.4.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.4.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.4.prop5_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.4.prop5_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.4.prop6_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.4.prop6_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.5.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.5.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.5.prop5_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.5.prop5_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.5.prop6_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.5.prop6_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.6.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.6.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.6.prop5_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.6.prop5_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.6.prop6_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.6.prop6_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$55_op and (Concat_32_8_24 y$v_TXW_LEAD y$n0s24) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.7.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.7.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.7.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.7.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.7.prop5_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.7.prop5_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.7.prop6_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.7.prop6_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.8.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.8.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.8.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.8.prop5_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.8.prop5_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$111) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.8.prop6_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_e0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pgm_protocol.8.prop6_ab_reg_max.smt2
+Starting consistency test
+To check that y$s$4_op and (Add_32_32_32 y$tmp_stageTwo y$tmp_stageOne) are equivalent: They are.
+Processing file:  QF_UF_pipeline_ab_cti_max.smt2
+Starting consistency test
+To check that y$s$4_op and (Add_32_32_32 y$tmp_stageTwo y$tmp_stageOne) are equivalent: They are.
+Processing file:  QF_UF_pipeline_ab_reg_max.smt2
+Starting consistency test
+To check that y$24 and (= y$n1s7 y$tmp_ic_miss_state) are equivalent: They are.
+Processing file:  QF_UF_pj_icu_ab_cti_max.smt2
+Starting consistency test
+To check that (not (= y$n8s7 y$miss_state.miss_state_output)) and y$496 are equivalent: They are.
+Processing file:  QF_UF_pj_icu_ab_fp_max.smt2
+Starting consistency test
+To check that (not (= y$n8s7 y$miss_state.miss_state_output)) and y$496 are equivalent: They are.
+Processing file:  QF_UF_pj_icu_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$177) are equivalent: They are.
+Processing file:  QF_UF_plc.1.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_end and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_plc.1.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$177) are equivalent: They are.
+Processing file:  QF_UF_plc.2.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_end and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_plc.2.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$177) are equivalent: They are.
+Processing file:  QF_UF_plc.3.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_end and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_plc.3.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$177) are equivalent: They are.
+Processing file:  QF_UF_plc.4.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_end and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_plc.4.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$115) are equivalent: They are.
+Processing file:  QF_UF_pouring.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_q0_Bottle_1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pouring.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$103) are equivalent: They are.
+Processing file:  QF_UF_pouring.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_q0_Bottle_1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_pouring.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$59) are equivalent: They are.
+Processing file:  QF_UF_production_cell.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_Apress and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_production_cell.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_Apress and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_production_cell.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$79) are equivalent: They are.
+Processing file:  QF_UF_production_cell.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_Apress and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_production_cell.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_Apress and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_production_cell.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_Apress and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_production_cell.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$35) are equivalent: They are.
+Processing file:  QF_UF_protocols.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_consume0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_protocols.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$37) are equivalent: They are.
+Processing file:  QF_UF_protocols.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_consume0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_protocols.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_protocols.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_consume0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_protocols.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_protocols.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_consume0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_protocols.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_protocols.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_consume0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_protocols.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$73) are equivalent: They are.
+Processing file:  QF_UF_reader_writer.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_idle_reader_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_reader_writer.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$85) are equivalent: They are.
+Processing file:  QF_UF_reader_writer.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_idle_reader_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_reader_writer.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$121) are equivalent: They are.
+Processing file:  QF_UF_reader_writer.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_idle_reader_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_reader_writer.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_resistance.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_resistance.1.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_S1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_resistance.1.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_resistance.1.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$41) are equivalent: They are.
+Processing file:  QF_UF_resistance.1.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$49) are equivalent: They are.
+Processing file:  QF_UF_resistance.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_S1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_resistance.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$49) are equivalent: They are.
+Processing file:  QF_UF_resistance.2.prop2_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$49) are equivalent: They are.
+Processing file:  QF_UF_resistance.2.prop2_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$49) are equivalent: They are.
+Processing file:  QF_UF_resistance.2.prop3_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$49) are equivalent: They are.
+Processing file:  QF_UF_resistance.2.prop3_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$75) are equivalent: They are.
+Processing file:  QF_UF_rether.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_NRT_action_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_rether.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$93) are equivalent: They are.
+Processing file:  QF_UF_rether.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_NRT_action_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_rether.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$147) are equivalent: They are.
+Processing file:  QF_UF_rether.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_NRT_action_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_rether.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$165) are equivalent: They are.
+Processing file:  QF_UF_rether.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_NRT_action_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_rether.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$201) are equivalent: They are.
+Processing file:  QF_UF_rether.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_NRT_action_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_rether.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$197) are equivalent: They are.
+Processing file:  QF_UF_rether.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_NRT_action_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_rether.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$237) are equivalent: They are.
+Processing file:  QF_UF_rether.7.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_NRT_action_Node_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_rether.7.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$v3_1517448507_218_op and (BitWiseXor_8_8_8 y$n1s8 y$v_x_Red_car) are equivalent: They are.
+Processing file:  QF_UF_rushhour.1.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$17) are equivalent: They are.
+Processing file:  QF_UF_rushhour.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_out and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_rushhour.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$v3_1517448507_278_op and (BitWiseXor_8_8_8 y$n1s8 y$v_x_Red_car) are equivalent: They are.
+Processing file:  QF_UF_rushhour.2.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$19) are equivalent: They are.
+Processing file:  QF_UF_rushhour.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_out and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_rushhour.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$29) are equivalent: They are.
+Processing file:  QF_UF_rushhour.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_out and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_rushhour.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$29) are equivalent: They are.
+Processing file:  QF_UF_rushhour.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_out and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_rushhour.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$5) are equivalent: They are.
+Processing file:  QF_UF_schedule_world.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_schedule_world.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_schedule_world.2.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$5) are equivalent: They are.
+Processing file:  QF_UF_schedule_world.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_schedule_world.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_done and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_schedule_world.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$992 and (not y$1154) are equivalent: They are.
+Processing file:  QF_UF_sdlx_ab_cti_max.smt2
+Starting consistency test
+To check that y$ARW and (not y$10) are equivalent: They are.
+Processing file:  QF_UF_sdlx_ab_fp_max.smt2
+Starting consistency test
+To check that y$ALUInA and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_sdlx_ab_reg_max.smt2
+Starting consistency test
+To check that y$prop0_op and (not y$36) are equivalent: They are.
+Processing file:  QF_UF_seq_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_q and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_sokoban.1.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$3) are equivalent: They are.
+Processing file:  QF_UF_sokoban.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_q and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_sokoban.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$3) are equivalent: They are.
+Processing file:  QF_UF_sokoban.2.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$3) are equivalent: They are.
+Processing file:  QF_UF_sokoban.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$3) are equivalent: They are.
+Processing file:  QF_UF_sokoban.2.prop1_ab_fp_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$3) are equivalent: They are.
+Processing file:  QF_UF_sokoban.3.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$a_q and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_sokoban.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that (not (= y$n7s20 y$b)) and y$143 are equivalent: They are.
+Processing file:  QF_UF_swap_three_ab_br_max.smt2
+Starting consistency test
+To check that y$w$1_op and (Concat_32_20_12 y$a y$n0s12) are equivalent: They are.
+Processing file:  QF_UF_swap_three_ab_cti_max.smt2
+Starting consistency test
+To check that y$2 and (= y$n100s20 y$a) are equivalent: They are.
+Processing file:  QF_UF_swap_two_ab_br_max.smt2
+Starting consistency test
+To check that y$w$1_op and (Concat_32_20_12 y$a y$n0s12) are equivalent: They are.
+Processing file:  QF_UF_swap_two_ab_cti_max.smt2
+Starting consistency test
+To check that y$L7 and (not y$14) are equivalent: They are.
+Processing file:  QF_UF_sw_ball2001_ab_cti_max.smt2
+Starting consistency test
+To check that y$L3 and (not y$6) are equivalent: They are.
+Processing file:  QF_UF_sw_ball2004_1_ab_cti_max.smt2
+Starting consistency test
+To check that y$L1 and (not y$2) are equivalent: They are.
+Processing file:  QF_UF_sw_ball2004_1_ab_reg_max.smt2
+Starting consistency test
+To check that y$L4 and (not y$14) are equivalent: They are.
+Processing file:  QF_UF_sw_ball2004_2_ab_cti_max.smt2
+Starting consistency test
+To check that y$L1 and (not y$2) are equivalent: They are.
+Processing file:  QF_UF_sw_ball2004_2_ab_reg_max.smt2
+Starting consistency test
+To check that y$L6 and (not y$12) are equivalent: They are.
+Processing file:  QF_UF_sw_loop_ab_cti_max.smt2
+Starting consistency test
+To check that y$L4 and (not y$8) are equivalent: They are.
+Processing file:  QF_UF_sw_loop_ab_fp_max.smt2
+Starting consistency test
+To check that y$L1 and (not y$2) are equivalent: They are.
+Processing file:  QF_UF_sw_loop_ab_reg_max.smt2
+Starting consistency test
+To check that y$L6 and (not y$12) are equivalent: They are.
+Processing file:  QF_UF_sw_loop_v_ab_cti_max.smt2
+Starting consistency test
+To check that y$L1 and (not y$2) are equivalent: They are.
+Processing file:  QF_UF_sw_loop_v_ab_reg_max.smt2
+Starting consistency test
+To check that y$L10 and (not y$2) are equivalent: They are.
+Processing file:  QF_UF_sw_state_machine_ab_cti_max.smt2
+Starting consistency test
+To check that y$L10 and (not y$2) are equivalent: They are.
+Processing file:  QF_UF_sw_state_machine_ab_reg_max.smt2
+Starting consistency test
+To check that y$L7 and (not y$14) are equivalent: They are.
+Processing file:  QF_UF_sw_sym_ex_ab_cti_max.smt2
+Starting consistency test
+To check that y$L1 and (not y$2) are equivalent: They are.
+Processing file:  QF_UF_sw_sym_ex_ab_reg_max.smt2
+Starting consistency test
+To check that y$L7 and (not y$14) are equivalent: They are.
+Processing file:  QF_UF_sw_sym_ex_v_ab_cti_max.smt2
+Starting consistency test
+To check that y$L1 and (not y$2) are equivalent: They are.
+Processing file:  QF_UF_sw_sym_ex_v_ab_reg_max.smt2
+Starting consistency test
+To check that y$prop0_op and (not y$42) are equivalent: They are.
+Processing file:  QF_UF_synabs2_ab_cti_max.smt2
+Starting consistency test
+To check that y$2 and (= y$n0s5 y$a) are equivalent: They are.
+Processing file:  QF_UF_synabs2_ab_reg_max.smt2
+Starting consistency test
+To check that y$37 and (not (= y$n2s5 y$a)) are equivalent: They are.
+Processing file:  QF_UF_synabs_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$89) are equivalent: They are.
+Processing file:  QF_UF_synapse.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$89) are equivalent: They are.
+Processing file:  QF_UF_synapse.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_check and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_synapse.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$89) are equivalent: They are.
+Processing file:  QF_UF_synapse.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_check and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_synapse.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$89) are equivalent: They are.
+Processing file:  QF_UF_synapse.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_check and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_synapse.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$129) are equivalent: They are.
+Processing file:  QF_UF_synapse.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_check and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_synapse.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$129) are equivalent: They are.
+Processing file:  QF_UF_synapse.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_check and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_synapse.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$129) are equivalent: They are.
+Processing file:  QF_UF_synapse.7.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_check and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_synapse.7.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$79) are equivalent: They are.
+Processing file:  QF_UF_szymanski.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_szymanski.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$79) are equivalent: They are.
+Processing file:  QF_UF_szymanski.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_szymanski.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$105) are equivalent: They are.
+Processing file:  QF_UF_szymanski.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_szymanski.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_szymanski.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$131) are equivalent: They are.
+Processing file:  QF_UF_szymanski.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_CS_P_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_szymanski.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$57) are equivalent: They are.
+Processing file:  QF_UF_telephony.1.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_busy_User_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_telephony.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$85) are equivalent: They are.
+Processing file:  QF_UF_telephony.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_busy_User_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_telephony.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$85) are equivalent: They are.
+Processing file:  QF_UF_telephony.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_busy_User_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_telephony.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$113) are equivalent: They are.
+Processing file:  QF_UF_telephony.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_busy_User_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_telephony.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$113) are equivalent: They are.
+Processing file:  QF_UF_telephony.5.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_busy_User_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_telephony.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$113) are equivalent: They are.
+Processing file:  QF_UF_telephony.6.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$113) are equivalent: They are.
+Processing file:  QF_UF_telephony.7.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_busy_User_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_telephony.7.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$113) are equivalent: They are.
+Processing file:  QF_UF_telephony.8.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_busy_User_0 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_telephony.8.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_Appr_Train_1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_train-gate.1.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$65) are equivalent: They are.
+Processing file:  QF_UF_train-gate.2.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_Appr_Train_1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_train-gate.2.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$65) are equivalent: They are.
+Processing file:  QF_UF_train-gate.3.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_Appr_Train_1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_train-gate.3.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$85) are equivalent: They are.
+Processing file:  QF_UF_train-gate.4.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_Appr_Train_1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_train-gate.4.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_Appr_Train_1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_train-gate.5.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$a_Appr_Train_1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_train-gate.6.prop1_ab_br_max.smt2
+Starting consistency test
+To check that y$a_Appr_Train_1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_train-gate.6.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$dve_invalid and (not y$105) are equivalent: They are.
+Processing file:  QF_UF_train-gate.7.prop1_ab_cti_max.smt2
+Starting consistency test
+To check that y$a_Appr_Train_1 and (not y$1) are equivalent: They are.
+Processing file:  QF_UF_train-gate.7.prop1_ab_reg_max.smt2
+Starting consistency test
+To check that y$w$1_op and (Concat_32_1_31 y$i_rx_phy.rx_valid y$n0s31) are equivalent: They are.
+Processing file:  QF_UF_usb_phy_ab_cti_max.smt2
+Starting consistency test
+To check that y$2 and (= y$n0s3 y$i_rx_phy.bit_cnt) are equivalent: They are.
+Processing file:  QF_UF_usb_phy_ab_reg_max.smt2
+Starting consistency test
+To check that y$load_B and (not y$13) are equivalent: They are.
+Processing file:  QF_UF_v_DAIO_ab_br_max.smt2
+Starting consistency test
+To check that y$w$6_op and (Concat_32_1_31 y$load_A y$n0s31) are equivalent: They are.
+Processing file:  QF_UF_v_DAIO_ab_cti_max.smt2
+Starting consistency test
+To check that y$load_B and (not y$13) are equivalent: They are.
+Processing file:  QF_UF_v_DAIO_ab_fp_max.smt2
+Starting consistency test
+To check that y$2 and (= y$n0s7 y$bit_count_A) are equivalent: They are.
+Processing file:  QF_UF_v_DAIO_ab_reg_max.smt2
+Starting consistency test
+To check that y$32 and (= y$rb.head y$rb.tail) are equivalent: They are.
+Processing file:  QF_UF_v_FIFO_ab_fp_max.smt2
+Starting consistency test
+To check that y$n6s3 and y$168 are equivalent: They are.
+Processing file:  QF_UF_v_Unidec_ab_br_max.smt2
+Starting consistency test
+To check that y$n0s3 and y$182 are equivalent: They are.
+Processing file:  QF_UF_v_Unidec_ab_cti_max.smt2
+Starting consistency test
+To check that y$n6s3 and y$168 are equivalent: They are.
+Processing file:  QF_UF_v_Unidec_ab_fp_max.smt2
+Starting consistency test
+Processing file:  eq_diamond100.smt2
+Starting consistency test
+Processing file:  eq_diamond10.smt2
+Starting consistency test
+Processing file:  eq_diamond11.smt2
+Starting consistency test
+Processing file:  eq_diamond12.smt2
+Starting consistency test
+Processing file:  eq_diamond13.smt2
+Starting consistency test
+Processing file:  eq_diamond14.smt2
+Starting consistency test
+Processing file:  eq_diamond15.smt2
+Starting consistency test
+Processing file:  eq_diamond16.smt2
+Starting consistency test
+Processing file:  eq_diamond17.smt2
+Starting consistency test
+Processing file:  eq_diamond18.smt2
+Starting consistency test
+Processing file:  eq_diamond19.smt2
+Starting consistency test
+Processing file:  eq_diamond1.smt2
+Starting consistency test
+Processing file:  eq_diamond20.smt2
+Starting consistency test
+Processing file:  eq_diamond21.smt2
+Starting consistency test
+Processing file:  eq_diamond22.smt2
+Starting consistency test
+Processing file:  eq_diamond23.smt2
+Starting consistency test
+Processing file:  eq_diamond24.smt2
+Starting consistency test
+Processing file:  eq_diamond25.smt2
+Starting consistency test
+Processing file:  eq_diamond26.smt2
+Starting consistency test
+Processing file:  eq_diamond27.smt2
+Starting consistency test
+Processing file:  eq_diamond28.smt2
+Starting consistency test
+To check that (and (= x15 z15) (= z15 x16)) and (= y16 x17) are equivalent: They are.
+Processing file:  eq_diamond29.smt2
+Starting consistency test
+Processing file:  eq_diamond2.smt2
+Starting consistency test
+Processing file:  eq_diamond30.smt2
+Starting consistency test
+Processing file:  eq_diamond31.smt2
+Starting consistency test
+Processing file:  eq_diamond32.smt2
+Starting consistency test
+Processing file:  eq_diamond33.smt2
+Starting consistency test
+Processing file:  eq_diamond34.smt2
+Starting consistency test
+Processing file:  eq_diamond35.smt2
+Starting consistency test
+Processing file:  eq_diamond36.smt2
+Starting consistency test
+Processing file:  eq_diamond37.smt2
+Starting consistency test
+Processing file:  eq_diamond38.smt2
+Starting consistency test
+Processing file:  eq_diamond39.smt2
+Starting consistency test
+Processing file:  eq_diamond3.smt2
+Starting consistency test
+Processing file:  eq_diamond40.smt2
+Starting consistency test
+Processing file:  eq_diamond41.smt2
+Starting consistency test
+Processing file:  eq_diamond42.smt2
+Starting consistency test
+Processing file:  eq_diamond43.smt2
+Starting consistency test
+Processing file:  eq_diamond44.smt2
+Starting consistency test
+Processing file:  eq_diamond45.smt2
+Starting consistency test
+Processing file:  eq_diamond46.smt2
+Starting consistency test
+Processing file:  eq_diamond47.smt2
+Starting consistency test
+To check that (and (= x27 z27) (= z27 x28)) and (= x29 z29) are equivalent: They are.
+Processing file:  eq_diamond48.smt2
+Starting consistency test
+Processing file:  eq_diamond49.smt2
+Starting consistency test
+Processing file:  eq_diamond4.smt2
+Starting consistency test
+Processing file:  eq_diamond50.smt2
+Starting consistency test
+Processing file:  eq_diamond51.smt2
+Starting consistency test
+Processing file:  eq_diamond52.smt2
+Starting consistency test
+Processing file:  eq_diamond53.smt2
+Starting consistency test
+Processing file:  eq_diamond54.smt2
+Starting consistency test
+Processing file:  eq_diamond55.smt2
+Starting consistency test
+Processing file:  eq_diamond56.smt2
+Starting consistency test
+Processing file:  eq_diamond57.smt2
+Starting consistency test
+Processing file:  eq_diamond58.smt2
+Starting consistency test
+Processing file:  eq_diamond59.smt2
+Starting consistency test
+Processing file:  eq_diamond5.smt2
+Starting consistency test
+Processing file:  eq_diamond60.smt2
+Starting consistency test
+Processing file:  eq_diamond61.smt2
+Starting consistency test
+Processing file:  eq_diamond62.smt2
+Starting consistency test
+Processing file:  eq_diamond63.smt2
+Starting consistency test
+Processing file:  eq_diamond64.smt2
+Starting consistency test
+Processing file:  eq_diamond65.smt2
+Starting consistency test
+Processing file:  eq_diamond66.smt2
+Starting consistency test
+Processing file:  eq_diamond67.smt2
+Starting consistency test
+Processing file:  eq_diamond68.smt2
+Starting consistency test
+Processing file:  eq_diamond69.smt2
+Starting consistency test
+Processing file:  eq_diamond6.smt2
+Starting consistency test
+Processing file:  eq_diamond70.smt2
+Starting consistency test
+Processing file:  eq_diamond71.smt2
+Starting consistency test
+Processing file:  eq_diamond72.smt2
+Starting consistency test
+Processing file:  eq_diamond73.smt2
+Starting consistency test
+Processing file:  eq_diamond74.smt2
+Starting consistency test
+Processing file:  eq_diamond75.smt2
+Starting consistency test
+Processing file:  eq_diamond76.smt2
+Starting consistency test
+Processing file:  eq_diamond77.smt2
+Starting consistency test
+Processing file:  eq_diamond78.smt2
+Starting consistency test
+Processing file:  eq_diamond79.smt2
+Starting consistency test
+Processing file:  eq_diamond7.smt2
+Starting consistency test
+Processing file:  eq_diamond80.smt2
+Starting consistency test
+Processing file:  eq_diamond81.smt2
+Starting consistency test
+Processing file:  eq_diamond82.smt2
+Starting consistency test
+Processing file:  eq_diamond83.smt2
+Starting consistency test
+Processing file:  eq_diamond84.smt2
+Starting consistency test
+To check that (or (and (= x51 y51) (= y51 x52)) (and (= x51 z51) (= z51 x52))) and (= z52 x53) are equivalent: They are.
+Processing file:  eq_diamond85.smt2
+Starting consistency test
+To check that (and (= x52 y52) (= y52 x53)) and (= x54 z54) are equivalent: They are.
+Processing file:  eq_diamond86.smt2
+Starting consistency test
+Processing file:  eq_diamond87.smt2
+Starting consistency test
+Processing file:  eq_diamond88.smt2
+Starting consistency test
+Processing file:  eq_diamond89.smt2
+Starting consistency test
+Processing file:  eq_diamond8.smt2
+Starting consistency test
+Processing file:  eq_diamond90.smt2
+Starting consistency test
+Processing file:  eq_diamond91.smt2
+Starting consistency test
+Processing file:  eq_diamond92.smt2
+Starting consistency test
+Processing file:  eq_diamond93.smt2
+Starting consistency test
+Processing file:  eq_diamond94.smt2
+Starting consistency test
+Processing file:  eq_diamond95.smt2
+Starting consistency test
+Processing file:  eq_diamond96.smt2
+Starting consistency test
+Processing file:  eq_diamond97.smt2
+Starting consistency test
+Processing file:  eq_diamond98.smt2
+Starting consistency test
+Processing file:  eq_diamond99.smt2
+Starting consistency test
+Processing file:  eq_diamond9.smt2
+Starting consistency test
+Processing file:  NEQ004_size4.smt2
+Starting consistency test
+Processing file:  NEQ004_size5.smt2
+Starting consistency test
+To check that (= (f5 c_2 c_0) c11) and (= (f5 c_4 c_5) c_2) are equivalent: They are.
+Processing file:  NEQ004_size6.smt2
+Starting consistency test
+Processing file:  NEQ004_size7.smt2
+Starting consistency test
+Processing file:  NEQ006_size3.smt2
+Starting consistency test
+To check that (or (not (p2 c_3 c_2)) (p4 c_2 c_3)) and (= (f9 c_0 c_0) (f9 c_0 c_0)) are equivalent: They are.
+Processing file:  NEQ006_size4.smt2
+Starting consistency test
+Processing file:  NEQ006_size5.smt2
+Starting consistency test
+To check that (= (f8 c_2 c_5) (f8 c_2 c_5)) and (= (f8 c_5 c_5) (f8 c_5 c_1)) are equivalent: They are.
+Processing file:  NEQ006_size6.smt2
+Starting consistency test
+Processing file:  NEQ015_size3.smt2
+Starting consistency test
+To check that (p2 (f7 c_2 c_3) (f18 c_3)) and (or (p2 c_0 c_0) (not (p2 (f7 c_0 c_1) (f8 c_0 c_1)))) are equivalent: They are.
+Processing file:  NEQ015_size4.smt2
+Starting consistency test
+To check that (p2 (f7 c_2 c_1) (f8 c_3 c_0)) and (not (p2 (f7 c_2 c_2) (f8 c_4 c_3))) are equivalent: They are.
+Processing file:  NEQ015_size5.smt2
+Starting consistency test
+To check that (p2 (f7 c_2 c_2) (f32 c_4 c_2)) and (p2 c_5 (f8 c_3 c_3)) are equivalent: They are.
+Processing file:  NEQ015_size6.smt2
+Starting consistency test
+Processing file:  NEQ016_size5.smt2
+Starting consistency test
+Processing file:  NEQ016_size6.smt2
+Starting consistency test
+Processing file:  NEQ016_size7.smt2
+Starting consistency test
+Processing file:  NEQ016_size8.smt2
+Starting consistency test
+Processing file:  NEQ023_size4.smt2
+Starting consistency test
+Processing file:  NEQ023_size5.smt2
+Starting consistency test
+Processing file:  NEQ023_size6.smt2
+Starting consistency test
+Processing file:  NEQ023_size7.smt2
+Starting consistency test
+To check that (= (f5 c_6 c_1) c_0) and (not (p18 c_6 c_6 (f1 c_5 c2))) are equivalent: They are.
+Processing file:  NEQ027_size10.smt2
+Starting consistency test
+To check that (= c_4 c_0) and (= c_7 c_5) are equivalent: They are.
+Processing file:  NEQ027_size11.smt2
+Starting consistency test
+Processing file:  NEQ027_size8.smt2
+Starting consistency test
+Processing file:  NEQ027_size9.smt2
+Starting consistency test
+To check that (p19 c_5 c_1) and (not (= (f1 c_4 c_6) c_5)) are equivalent: They are.
+Processing file:  NEQ031_size10.smt2
+Starting consistency test
+Processing file:  NEQ031_size7.smt2
+Starting consistency test
+Processing file:  NEQ031_size8.smt2
+Starting consistency test
+Processing file:  NEQ031_size9.smt2
+Starting consistency test
+Processing file:  NEQ032_size3.smt2
+Starting consistency test
+Processing file:  NEQ032_size4.smt2
+Starting consistency test
+Processing file:  NEQ032_size5.smt2
+Starting consistency test
+Processing file:  NEQ032_size6.smt2
+Starting consistency test
+Processing file:  NEQ033_size3.smt2
+Starting consistency test
+Processing file:  NEQ033_size4.smt2
+Starting consistency test
+To check that (f21 (f21 (f2 c_3) c_0) c_1) and (f16 (f3 c_0 c6)) are equivalent: They are.
+Processing file:  NEQ033_size5.smt2
+Starting consistency test
+Processing file:  NEQ033_size6.smt2
+Starting consistency test
+Processing file:  NEQ041_size6.smt2
+Starting consistency test
+Processing file:  NEQ041_size7.smt2
+Starting consistency test
+To check that (not (p5 c_0 (f3 c_5))) and (p5 c_6 (f2 c_2 c_3)) are equivalent: They are.
+Processing file:  NEQ041_size8.smt2
+Starting consistency test
+Processing file:  NEQ041_size9.smt2
+Starting consistency test
+Processing file:  NEQ046_size3.smt2
+Starting consistency test
+To check that (let ((a!1 (= (f37 c_3 (f7 (f37 c_0 c_2) (f37 c_0 c_3)))
+              (f37 c_0 (f37 c_0 (f7 c_2 c_3))))))
+  (or (not (p45 c_0 c_0 c_3)) a!1 (not (p2 (f7 c_2 c_3) (f18 c_0))))) and (= (f37 c_3 (f7 (f37 c_0 c_3) (f37 c_0 c_1))) (f37 c_0 (f37 c_0 (f7 c_3 c_1)))) are equivalent: They are.
+Processing file:  NEQ046_size4.smt2
+Starting consistency test
+To check that (= (f37 c_3 (f7 (f37 c_2 c_0) (f37 c_2 c_2))) (f37 c_2 (f37 c_0 (f7 c_0 c_2)))) and (= (f37 c_3 (f7 (f37 c_2 c_0) (f37 c_2 c_3))) (f37 c_2 (f37 c_1 (f7 c_0 c_3)))) are equivalent: They are.
+Processing file:  NEQ046_size5.smt2
+Starting consistency test
+To check that (p2 c_1 (f25 c_1 (f25 c_2 (f6 c_2)))) and (p2 (f7 c_1 c_0) (f8 c_1 c_4)) are equivalent: They are.
+Processing file:  NEQ046_size6.smt2
+Starting consistency test
+Processing file:  NEQ048_size6.smt2
+Starting consistency test
+Processing file:  NEQ048_size7.smt2
+Starting consistency test
+Processing file:  NEQ048_size8.smt2
+Starting consistency test
+Processing file:  NEQ048_size9.smt2
+Starting consistency test
+Processing file:  PEQ002_size5.smt2
+Starting consistency test
+Processing file:  PEQ002_size6.smt2
+Starting consistency test
+Processing file:  PEQ002_size7.smt2
+Starting consistency test
+Processing file:  PEQ002_size8.smt2
+Starting consistency test
+To check that (f1 (f1 c_1 (f2 c_0)) (f1 c_4 c_0)) and (f1 (f1 c_1 (f2 c_4)) (f1 c_7 c_4)) are equivalent: They are.
+Processing file:  PEQ003_size10.smt2
+Starting consistency test
+Processing file:  PEQ003_size7.smt2
+Starting consistency test
+Processing file:  PEQ003_size8.smt2
+Starting consistency test
+Processing file:  PEQ003_size9.smt2
+Starting consistency test
+Processing file:  PEQ004_size6.smt2
+Starting consistency test
+To check that (= (f1 c_3 c_0) c2) and (= (f1 c_2 c_3) (f1 c_3 c_0)) are equivalent: They are.
+Processing file:  PEQ004_size7.smt2
+Starting consistency test
+To check that (= (f1 c_1 c_4) c_5) and (= (f1 c_2 c_0) c_2) are equivalent: They are.
+Processing file:  PEQ004_size8.smt2
+Starting consistency test
+To check that (f1 (f1 c_5 c_5) (f1 (f1 c_5 c_0) (f1 c_5 c_0))) and (f1 (f1 c_5 c_7) (f1 c_5 c_0)) are equivalent: They are.
+Processing file:  PEQ004_size9.smt2
+Starting consistency test
+To check that (= (f1 c5 (f4 c_3 c_4)) c_4) and (or (= (f4 c_0 c_4) c_0)
+    (= (f4 c_0 c_4) c_1)
+    (= (f4 c_0 c_4) c_2)
+    (= (f4 c_0 c_4) c_3)
+    (= (f4 c_0 c_4) c_4)) are equivalent: They are.
+Processing file:  PEQ010_size5.smt2
+Starting consistency test
+Processing file:  PEQ010_size6.smt2
+Starting consistency test
+Processing file:  PEQ010_size7.smt2
+Starting consistency test
+Processing file:  PEQ010_size8.smt2
+Starting consistency test
+Processing file:  PEQ011_size5.smt2
+Starting consistency test
+Processing file:  PEQ011_size6.smt2
+Starting consistency test
+Processing file:  PEQ011_size7.smt2
+Starting consistency test
+Processing file:  PEQ011_size8.smt2
+Starting consistency test
+Processing file:  PEQ012_size3.smt2
+Starting consistency test
+Processing file:  PEQ012_size4.smt2
+Starting consistency test
+To check that (f1 c_3 (f1 c_4 c_4)) and (f1 c_4 (f1 c_1 (f1 c_4 c_3))) are equivalent: They are.
+Processing file:  PEQ012_size5.smt2
+Starting consistency test
+To check that (= (f1 c_0 c_0) (f1 c_2 c_0)) and (= (f1 c_2 c_0) (f1 c_2 c_4)) are equivalent: They are.
+Processing file:  PEQ012_size6.smt2
+Starting consistency test
+Processing file:  PEQ013_size5.smt2
+Starting consistency test
+To check that (= (f1 c_5 c_3) (f1 c_5 c_5)) and (= (f1 c_5 c_1) (f1 c_3 c_1)) are equivalent: They are.
+Processing file:  PEQ013_size6.smt2
+Starting consistency test
+To check that (f1 (f3 c_4 c_0) (f3 c_4 c_5)) and (f1 (f3 c_2 c_6) (f3 c_6 c_6)) are equivalent: They are.
+Processing file:  PEQ013_size7.smt2
+Starting consistency test
+To check that (f3 c_2 c_5) and (f3 c_0 (f1 c_3 c_7)) are equivalent: They are.
+Processing file:  PEQ013_size8.smt2
+Starting consistency test
+Processing file:  PEQ014_size10.smt2
+Starting consistency test
+To check that (f1 (f1 c_10 (f1 c2 c_10)) (f1 c_4 c_10)) and (f1 (f1 c_10 (f1 c2 c_2)) (f1 c_10 c_2)) are equivalent: They are.
+Processing file:  PEQ014_size11.smt2
+Starting consistency test
+Processing file:  PEQ014_size8.smt2
+Starting consistency test
+Processing file:  PEQ014_size9.smt2
+Starting consistency test
+Processing file:  PEQ016_size4.smt2
+Starting consistency test
+Processing file:  PEQ016_size5.smt2
+Starting consistency test
+Processing file:  PEQ016_size6.smt2
+Starting consistency test
+To check that (= (f5 c_0 c_4 c_6) (f4 (f5 c_4 c_0 c_6))) and (= (f5 c_1 c_5 c_3) c_5) are equivalent: They are.
+Processing file:  PEQ016_size7.smt2
+Starting consistency test
+Processing file:  PEQ018_size4.smt2
+Starting consistency test
+Processing file:  PEQ018_size5.smt2
+Starting consistency test
+Processing file:  PEQ018_size6.smt2
+Starting consistency test
+Processing file:  PEQ018_size7.smt2
+Starting consistency test
+Processing file:  PEQ019_size4.smt2
+Starting consistency test
+Processing file:  PEQ019_size5.smt2
+Starting consistency test
+Processing file:  PEQ019_size6.smt2
+Starting consistency test
+To check that (= c_5 c_0) and (not (= (f1 c_2 c_2) (f1 c_0 c_2))) are equivalent: They are.
+Processing file:  PEQ019_size7.smt2
+Starting consistency test
+Processing file:  PEQ020_size5.smt2
+Starting consistency test
+Processing file:  PEQ020_size6.smt2
+Starting consistency test
+To check that (f1 (f1 c_2 c_6) c_0) and (f2 (f2 c_3 c_3) c_0) are equivalent: They are.
+Processing file:  PEQ020_size7.smt2
+Starting consistency test
+Processing file:  SEQ004_size5.smt2
+Starting consistency test
+Processing file:  SEQ004_size6.smt2
+Starting consistency test
+Processing file:  SEQ004_size7.smt2
+Starting consistency test
+To check that (= (f2 c_1 c_2) (f2 c_2 c_1)) and (= (f2 c_2 c_0) c_5) are equivalent: They are.
+Processing file:  SEQ005_size6.smt2
+Starting consistency test
+Processing file:  SEQ005_size7.smt2
+Starting consistency test
+Processing file:  SEQ005_size8.smt2
+Starting consistency test
+To check that (f2 c_2 (f2 c_3 c_0)) and (f3 c6) are equivalent: They are.
+Processing file:  SEQ005_size9.smt2
+Starting consistency test
+Processing file:  SEQ009_size10.smt2
+Starting consistency test
+Processing file:  SEQ009_size7.smt2
+Starting consistency test
+Processing file:  SEQ009_size8.smt2
+Starting consistency test
+Processing file:  SEQ009_size9.smt2
+Starting consistency test
+Processing file:  SEQ010_size6.smt2
+Starting consistency test
+Processing file:  SEQ010_size7.smt2
+Starting consistency test
+Processing file:  SEQ010_size8.smt2
+Starting consistency test
+Processing file:  SEQ010_size9.smt2
+Starting consistency test
+Processing file:  SEQ011_size2.smt2
+Starting consistency test
+Processing file:  SEQ011_size3.smt2
+Starting consistency test
+Processing file:  SEQ011_size4.smt2
+Starting consistency test
+Processing file:  SEQ013_size4.smt2
+Starting consistency test
+Processing file:  SEQ013_size5.smt2
+Starting consistency test
+Processing file:  SEQ013_size6.smt2
+Starting consistency test
+Processing file:  SEQ015_size2.smt2
+Starting consistency test
+Processing file:  SEQ015_size3.smt2
+Starting consistency test
+Processing file:  SEQ015_size4.smt2
+Starting consistency test
+Processing file:  SEQ017_size4.smt2
+Starting consistency test
+Processing file:  SEQ017_size5.smt2
+Starting consistency test
+Processing file:  SEQ017_size6.smt2
+Starting consistency test
+Processing file:  SEQ018_size6.smt2
+Starting consistency test
+Processing file:  SEQ018_size7.smt2
+Starting consistency test
+To check that (= (f2 c_2 c_2) c_5) and (= (f2 c_6 c_6) c_2) are equivalent: They are.
+Processing file:  SEQ018_size8.smt2
+Starting consistency test
+Processing file:  SEQ019_size4.smt2
+Starting consistency test
+Processing file:  SEQ019_size5.smt2
+Starting consistency test
+Processing file:  SEQ019_size6.smt2
+Starting consistency test
+Processing file:  SEQ020_size2.smt2
+Starting consistency test
+Processing file:  SEQ020_size3.smt2
+Starting consistency test
+Processing file:  SEQ020_size4.smt2
+Starting consistency test
+Processing file:  SEQ026_size4.smt2
+Starting consistency test
+To check that (f3 (f2 (f1 c_3 c_0)) (f2 (f1 c_3 c_1))) and (f3 (f2 (f1 c_3 c_2)) (f2 (f1 c_3 c_0))) are equivalent: They are.
+Processing file:  SEQ026_size5.smt2
+Starting consistency test
+To check that (f3 c_2 (f3 c_3 c_0)) and (f1 c_3 (f3 c_0 c_2)) are equivalent: They are.
+Processing file:  SEQ026_size6.smt2
+Starting consistency test
+To check that (f1 (f3 c_5 c_2) c_5) and (f1 (f3 c_5 c_6) (f2 c_4)) are equivalent: They are.
+Processing file:  SEQ026_size7.smt2
+Starting consistency test
+Processing file:  SEQ032_size2.smt2
+Starting consistency test
+Processing file:  SEQ032_size3.smt2
+Starting consistency test
+Processing file:  SEQ032_size4.smt2
+Starting consistency test
+Processing file:  SEQ035_size4.smt2
+Starting consistency test
+Processing file:  SEQ035_size5.smt2
+Starting consistency test
+Processing file:  SEQ035_size6.smt2
+Starting consistency test
+Processing file:  SEQ038_size6.smt2
+Starting consistency test
+Processing file:  SEQ038_size7.smt2
+Starting consistency test
+To check that (f2 c_0 c_6) and (f2 c_3 (f2 c_5 c_6)) are equivalent: They are.
+Processing file:  SEQ038_size8.smt2
+Starting consistency test
+Processing file:  SEQ038_size9.smt2
+Starting consistency test
+Processing file:  SEQ042_size2.smt2
+Starting consistency test
+Processing file:  SEQ042_size3.smt2
+Starting consistency test
+Processing file:  SEQ042_size4.smt2
+Starting consistency test
+Processing file:  SEQ050_size2.smt2
+Starting consistency test
+Processing file:  SEQ050_size3.smt2
+Starting consistency test
+Processing file:  SEQ050_size4.smt2
+Starting consistency test
+To check that (f3 f4 f5 f6 f7 (f8 f9)) and f1 are equivalent: They are.
+Processing file:  z3.1184131.smt2
+Starting consistency test
+To check that (f3 f4 f5 f6 f7 (f8 f9)) and f1 are equivalent: They are.
+Processing file:  z3.1184147.smt2
+Starting consistency test
+To check that f1 and (f3 f4 f5 f6 f7 (f8 f9)) are equivalent: They are.
+Processing file:  z3.1184163.smt2
+Number of processed cases:  1061
+There are  0  problems
+rm -rf tests/*.o tests/qf_uf_test

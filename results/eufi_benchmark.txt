@@ -1,0 +1,300 @@
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006744554
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006465669
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006902173
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006637794
+test: 20_10_3_40_100_1000_11
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006380662
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006924192
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.007797602
+test: 20_10_3_40_100_1000_10
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006393011
+test: 20_10_3_40_100_1000_5
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006416981
+test: 20_10_3_40_100_1000_4
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006788405
+test: 20_10_3_40_100_1000_3
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.007134100
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006574863
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.007027306
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.009316622
+test: 20_10_3_40_100_1000_3
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006482012
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006418173
+test: 20_10_3_40_100_1000_4
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.007128569
+test: 20_10_3_40_100_1000_10
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006468652
+test: 20_10_3_40_100_1000_3
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006407241
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006402505
+test: 20_10_3_40_100_1000_5
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006715252
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006622468
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006670040
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006445383
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006485067
+test: 20_10_3_40_100_1000_8
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006398478
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.007468733
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.007145813
+test: 20_10_3_40_100_1000_3
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006432916
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006536501
+test: 20_10_3_40_100_1000_8
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006403094
+test: 20_10_3_40_100_1000_3
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006368487
+test: 20_10_3_40_100_1000_3
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006435786
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006943537
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006738751
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006387931
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006453972
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006438007
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006438810
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006375413
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006546147
+test: 20_10_3_40_100_1000_6
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006594341
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006557184
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006376369
+test: 20_10_3_40_100_1000_9
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006514346
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006396836
+test: 20_10_3_40_100_1000_4
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006797501
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.007494262
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006412443
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006379635
+test: 20_10_3_40_100_1000_4
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006477060
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006567747
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006466217
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006495873
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006612348
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006496444
+test: 20_10_3_40_100_1000_4
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006417307
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.007174450
+test: 20_10_3_40_100_1000_5
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006546053
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006522331
+test: 20_10_3_40_100_1000_3
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006480208
+test: 20_10_3_40_100_1000_7
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006443108
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006513838
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006363982
+test: 20_10_3_40_100_1000_9
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006447528
+test: 20_10_3_40_100_1000_3
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006407663
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.023602463
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006638830
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006489138
+test: 20_10_3_40_100_1000_3
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006990876
+test: 20_10_3_40_100_1000_5
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006730319
+test: 20_10_3_40_100_1000_4
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006410773
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006396104
+test: 20_10_3_40_100_1000_6
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006384006
+test: 20_10_3_40_100_1000_3
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.007185321
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.007126065
+test: 20_10_3_40_100_1000_3
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006406710
+test: 20_10_3_40_100_1000_4
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006475173
+test: 20_10_3_40_100_1000_4
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.007980467
+test: 20_10_3_40_100_1000_5
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006389112
+test: 20_10_3_40_100_1000_0
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006531540
+test: 20_10_3_40_100_1000_6
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006491152
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006671074
+test: 20_10_3_40_100_1000_9
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006959480
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006406959
+test: 20_10_3_40_100_1000_6
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006476566
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006874315
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006434183
+test: 20_10_3_40_100_1000_15
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006658577
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006616633
+test: 20_10_3_40_100_1000_9
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006908213
+test: 20_10_3_40_100_1000_6
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.007055005
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.007370881
+test: 20_10_3_40_100_1000_6
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.007123723
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006397416
+test: 20_10_3_40_100_1000_2
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.007389794
+test: 20_10_3_40_100_1000_1
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006452502
+test: 20_10_3_40_100_1000_3
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006487082
+test: 20_10_3_40_100_1000_17
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006428818
+test: 20_10_3_40_100_1000_12
+Problem @ traversePartA: The formula e is not an QF_IUF.
+.006371373
