@@ -198,3 +198,203 @@ test: 20_10_3_40_100_1000_17
 .008311304
 test: 20_10_3_40_100_1000_12
 .008684274
+test: 20_10_3_40_100_1000_7
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_2
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_9
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_5
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_2
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_6
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_1
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_1
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_6
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_2
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_6
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_11
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_6
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_2
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_5
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_4
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_5
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_1
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_1
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_1
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_7
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_15
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_1
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_3
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_8
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_1
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_4
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_1
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_8
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_2
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_7
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_17
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_1
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_5
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_11
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_3
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_2
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_12
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_4
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_4
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_13
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_9
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_1
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_2
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_4
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_2
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_4
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_8
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_7
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_3
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_5
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_2
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_2
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_9
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_1
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_1
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_1
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_1
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_2
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_3
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_1
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_4
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_5
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_12
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_3
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_4
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_9
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_0
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_1
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_2
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_3
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_7
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_5
+sh: line 1: ../../bin/precision-time: No such file or directory
+test: 20_10_3_40_100_1000_6
+sh: line 1: ../../bin/precision-time: No such file or directory

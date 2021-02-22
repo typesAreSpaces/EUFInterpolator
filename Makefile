@@ -1,28 +1,13 @@
-UNAME = $(shell uname)
-WHO = $(shell whoami)
-ifeq ($(UNAME), Linux)
-	ifeq ($(WHO), jose.castellanosjoo)
-	Z3DIR = /nfs/student/j/jose.castellanosjoo/Documents/GitProjects/z3__
-	endif
-	ifeq ($(WHO), jose)
-	Z3DIR = /home/jose/Documents/GithubProjects/z3__
-	endif
-Z3EXT = so
-endif
-ifeq ($(UNAME), Darwin)
-Z3DIR = /Users/joseabelcastellanosjoo/Documents/Applications/z3__
-Z3EXT = dylib
-endif
-
 IDIR = ./include
 ODIR = ./obj
 SDIR = ./src
+LDIR = ./lib
 CC = g++
-#FLAGS = -I$(SDIR) -I$(IDIR) -std=c++11 -Wall
-FLAGS = -I$(SDIR) -I$(IDIR) -std=c++11 -Wall -O3
+FLAGS = -I$(SDIR) -I$(IDIR) -std=c++11 -Wall
+#FLAGS = -I$(SDIR) -I$(IDIR) -std=c++11 -Wall -O3
 
 SRC = $(wildcard $(SDIR)/*.cpp)
-OBJS = $(patsubst $(SDIR)/%.cpp, $(ODIR)/%.o, $(SRC)) $(Z3DIR)/build/libz3.$(Z3EXT) 
+OBJS = $(patsubst $(SDIR)/%.cpp, $(ODIR)/%.o, $(SRC)) $(LDIR)/libz3.so
 DEPS = $(wildcard $(IDIR)/*.h)
 
 #all: bin/eufi
@@ -71,7 +56,7 @@ tester: $(OBJS)
 .PHONY: tester_with_threads
 tester_with_threads: $(OBJS)
 	$(CC) -g -o $(param1) ./$(param1).cpp \
-		$(Z3DIR)/build/libz3.$(Z3EXT) \
+		$(LDIR)/libz3.so \
 		-lpthread -pthread $(FLAGS) 
 	./$(param1)
 	rm -rf $(param1)
