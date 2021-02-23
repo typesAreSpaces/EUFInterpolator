@@ -8,7 +8,6 @@
 
 struct Explanation 
 {
-
   z3::expr_vector    result;
   std::set<unsigned> current_ids;
 

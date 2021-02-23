@@ -13,7 +13,7 @@ class CongruenceClosure {
   friend class Hornsat;
 
 protected:
-  const Z3Subterms & subterms;
+  Z3Subterms const & subterms;
   UnionFindExplain & ufe;
   SignatureTable     sig_table;
 
