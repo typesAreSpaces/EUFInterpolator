@@ -13,7 +13,7 @@ typedef std::vector<std::list<EqClass> > PredList;
 class UnionFind {
 
   protected:
-    std::vector<EqClass> representative;
+    std::vector<EqClass>  representative;
     std::vector<unsigned> rank;
     unsigned              size;
 
