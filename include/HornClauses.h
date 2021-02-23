@@ -40,29 +40,15 @@ class HornClauses {
   class iterator {
     UnOrdMapHornClauses::iterator it;
     public:
-      iterator(UnOrdMapHornClauses::iterator it) : 
-        it(it) {}
-      bool operator ==(iterator const & other){
-        return it == other.it;
-      }
-      bool operator !=(iterator const & other){
-        return it != other.it;
-      }
-      iterator & operator ++(){
-        ++it;
-        return *this;
-      }
-      HornClause const * operator *() const {
-        return it->second;
-      }
+      iterator(UnOrdMapHornClauses::iterator);
+      bool operator ==(iterator const &);
+      bool operator !=(iterator const &);
+      iterator & operator ++();
+      HornClause const * operator *() const;
   };
 
-  iterator begin() {
-    return iterator(this->horn_clauses.begin());
-  }
-  iterator end() {
-    return iterator(this->horn_clauses.end());
-  }
+  iterator begin();
+  iterator end();
 
   unsigned                       size() const;
   HornClause *                   operator[] (unsigned) const; 

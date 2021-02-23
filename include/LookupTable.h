@@ -16,9 +16,7 @@ class LookupTable {
   std::size_t hash_combine(EqClass, EqClass);
   
   void enter(EqClass , EqClass, EquationCurryNodes const *);
-  
   void erase(EqClass, EqClass);
-  
   const EquationCurryNodes * query(EqClass, EqClass);
   
   friend std::ostream & operator << (std::ostream &, LookupTable const &);

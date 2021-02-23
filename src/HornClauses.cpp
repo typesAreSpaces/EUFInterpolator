@@ -1,5 +1,27 @@
 #include "HornClauses.h"
 
+HornClauses::iterator::iterator(UnOrdMapHornClauses::iterator it):
+  it(it)
+{
+}
+
+bool HornClauses::iterator::operator == (HornClauses::iterator const & other){
+  return it == other.it;
+}
+
+bool HornClauses::iterator::operator != (HornClauses::iterator const & other){
+  return it != other.it;
+}
+
+HornClauses::iterator & HornClauses::iterator::operator++(){
+  ++it;
+  return *this;
+}
+
+HornClause const * HornClauses::iterator::operator * () const {
+  return it->second;
+}
+
 HornClauses::HornClauses(z3::context & ctx, UnionFindExplain & ufe, unsigned num_terms) : 
   ufe(ufe), curr_num_horn_clauses(0), max_lit_id(num_terms),
   hash_consed_hcs(ctx),
@@ -124,6 +146,14 @@ void HornClauses::add(HornClause * hc){
     default: 
       throw "Problem @ HornClauses::add. The consequent of HornClause * hc is neither an equation nor a false constant";
   }
+}
+
+HornClauses::iterator HornClauses::begin(){
+  return iterator(this->horn_clauses.begin());
+}
+
+HornClauses::iterator HornClauses::end() {
+  return iterator(this->horn_clauses.end());
 }
 
 unsigned HornClauses::size() const { return horn_clauses.size(); }
