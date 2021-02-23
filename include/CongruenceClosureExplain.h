@@ -8,52 +8,9 @@
 #define DEBUG_CONSTRUCT_CCE 0
 
 #include "CongruenceClosure.h"
-#include "FactoryCurryNodes.h"
+#include "LookupTable.h"
 
-typedef unsigned long long ull;
-
-class LookupTable {
-  std::unordered_map<std::size_t, const EquationCurryNodes*> sig_table;
-  //std::hash<EqClass> EqClass_hasher;
-
-  public:
-  LookupTable() {}
-  ~LookupTable(){
-#if DEBUG_DESTRUCTORS_CC
-    std::cout << "Done ~LookupTable" << std::endl;
-#endif
-  }
-  //std::size_t hash_combine(EqClass a1, EqClass a2){
-    //std::size_t seed = EqClass_hasher(a1);
-    //seed ^= EqClass_hasher(a2) + 0x9e3779b9 + (seed << 6) + (seed >> 2);
-    //return seed;
-  //}
-  std::size_t hash_combine(EqClass a1, EqClass a2){
-    return std::hash<ull>()(((ull) a1) ^ (((ull) a2) << 32));
-  }
-  void enter(EqClass a1, EqClass a2, const EquationCurryNodes * ecn){
-    auto index = hash_combine(a1, a2);
-    sig_table[index] = ecn;
-    return;
-  }
-  void erase(EqClass a1, EqClass a2){
-    sig_table.erase(hash_combine(a1, a2));
-  }
-  const EquationCurryNodes * query(EqClass a1, EqClass a2){
-    auto r = sig_table.find(hash_combine(a1, a2));
-    if(r == sig_table.end())
-      return nullptr;
-    return r->second;
-  }
-  friend std::ostream & operator << (std::ostream & os, const LookupTable & lt){
-    for(auto x : lt.sig_table)
-      os << *(x.second) << std::endl;
-    os << "Size of lookup table: " << lt.sig_table.size();
-    return os;
-  }
-};
-
-typedef std::vector<std::list<const EquationCurryNodes *> > UseList;
+typedef std::vector<std::list<EquationCurryNodes const *> > UseList;
 
 class Hornsat;
 
@@ -70,7 +27,7 @@ class CongruenceClosureExplain : public CongruenceClosure {
   LookupTable lookup_table;
   UseList     use_list;
 
-  void pushPending(PendingPointers &, const PendingElement &);
+  void pushPending(PendingPointers &, PendingElement const &);
   void merge();
   void merge(EquationCurryNodes const &);
   void propagate();
@@ -101,9 +58,9 @@ class CongruenceClosureExplain : public CongruenceClosure {
   std::ostream &  giveExplanation(std::ostream &, z3::expr const &, z3::expr const &);
 
   z3::expr_vector z3Explain(z3::expr const &, z3::expr const &);
-  std::ostream &  z3Explanation(std::ostream &, const z3::expr &, const z3::expr &);
+  std::ostream &  z3Explanation(std::ostream &, z3::expr const &, z3::expr const &);
 
-  friend std::ostream & operator << (std::ostream &, const CongruenceClosureExplain &);
+  friend std::ostream & operator << (std::ostream &, CongruenceClosureExplain const &);
 };
 
 #endif
