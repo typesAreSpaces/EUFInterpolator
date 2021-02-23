@@ -10,6 +10,8 @@
 #include "CongruenceClosure.h"
 #include "FactoryCurryNodes.h"
 
+typedef unsigned long long ull;
+
 class LookupTable {
   std::unordered_map<std::size_t, const EquationCurryNodes*> sig_table;
   //std::hash<EqClass> EqClass_hasher;
@@ -27,7 +29,7 @@ class LookupTable {
     //return seed;
   //}
   std::size_t hash_combine(EqClass a1, EqClass a2){
-    return std::hash<unsigned long long>()(((unsigned long long) a1) ^ (((unsigned long long) a2) << 32));
+    return std::hash<ull>()(((ull) a1) ^ (((ull) a2) << 32));
   }
   void enter(EqClass a1, EqClass a2, const EquationCurryNodes * ecn){
     auto index = hash_combine(a1, a2);
