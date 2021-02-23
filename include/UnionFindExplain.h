@@ -11,7 +11,7 @@
 
 struct ExplainEquation {
   EqClass source, target;
-  
+
   ExplainEquation(EqClass source, EqClass target) :
     source(source), target(target) {}
 
@@ -22,9 +22,9 @@ struct ExplainEquation {
 };
 
 typedef std::list<ExplainEquation> ExplainEquations;
- 
+
 class UnionFindExplain :  public UnionFind {
-  
+
   std::vector<EqClass>                proof_forest;
   std::vector<const PendingElement *> labels;
 
@@ -32,8 +32,8 @@ class UnionFindExplain :  public UnionFind {
   unsigned depth(EqClass);
   EqClass  commonAncestorHelper(EqClass, EqClass, unsigned);
   void     explainAlongPath(EqClass, EqClass, ExplainEquations &);
-  
-public:
+
+  public:
   UnionFindExplain();
   UnionFindExplain(unsigned);
   UnionFindExplain(const UnionFindExplain &);
