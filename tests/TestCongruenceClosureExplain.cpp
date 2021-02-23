@@ -1,12 +1,14 @@
 #include "TestCongruenceClosureExplain.h"
-#include <z3++.h>
+#include "z3++.h"
 
-TestCongruenceClosureExplain::TestCongruenceClosureExplain(z3::expr_vector const & assertions) :
+TestCongruenceClosureExplain::TestCongruenceClosureExplain(
+    z3::expr_vector const & assertions) :
   input(assertions)
 { 
 }
 
-bool TestCongruenceClosureExplain::testConsistency(z3::expr_vector const & e, 
+bool TestCongruenceClosureExplain::testConsistency(
+    z3::expr_vector const & e, 
     unsigned max_iter){
   z3::solver s(input.ctx);
   for(auto const & assertion : e)

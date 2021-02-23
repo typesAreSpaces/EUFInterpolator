@@ -1,5 +1,4 @@
 #include "Hornsat.h"
-#include <z3++.h>
 
 unsigned Literal::curr_num_literals = 0;
 

@@ -4,7 +4,7 @@
 #define IsMember(set, elem) set.find(elem) != set.end()
 
 #include <set>
-#include <z3++.h>
+#include "z3++.h"
 
 struct Explanation 
 {

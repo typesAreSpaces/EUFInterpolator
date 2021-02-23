@@ -11,6 +11,7 @@ OBJS=$(patsubst $(SDIR)/%.cpp, $(ODIR)/%.o, $(SRC)) $(LDIR)/libz3.so
 DEPS=$(wildcard $(IDIR)/*.h)
 
 all: bin/eufi
+#all: bin/eufiz3
 #all: tests/cong_closure_expl_test
 #all: tests/current_progress
 #all: tests/parametric_example
@@ -27,14 +28,17 @@ $(ODIR)/%.o: $(SDIR)/%.cpp $(DEPS)
 
 #  Binaries
 
-bin/eufiz3: $(OBJS) ./tests/eufiz3.cpp
+bin_dir:
+	@mkdir -p ./bin
+
+bin/eufiz3: $(OBJS) ./tests/eufiz3.cpp bin_dir
 	$(CC) -g -c -o ./tests/eufiz3.o ./tests/eufiz3.cpp \
 		$(FLAGS) $(LDIR)/libz3.so
 	$(CC) -g -o ./$@ $(OBJS) ./tests/eufiz3.o \
 		$(FLAGS) -lpthread $(LDIR)/libz3.so
 	rm -rf tests/*.o
 
-bin/eufi: $(OBJS) ./tests/eufi.cpp
+bin/eufi: $(OBJS) ./tests/eufi.cpp bin_dir
 	$(CC) -g -c -o ./tests/eufi.o ./tests/eufi.cpp \
 		$(FLAGS)
 	$(CC) -g -o ./$@ $(OBJS) ./tests/eufi.o \

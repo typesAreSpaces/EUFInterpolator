@@ -4,7 +4,7 @@
 
 #include <algorithm>
 #include <list>
-#include <z3++.h>
+#include "z3++.h"
 #include "UnionFindExplain.h"
 #include "CongruenceClosureExplain.h"
 #include "Z3Subterms.h"

@@ -13,7 +13,6 @@
 #include "Input.h"
 #include "Explanation.h"
 #include "Debugging.h"
-#include <z3++.h>
 
 typedef unsigned Z3Index ;
 

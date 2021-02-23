@@ -1,7 +1,7 @@
 #include <iostream>
-#include <z3++.h>
-#include <z3.h>
-#include <z3_interp.h>
+#include "z3++.h"
+#include "z3.h"
+#include "z3_interp.h"
 
 int main(int argc, char ** argv){
 

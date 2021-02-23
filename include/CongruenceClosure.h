@@ -6,7 +6,6 @@
 #include <unordered_map>
 #include <list>
 #include <utility>
-#include <z3++.h>
 #include "Z3Subterms.h"
 #include "UnionFindExplain.h"
 

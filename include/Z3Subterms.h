@@ -2,7 +2,7 @@
 #define _Z3_SUBTERMS_
 
 #include <vector>
-#include <z3++.h>
+#include "z3++.h"
 
 struct Z3Subterms {
   z3::expr_vector subterms;

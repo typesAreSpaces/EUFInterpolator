@@ -8,7 +8,7 @@
 #include <vector>
 #include <list>
 #include <unordered_map>
-#include <z3++.h>
+#include "z3++.h"
 
 template <class T>
 inline void hash_combine(std::size_t & seed, const T & v, const std::hash<T> & hasher){

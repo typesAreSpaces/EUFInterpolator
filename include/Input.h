@@ -2,7 +2,6 @@
 #define _INPUT_
 
 #include <map>
-#include <z3++.h>
 #include "Hornsat.h"
 #include "CongruenceClosureExplain.h"
 #include "CurryNode.h"

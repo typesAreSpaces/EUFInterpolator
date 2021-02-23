@@ -1,6 +1,5 @@
 #include <iostream>
 #include <algorithm>
-#include <z3++.h>
 #include "Rename.h"
 #include "EUFInterpolantWithExpressions.h"
 

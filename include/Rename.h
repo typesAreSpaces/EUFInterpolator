@@ -3,10 +3,10 @@
 #define DEBUG_RENAME 0
 
 #include <string>
-#include <z3++.h>
 #include <set>
 #include <vector>
 #include <utility>
+#include "z3++.h"
 
 struct Rename {
   std::vector<bool> visited;

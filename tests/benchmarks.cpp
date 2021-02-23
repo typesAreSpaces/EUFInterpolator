@@ -1,13 +1,13 @@
 #include <algorithm>
 #include <iostream>
 #include <fstream>
-#include <z3++.h>
 #include <set>
 #include <vector>
 #include <list>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h> 
+#include "z3++.h"
 #define DEBUG 0
 #define IZ3_PREFIX     "iz3_instance_"
 #define MATHSAT_PREFIX "mathsat_instance_"

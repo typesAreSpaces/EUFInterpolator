@@ -4,7 +4,6 @@
 
 #include <iostream>
 #include <unordered_map>
-#include <z3++.h>
 #include "Z3Subterms.h"
 #include "CurryNode.h"
 

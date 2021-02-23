@@ -1,5 +1,4 @@
 #include "HornClauses.h"
-#include <z3++.h>
 
 HornClauses::HornClauses(z3::context & ctx, UnionFindExplain & ufe, unsigned num_terms) : 
   ufe(ufe), curr_num_horn_clauses(0), max_lit_id(num_terms),
