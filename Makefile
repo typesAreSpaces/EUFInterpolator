@@ -1,20 +1,20 @@
-IDIR = ./include
-ODIR = ./obj
-SDIR = ./src
-LDIR = ./lib
-CC = g++
-FLAGS = -I$(SDIR) -I$(IDIR) -std=c++11 -Wall
-#FLAGS = -I$(SDIR) -I$(IDIR) -std=c++11 -Wall -O3
+IDIR=./include
+ODIR=./obj
+SDIR=./src
+LDIR=./lib
+CC=g++
+FLAGS=-I$(SDIR) -I$(IDIR) -std=c++11 -Wall
+#FLAGS=-I$(SDIR) -I$(IDIR) -std=c++11 -Wall -O3
 
-SRC = $(wildcard $(SDIR)/*.cpp)
-OBJS = $(patsubst $(SDIR)/%.cpp, $(ODIR)/%.o, $(SRC)) $(LDIR)/libz3.so
-DEPS = $(wildcard $(IDIR)/*.h)
+SRC=$(wildcard $(SDIR)/*.cpp)
+OBJS=$(patsubst $(SDIR)/%.cpp, $(ODIR)/%.o, $(SRC)) $(LDIR)/libz3.so
+DEPS=$(wildcard $(IDIR)/*.h)
 
-#all: bin/eufi
+all: bin/eufi
 #all: tests/cong_closure_expl_test
 #all: tests/current_progress
 #all: tests/parametric_example
-all: tests/benchmarks
+#all: tests/benchmarks
 #all: valgrind_run
 
 # --------------------------------
@@ -29,9 +29,9 @@ $(ODIR)/%.o: $(SDIR)/%.cpp $(DEPS)
 
 bin/eufiz3: $(OBJS) ./tests/eufiz3.cpp
 	$(CC) -g -c -o ./tests/eufiz3.o ./tests/eufiz3.cpp \
-		$(FLAGS) /home/jose/Documents/GithubProjects/z3-interp-plus/build/libz3.so
+		$(FLAGS) $(LDIR)/libz3.so
 	$(CC) -g -o ./$@ $(OBJS) ./tests/eufiz3.o \
-		$(FLAGS) -lpthread /home/jose/Documents/GithubProjects/z3-interp-plus/build/libz3.so
+		$(FLAGS) -lpthread $(LDIR)/libz3.so
 	rm -rf tests/*.o
 
 bin/eufi: $(OBJS) ./tests/eufi.cpp
@@ -121,3 +121,4 @@ notes:
 .PHONY: clean
 clean:
 	rm -rf $(ODIR)/* 
+	rm -rf ./bin/* 
