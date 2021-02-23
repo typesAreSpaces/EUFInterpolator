@@ -7,7 +7,6 @@
 #define DEBUG_TEST_EXPLAIN  0
 #define DEBUG_CONSTRUCT_CCE 0
 
-#include "CongruenceClosure.h"
 #include "LookupTable.h"
 
 typedef std::vector<std::list<EquationCurryNodes const *> > UseList;
