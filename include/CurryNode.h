@@ -43,7 +43,7 @@ class CurryNode {
   const unsigned getZ3Id()    const;
   const unsigned getConstId() const;
   const bool     isCommon()   const;
-  std::size_t hash();
+  std::size_t    hash();
 
   friend std::ostream & operator << (std::ostream &, const CurryNode &);
 };

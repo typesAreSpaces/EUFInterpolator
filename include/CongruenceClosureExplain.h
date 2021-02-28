@@ -48,9 +48,9 @@ class CongruenceClosureExplain : public CongruenceClosure {
   bool areSameClass(UnionFind::EqClass, UnionFind::EqClass);
   bool areSameClass(z3::expr const &, z3::expr const &);
 
-  UnionFind::EqClass  constantId(UnionFind::EqClass);
-  UnionFind::EqClass  find(UnionFind::EqClass);
-  z3::expr z3Repr(z3::expr const &);
+  UnionFind::EqClass constantId(UnionFind::EqClass);
+  UnionFind::EqClass find(UnionFind::EqClass);
+  z3::expr           z3Repr(z3::expr const &);
 
   void merge(UnionFind::EqClass, UnionFind::EqClass);
   void merge(z3::expr const &, z3::expr const &);
