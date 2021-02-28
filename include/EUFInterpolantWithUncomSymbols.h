@@ -7,9 +7,8 @@
 class EUFInterpolantWithUncomSymbols: public RenameWithUncomSymbols, public EUFInterpolant {
 
   public:
-  EUFInterpolantWithUncomSymbols(z3::expr_vector const &, std::set<std::string> const &);
-  ~EUFInterpolantWithUncomSymbols();
-
+    EUFInterpolantWithUncomSymbols(z3::expr_vector const &, std::set<std::string> const &);
+    ~EUFInterpolantWithUncomSymbols();
 };
 
 #endif
