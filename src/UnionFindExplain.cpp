@@ -92,7 +92,7 @@ EqClass UnionFindExplain::parentProofForest(EqClass x){
   return proof_forest[x];
 }
 
-ExplainEquations UnionFindExplain::explain(EqClass x, EqClass y){
+UnionFindExplain::ExplainEquations UnionFindExplain::explain(EqClass x, EqClass y){
   ExplainEquations explanations;
   EqClass common_ancestor_x_y;
   try {

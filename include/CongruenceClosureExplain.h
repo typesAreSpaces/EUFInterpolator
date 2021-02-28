@@ -35,7 +35,7 @@ class CongruenceClosureExplain : public CongruenceClosure {
   EqClass         highestNode(EqClass, UnionFind &);
   EqClass         nearestCommonAncestor(EqClass, EqClass, UnionFind &);
   PendingPointers explain(EqClass, EqClass);
-  void            explainAlongPath(EqClass, EqClass, UnionFind &, ExplainEquations &, PendingPointers &);
+  void            explainAlongPath(EqClass, EqClass, UnionFind &, UnionFindExplain::ExplainEquations &, PendingPointers &);
   std::ostream &  giveExplanation(std::ostream &, EqClass, EqClass);
 
   public:

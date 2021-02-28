@@ -290,7 +290,7 @@ PendingPointers CongruenceClosureExplain::explain(EqClass x, EqClass y){
   if(ufe.find(x) != ufe.find(y))
     return ans; 
   UnionFind local_uf(ufe.getSize());
-  ExplainEquations pending_proofs;
+  UnionFindExplain::ExplainEquations pending_proofs;
 
   pending_proofs.emplace_back(x, y);
   while(!pending_proofs.empty()){
@@ -310,7 +310,7 @@ PendingPointers CongruenceClosureExplain::explain(EqClass x, EqClass y){
 }
 
 void CongruenceClosureExplain::explainAlongPath(EqClass a, EqClass c, 
-    UnionFind & uf_extra, ExplainEquations & pending_proofs, PendingPointers & ans){
+    UnionFind & uf_extra, UnionFindExplain::ExplainEquations & pending_proofs, PendingPointers & ans){
   a = highestNode(a, uf_extra);
   while(a != c){
     auto b = ufe.parentProofForest(a);

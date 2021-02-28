@@ -9,47 +9,50 @@
 #include "UnionFind.h"
 #include "CurryNode.h"
 
-struct ExplainEquation {
-  EqClass source, target;
-
-  ExplainEquation(EqClass source, EqClass target) :
-    source(source), target(target) {}
-
-  friend std::ostream & operator << (std::ostream & os, const ExplainEquation & eq){
-    os << eq.source << " := " << eq.target;
-    return os;
-  }
-};
-
-typedef std::list<ExplainEquation> ExplainEquations;
-
 class UnionFindExplain :  public UnionFind {
+  public:
+    class ExplainEquation {
+      EqClass source, target;
 
-  std::vector<EqClass>                proof_forest;
-  std::vector<const PendingElement *> labels;
+      //ExplainEquation(EqClass source, EqClass target) : 
+        //source(source), target(target) { }
+      public:
+      ExplainEquation(EqClass, EqClass);
 
-  void     unionReverseEdges(EqClass, EqClass);
-  unsigned depth(EqClass);
-  EqClass  commonAncestorHelper(EqClass, EqClass, unsigned);
-  void     explainAlongPath(EqClass, EqClass, ExplainEquations &);
+      friend std::ostream & operator << (std::ostream & os, const ExplainEquation & eq){
+        return os << eq.source << " := " << eq.target;
+      }
+    };
 
   public:
-  UnionFindExplain();
-  UnionFindExplain(unsigned);
-  UnionFindExplain(const UnionFindExplain &);
-  ~UnionFindExplain();
+    typedef std::list<ExplainEquation> ExplainEquations;
 
-  EqClass          parentProofForest(EqClass);
-  ExplainEquations explain(EqClass, EqClass);
-  void             combine(EqClass, EqClass, const PendingElement * = nullptr);
-  void             merge(EqClass, EqClass, const PendingElement * = nullptr);
-  EqClass          commonAncestor(EqClass, EqClass);
+  private:
+    std::vector<EqClass>                proof_forest;
+    std::vector<const PendingElement *> labels;
 
-  std::ostream & giveExplanation(std::ostream &, EqClass, EqClass);
-  void           resize(unsigned);
-  const PendingElement * getLabel(EqClass);
+    void     unionReverseEdges(EqClass, EqClass);
+    unsigned depth(EqClass);
+    EqClass  commonAncestorHelper(EqClass, EqClass, unsigned);
+    void     explainAlongPath(EqClass, EqClass, ExplainEquations &);
 
-  friend std::ostream & operator << (std::ostream &, UnionFindExplain &);
+  public:
+    UnionFindExplain();
+    UnionFindExplain(unsigned);
+    UnionFindExplain(const UnionFindExplain &);
+    ~UnionFindExplain();
+
+    EqClass          parentProofForest(EqClass);
+    ExplainEquations explain(EqClass, EqClass);
+    void             combine(EqClass, EqClass, const PendingElement * = nullptr);
+    void             merge(EqClass, EqClass, const PendingElement * = nullptr);
+    EqClass          commonAncestor(EqClass, EqClass);
+
+    std::ostream & giveExplanation(std::ostream &, EqClass, EqClass);
+    void           resize(unsigned);
+    const PendingElement * getLabel(EqClass);
+
+    friend std::ostream & operator << (std::ostream &, UnionFindExplain &);
 };
 
 #endif

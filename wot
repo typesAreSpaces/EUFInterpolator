@@ -1,0 +1,201 @@
+let SessionLoad = 1
+let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
+let v:this_session=expand("<sfile>:p")
+silent only
+cd ~/Documents/GithubProjects/EUFInterpolator
+if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
+  let s:wipebuf = bufnr('%')
+endif
+set shortmess=aoO
+badd +56 include/UnionFind.h
+badd +36 src/UnionFind.cpp
+badd +1 include/UnionFindExplain.h
+badd +95 src/UnionFindExplain.cpp
+badd +7 UnionFindExplain-ExplainEquation.cpp
+badd +38 include/CongruenceClosureExplain.h
+badd +8 src/CongruenceClosureExplain.cpp
+badd +0 src/UnionFindExplain-ExplainEquation.cpp
+argglobal
+%argdel
+edit include/UnionFindExplain.h
+set splitbelow splitright
+wincmd _ | wincmd |
+vsplit
+wincmd _ | wincmd |
+vsplit
+wincmd _ | wincmd |
+vsplit
+wincmd _ | wincmd |
+vsplit
+4wincmd h
+wincmd _ | wincmd |
+split
+wincmd _ | wincmd |
+split
+2wincmd k
+wincmd w
+wincmd w
+wincmd w
+wincmd w
+wincmd w
+wincmd w
+set nosplitbelow
+set nosplitright
+wincmd t
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
+exe '1resize ' . ((&lines * 22 + 23) / 47)
+exe 'vert 1resize ' . ((&columns * 57 + 144) / 288)
+exe '2resize ' . ((&lines * 4 + 23) / 47)
+exe 'vert 2resize ' . ((&columns * 57 + 144) / 288)
+exe '3resize ' . ((&lines * 17 + 23) / 47)
+exe 'vert 3resize ' . ((&columns * 57 + 144) / 288)
+exe 'vert 4resize ' . ((&columns * 57 + 144) / 288)
+exe 'vert 5resize ' . ((&columns * 57 + 144) / 288)
+exe 'vert 6resize ' . ((&columns * 57 + 144) / 288)
+exe 'vert 7resize ' . ((&columns * 56 + 144) / 288)
+argglobal
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let s:l = 12 - ((4 * winheight(0) + 11) / 22)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+12
+normal! 011|
+wincmd w
+argglobal
+enew
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+wincmd w
+argglobal
+if bufexists("include/UnionFindExplain.h") | buffer include/UnionFindExplain.h | else | edit include/UnionFindExplain.h | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let s:l = 56 - ((8 * winheight(0) + 8) / 17)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+56
+normal! 0
+wincmd w
+argglobal
+if bufexists("src/UnionFindExplain.cpp") | buffer src/UnionFindExplain.cpp | else | edit src/UnionFindExplain.cpp | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let s:l = 95 - ((16 * winheight(0) + 22) / 45)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+95
+normal! 016|
+wincmd w
+argglobal
+if bufexists("include/CongruenceClosureExplain.h") | buffer include/CongruenceClosureExplain.h | else | edit include/CongruenceClosureExplain.h | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let s:l = 38 - ((25 * winheight(0) + 22) / 45)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+38
+normal! 092|
+wincmd w
+argglobal
+if bufexists("src/CongruenceClosureExplain.cpp") | buffer src/CongruenceClosureExplain.cpp | else | edit src/CongruenceClosureExplain.cpp | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let s:l = 8 - ((7 * winheight(0) + 22) / 45)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+8
+normal! 0
+wincmd w
+argglobal
+if bufexists("src/UnionFindExplain-ExplainEquation.cpp") | buffer src/UnionFindExplain-ExplainEquation.cpp | else | edit src/UnionFindExplain-ExplainEquation.cpp | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let s:l = 7 - ((6 * winheight(0) + 22) / 45)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+7
+normal! 019|
+wincmd w
+7wincmd w
+exe '1resize ' . ((&lines * 22 + 23) / 47)
+exe 'vert 1resize ' . ((&columns * 57 + 144) / 288)
+exe '2resize ' . ((&lines * 4 + 23) / 47)
+exe 'vert 2resize ' . ((&columns * 57 + 144) / 288)
+exe '3resize ' . ((&lines * 17 + 23) / 47)
+exe 'vert 3resize ' . ((&columns * 57 + 144) / 288)
+exe 'vert 4resize ' . ((&columns * 57 + 144) / 288)
+exe 'vert 5resize ' . ((&columns * 57 + 144) / 288)
+exe 'vert 6resize ' . ((&columns * 57 + 144) / 288)
+exe 'vert 7resize ' . ((&columns * 56 + 144) / 288)
+tabnext 1
+if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
+  silent exe 'bwipe ' . s:wipebuf
+endif
+unlet! s:wipebuf
+set winheight=1 winwidth=20 winminheight=1 winminwidth=1 shortmess=filnxtToOFIc
+let s:sx = expand("<sfile>:p:r")."x.vim"
+if file_readable(s:sx)
+  exe "source " . fnameescape(s:sx)
+endif
+let &so = s:so_save | let &siso = s:siso_save
+doautoall SessionLoadPost
+unlet SessionLoad
+" vim: set ft=vim :
