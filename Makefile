@@ -10,10 +10,10 @@ SRC=$(wildcard $(SDIR)/*.cpp)
 OBJS=$(patsubst $(SDIR)/%.cpp, $(ODIR)/%.o, $(SRC)) $(LDIR)/libz3.so
 DEPS=$(wildcard $(IDIR)/*.h)
 
-all: bin/eufi
+#all: bin/eufi
 #all: bin/eufiz3
 #all: tests/cong_closure_expl_test
-#all: tests/current_progress
+all: tests/current_progress
 #all: tests/parametric_example
 #all: tests/benchmarks
 #all: valgrind_run
