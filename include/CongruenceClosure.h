@@ -12,12 +12,12 @@ class CongruenceClosure {
 
   friend class Hornsat;
 
-protected:
+  protected:
   Z3Subterms const & subterms;
   UnionFindExplain & ufe;
   SignatureTable     sig_table;
 
- public:
+  public:
   CongruenceClosure(
       Z3Subterms const &, 
       UnionFindExplain &);

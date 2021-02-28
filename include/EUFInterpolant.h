@@ -14,9 +14,10 @@
 #include "Explanation.h"
 #include "Debugging.h"
 
-typedef unsigned Z3Index ;
 
 class EUFInterpolant : public Input {
+
+  typedef unsigned Z3Index ;
 
   z3::expr_vector const & assertions;
   Hornsat                 hsat;
