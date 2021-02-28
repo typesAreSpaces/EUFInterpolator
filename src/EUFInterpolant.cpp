@@ -1,19 +1,22 @@
 #include "EUFInterpolant.h"
 
-EUFInterpolant::EUFInterpolant(z3::expr_vector const & assertions) : 
+EUFInterpolant::EUFInterpolant(
+    z3::expr_vector const & assertions) : 
   // Congruence Closure step
   Input(assertions), 
-  assertions((
-        // Unconditional uncommon symbol elimination step
-        exposeUncommons(), 
-        assertions)), 
+  assertions(
+      (
+       // Unconditional uncommon symbol elimination step
+       exposeUncommons(), 
+       assertions)), 
   // Conditional uncommon symbol elimination step
-  hsat(cce, horn_clauses), result(ctx),
+  hsat(cce, horn_clauses), 
+  result(ctx),
   conditional_horn_clauses(ctx, ufe, original_num_terms)
 {        
   //for(auto const & equation : assertions){
-    //if(!equation.is_eq()) continue;
-    //hsat.equiv_classes.merge(equation.arg(0), equation.arg(1));
+  //if(!equation.is_eq()) continue;
+  //hsat.equiv_classes.merge(equation.arg(0), equation.arg(1));
   //}
 
 #if DEBUG_EXPOSE_UNCOMMS
@@ -125,7 +128,7 @@ z3::expr_vector EUFInterpolant::explainUncommons(z3::expr const & t1, z3::expr c
 #endif
   for(auto const & equation : partial_explain){
 #if DEBUG_COND_ELIM
-  std::cout << equation << std::endl;
+    std::cout << equation << std::endl;
 #endif
     if(equation.is_common())
       ans.push_back(equation);

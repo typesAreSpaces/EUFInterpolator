@@ -2,19 +2,25 @@
 
 Input::Input(z3::expr_vector const & assertions) :
   original_num_terms(maxIdFromAssertions(assertions) + 1),
-  ctx(assertions.ctx()), subterms(ctx), contradiction(ctx.bool_val(false)), disequalities(ctx),
-  fsym_positions(), ufe(original_num_terms), horn_clauses(ctx, ufe, original_num_terms),
+  ctx(assertions.ctx()), 
+  subterms(ctx), 
+  contradiction(ctx.bool_val(false)), 
+  disequalities(ctx),
+  fsym_positions(), 
+  ufe(original_num_terms), 
+  horn_clauses(ctx, ufe, original_num_terms),
   ids_to_merge(),
-  curry_decl(), factory_curry_nodes(original_num_terms, curry_decl),
+  curry_decl(), 
+  factory_curry_nodes(original_num_terms, curry_decl),
   cce(
-      (
-       subterms.resize(original_num_terms), 
+      (subterms.resize(original_num_terms), 
        // The following defines: 
        // subterms, ids_to_merge, disequalities, 
        // fsym_positions, and curry_decl
        init(assertions), 
-       subterms), ufe, factory_curry_nodes, ids_to_merge
-      )
+       subterms), 
+      ufe, factory_curry_nodes, ids_to_merge
+     )
 {
   disequalitiesToHCS();
 }
@@ -30,7 +36,7 @@ unsigned Input::maxIdFromAssertions(z3::expr_vector const & assertions){
   for(auto const & assertion : assertions)
     if(assertion.id() > max_id_from_assertions)
       max_id_from_assertions = assertion.id();
-  
+
   return max_id_from_assertions;
 }
 
@@ -39,7 +45,8 @@ void Input::init(z3::expr_vector const & assertions){
     initFormula(assertion);
     switch(assertion.decl().decl_kind()){
       case Z3_OP_EQ:
-        ids_to_merge.emplace_back(assertion.arg(0).id(), assertion.arg(1).id());
+        ids_to_merge
+          .emplace_back(assertion.arg(0).id(), assertion.arg(1).id());
         break;
       case Z3_OP_DISTINCT:
         disequalities.push_back(assertion);
@@ -63,7 +70,8 @@ void Input::initFormula(z3::expr const & e){
 
     z3::func_decl f = e.decl();
     if(curry_decl[f.id()] == nullptr)
-      curry_decl[f.id()] = factory_curry_nodes.queryCurryNode(e.id(), f.name().str(), nullptr, nullptr);
+      curry_decl[f.id()] = factory_curry_nodes
+        .queryCurryNode(e.id(), f.name().str(), nullptr, nullptr);
 
     switch(f.decl_kind()){
       case Z3_OP_UNINTERPRETED:
@@ -83,8 +91,10 @@ void Input::disequalitiesToHCS(){
     z3::expr_vector hc_body(ctx);
     // It is really important to use the representative
     // which favors being a common term
-    hc_body.push_back(z3_repr(disequalities[i].arg(0)) == z3_repr(disequalities[i].arg(1)));
-    horn_clauses.add(new HornClause(ctx, hc_body, contradiction, ufe));
+    hc_body.push_back(
+        z3_repr(disequalities[i].arg(0)) == z3_repr(disequalities[i].arg(1)));
+    horn_clauses.add(
+        new HornClause(ctx, hc_body, contradiction, ufe));
   }
 }
 

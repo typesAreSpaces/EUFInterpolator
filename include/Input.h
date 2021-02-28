@@ -7,7 +7,6 @@
 #include "CurryNode.h"
 #include "Rename.h"
 
-
 struct Input {
 
   typedef std::map<std::string, std::vector<unsigned> > FSymPositions;

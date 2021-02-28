@@ -46,6 +46,10 @@ class CurryNode {
   std::size_t    hash();
 
   friend std::ostream & operator << (std::ostream &, const CurryNode &);
+
+  private:
+
+  public:
 };
 
 enum SideOfEquation { LHS, RHS } ;
@@ -118,7 +122,7 @@ struct EquationZ3Ids {
   unsigned lhs_id, rhs_id;
   EquationZ3Ids(unsigned lhs_id, unsigned rhs_id) :
     lhs_id(lhs_id), rhs_id(rhs_id) {}
-  friend std::ostream & operator << (std::ostream & os, const EquationZ3Ids & ez3ids){
+  friend std::ostream & operator << (std::ostream & os, EquationZ3Ids const & ez3ids){
     os << ez3ids.lhs_id << " = " << ez3ids.rhs_id;
     return os;
   }
@@ -129,10 +133,10 @@ struct EquationZ3Ids {
 typedef std::map<unsigned, CurryNode*> CurryDeclarations;
 typedef std::vector<CurryNode*>        VectorCurryNode;
 
-typedef std::map<const CurryNode *, std::list<PredNode> > CurryPreds;
+typedef std::map<CurryNode const *, std::list<PredNode> > CurryPreds;
 
 typedef std::list<PendingElement>         PendingElements;
-typedef std::list<const PendingElement *> PendingPointers;
+typedef std::list<PendingElement const *> PendingPointers;
 typedef std::list<EquationZ3Ids>          Z3EquationPointers;
 
 typedef std::list<EquationZ3Ids> IdsToMerge;

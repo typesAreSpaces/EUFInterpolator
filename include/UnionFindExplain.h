@@ -17,7 +17,8 @@ class UnionFindExplain :  public UnionFind {
       public:
       ExplainEquation(EqClass, EqClass);
 
-      friend std::ostream & operator << (std::ostream & os, const ExplainEquation &);
+      friend std::ostream & operator << (
+          std::ostream & os, const ExplainEquation &);
     };
 
   public:
@@ -25,7 +26,7 @@ class UnionFindExplain :  public UnionFind {
 
   private:
     std::vector<EqClass>                proof_forest;
-    std::vector<const PendingElement *> labels;
+    std::vector<PendingElement const *> labels;
 
     void     unionReverseEdges(EqClass, EqClass);
     unsigned depth(EqClass);
@@ -35,13 +36,13 @@ class UnionFindExplain :  public UnionFind {
   public:
     UnionFindExplain();
     UnionFindExplain(unsigned);
-    UnionFindExplain(const UnionFindExplain &);
+    UnionFindExplain(UnionFindExplain const &);
     ~UnionFindExplain();
 
     EqClass          parentProofForest(EqClass);
     ExplainEquations explain(EqClass, EqClass);
-    void             combine(EqClass, EqClass, const PendingElement * = nullptr);
-    void             merge(EqClass, EqClass, const PendingElement * = nullptr);
+    void             combine(EqClass, EqClass, PendingElement const * = nullptr);
+    void             merge(EqClass, EqClass, PendingElement const * = nullptr);
     EqClass          commonAncestor(EqClass, EqClass);
 
     std::ostream & giveExplanation(std::ostream &, EqClass, EqClass);
