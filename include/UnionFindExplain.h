@@ -12,7 +12,7 @@
 class UnionFindExplain :  public UnionFind {
   public:
     struct ExplainEquation {
-      EqClass source, target;
+      UnionFind::EqClass source, target;
 
       //ExplainEquation(EqClass source, EqClass target) : 
         //source(source), target(target) { }

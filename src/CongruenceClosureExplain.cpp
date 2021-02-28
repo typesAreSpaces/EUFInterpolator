@@ -187,7 +187,7 @@ void CongruenceClosureExplain::propagate(){
 
     const CurryNode & a = (pending_element->tag == EQ) ? pending_element->eq_cn.lhs : pending_element->p_eq_cn.first.rhs;
     const CurryNode & b = (pending_element->tag == EQ) ? pending_element->eq_cn.rhs : pending_element->p_eq_cn.second.rhs;
-    EqClass repr_a = ufe.find(a.getId()), repr_b = ufe.find(b.getId());
+    UnionFind::EqClass repr_a = ufe.find(a.getId()), repr_b = ufe.find(b.getId());
     bool repr_a_is_common = (repr_a >= subterms.size()) ? false : subterms[repr_a].is_common();
     bool repr_b_is_common = (repr_b >= subterms.size()) ? false : subterms[repr_b].is_common();
 
@@ -220,9 +220,9 @@ void CongruenceClosureExplain::propagate(){
 }
 
 void CongruenceClosureExplain::propagateAux(const CurryNode & a, const CurryNode & b,
-    EqClass repr_a, EqClass repr_b,
+    UnionFind::EqClass repr_a, UnionFind::EqClass repr_b,
     const PendingElement & pending_element){
-  EqClass old_repr_a = repr_a;
+  UnionFind::EqClass old_repr_a = repr_a;
 
   // -------------------------------------------------------------
   // If there is a Hornsat element in the CongruenceClosureExplain
@@ -234,7 +234,7 @@ void CongruenceClosureExplain::propagateAux(const CurryNode & a, const CurryNode
     auto it = ufe.begin(repr_a);
     auto end = ufe.end(repr_a);
     for(; it != end; ++it){ 
-      EqClass u = factory_curry_nodes.getCurryNode(*it)->getZ3Id();
+      UnionFind::EqClass u = factory_curry_nodes.getCurryNode(*it)->getZ3Id();
       if(u < num_original_terms)
         hsat->unionupdate(u, repr_b); 
     }
@@ -243,8 +243,8 @@ void CongruenceClosureExplain::propagateAux(const CurryNode & a, const CurryNode
   ufe.combine(b.getId(), a.getId(), &pending_element);
 
   for(auto equation = use_list[old_repr_a].begin(); equation != use_list[old_repr_a].end(); ){
-    EqClass c1 = (*equation)->lhs.getLeftId(), c2 = (*equation)->lhs.getRightId();
-    EqClass repr_c1 = ufe.find(c1), repr_c2 = ufe.find(c2);
+    UnionFind::EqClass c1 = (*equation)->lhs.getLeftId(), c2 = (*equation)->lhs.getRightId();
+    UnionFind::EqClass repr_c1 = ufe.find(c1), repr_c2 = ufe.find(c2);
     const EquationCurryNodes * element_found = lookup_table.query(repr_c1, repr_c2);
 
     if(element_found != nullptr){
@@ -277,15 +277,15 @@ void CongruenceClosureExplain::propagateAux(const CurryNode & a, const CurryNode
   assert(use_list[old_repr_a].empty());
 }
 
-EqClass CongruenceClosureExplain::highestNode(EqClass a, UnionFind & uf){
+UnionFind::EqClass CongruenceClosureExplain::highestNode(UnionFind::EqClass a, UnionFind & uf){
   return uf.find(a);
 }
 
-EqClass CongruenceClosureExplain::nearestCommonAncestor(EqClass a, EqClass b, UnionFind & uf_extra){
+UnionFind::EqClass CongruenceClosureExplain::nearestCommonAncestor(UnionFind::EqClass a, UnionFind::EqClass b, UnionFind & uf_extra){
   return uf_extra.find(ufe.commonAncestor(a, b));
 }
 
-PendingPointers CongruenceClosureExplain::explain(EqClass x, EqClass y){
+PendingPointers CongruenceClosureExplain::explain(UnionFind::EqClass x, UnionFind::EqClass y){
   PendingPointers ans;
   if(ufe.find(x) != ufe.find(y))
     return ans; 
@@ -309,7 +309,7 @@ PendingPointers CongruenceClosureExplain::explain(EqClass x, EqClass y){
   return ans;
 }
 
-void CongruenceClosureExplain::explainAlongPath(EqClass a, EqClass c, 
+void CongruenceClosureExplain::explainAlongPath(UnionFind::EqClass a, UnionFind::EqClass c, 
     UnionFind & uf_extra, UnionFindExplain::ExplainEquations & pending_proofs, PendingPointers & ans){
   a = highestNode(a, uf_extra);
   while(a != c){
@@ -321,7 +321,7 @@ void CongruenceClosureExplain::explainAlongPath(EqClass a, EqClass c,
         {
           auto first_equation = current_label->p_eq_cn.first,
                second_equation = current_label->p_eq_cn.second;
-          EqClass a1 = first_equation.lhs.getLeftId(), a2 = first_equation.lhs.getRightId(),
+          UnionFind::EqClass a1 = first_equation.lhs.getLeftId(), a2 = first_equation.lhs.getRightId(),
                   b1 = second_equation.lhs.getLeftId(), b2 = second_equation.lhs.getRightId();
           pending_proofs.emplace_back(a1, b1);
           pending_proofs.emplace_back(a2, b2);
@@ -336,7 +336,7 @@ void CongruenceClosureExplain::explainAlongPath(EqClass a, EqClass c,
 }
 
 std::ostream & CongruenceClosureExplain::giveExplanation(
-    std::ostream & os, EqClass lhs, EqClass rhs){
+    std::ostream & os, UnionFind::EqClass lhs, UnionFind::EqClass rhs){
 
   os << "Explain " << lhs << ", " << rhs << std::endl; 
   auto explanation = explain(lhs, rhs);
@@ -350,7 +350,7 @@ std::ostream & CongruenceClosureExplain::giveExplanation(
   return os;
 }
 
-bool CongruenceClosureExplain::areSameClass(EqClass x, EqClass y){
+bool CongruenceClosureExplain::areSameClass(UnionFind::EqClass x, UnionFind::EqClass y){
   return this->find(x) == this->find(y);
 }
 
@@ -358,11 +358,11 @@ bool CongruenceClosureExplain::areSameClass(z3::expr const & x, z3::expr const &
   return areSameClass(x.id(), y.id());
 }
 
-EqClass CongruenceClosureExplain::constantId(EqClass i){
+UnionFind::EqClass CongruenceClosureExplain::constantId(UnionFind::EqClass i){
   return factory_curry_nodes.getCurryNode(i)->getConstId();
 }
 
-EqClass CongruenceClosureExplain::find(EqClass i){
+UnionFind::EqClass CongruenceClosureExplain::find(UnionFind::EqClass i){
   return ufe.find(constantId(i));
 }
 
@@ -373,7 +373,7 @@ z3::expr CongruenceClosureExplain::z3Repr(z3::expr const & e){
   return subterms[node];
 }
 
-void CongruenceClosureExplain::merge(EqClass x, EqClass y){
+void CongruenceClosureExplain::merge(UnionFind::EqClass x, UnionFind::EqClass y){
   // For the record: I was merging the representatives
   // of x and y. This is not a good idea since we
   // want to trace the original equations, the latter

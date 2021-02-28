@@ -7,12 +7,13 @@
 #include <cassert>
 #include <list>
 
-typedef unsigned EqClass;
-typedef std::vector<std::list<EqClass> > PredList;
-
 class UnionFind {
 
-  void link(EqClass, EqClass);
+  public:
+    typedef unsigned EqClass;
+
+  private:
+    void link(EqClass, EqClass);
 
   protected:
     std::vector<EqClass>  representative;

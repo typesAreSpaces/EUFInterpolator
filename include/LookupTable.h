@@ -13,11 +13,11 @@ class LookupTable {
   LookupTable();
   ~LookupTable();
 
-  std::size_t hash_combine(EqClass, EqClass);
+  std::size_t hash_combine(UnionFind::EqClass, UnionFind::EqClass);
   
-  void enter(EqClass , EqClass, EquationCurryNodes const *);
-  void erase(EqClass, EqClass);
-  const EquationCurryNodes * query(EqClass, EqClass);
+  void enter(UnionFind::EqClass , UnionFind::EqClass, EquationCurryNodes const *);
+  void erase(UnionFind::EqClass, UnionFind::EqClass);
+  const EquationCurryNodes * query(UnionFind::EqClass, UnionFind::EqClass);
   
   friend std::ostream & operator << (std::ostream &, LookupTable const &);
   

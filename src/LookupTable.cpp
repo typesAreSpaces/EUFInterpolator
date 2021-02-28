@@ -10,21 +10,21 @@ LookupTable::~LookupTable(){
 #endif
 }
 
-std::size_t LookupTable::hash_combine(EqClass a1, EqClass a2){
+std::size_t LookupTable::hash_combine(UnionFind::EqClass a1, UnionFind::EqClass a2){
   return std::hash<ull>()(((ull) a1) ^ (((ull) a2) << 32));
 }
 
-void LookupTable::enter(EqClass a1, EqClass a2, EquationCurryNodes const * ecn){
+void LookupTable::enter(UnionFind::EqClass a1, UnionFind::EqClass a2, EquationCurryNodes const * ecn){
   auto index = hash_combine(a1, a2);
   sig_table[index] = ecn;
   return;
 }
 
-void LookupTable::erase(EqClass a1, EqClass a2){
+void LookupTable::erase(UnionFind::EqClass a1, UnionFind::EqClass a2){
   sig_table.erase(hash_combine(a1, a2));
 }
 
-const EquationCurryNodes * LookupTable::query(EqClass a1, EqClass a2){
+const EquationCurryNodes * LookupTable::query(UnionFind::EqClass a1, UnionFind::EqClass a2){
   auto r = sig_table.find(hash_combine(a1, a2));
   if(r == sig_table.end())
     return nullptr;

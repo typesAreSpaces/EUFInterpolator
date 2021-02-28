@@ -165,8 +165,8 @@ std::list<z3::expr> EUFInterpolant::candidates(z3::expr const & e){
     return ans;
   }
 
-  std::set<EqClass> ids({});
-  EqClass repr_index = hsat.equiv_classes.find(e.id());
+  std::set<UnionFind::EqClass> ids({});
+  UnionFind::EqClass repr_index = hsat.equiv_classes.find(e.id());
   auto it = hsat.ufe.begin(repr_index);
   auto end = hsat.ufe.end(repr_index);
   for(; it != end; ++it){

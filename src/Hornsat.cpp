@@ -183,7 +183,7 @@ bool Hornsat::isConsistent() const {
   return consistent;
 }
 
-void Hornsat::unionupdate(TermId u, EqClass alpha){ 
+void Hornsat::unionupdate(TermId u, UnionFind::EqClass alpha){ 
   for(auto p : class_list[u]){
 #if DEBUGGING_UNIONUPDATE
     std::cout << "Before, Term: " << u << " " << p << std::endl;

@@ -1,6 +1,10 @@
 #include "UnionFind.h"
 
-UnionFind::iterator::iterator(UnionFind * m_uf, EqClass m_element, unsigned m_index) : m_uf(m_uf), m_element(m_element), m_index(m_index)
+UnionFind::iterator::iterator(
+    UnionFind * m_uf, 
+    UnionFind::EqClass m_element, 
+    unsigned m_index) : 
+  m_uf(m_uf), m_element(m_element), m_index(m_index)
 {
 }
 
@@ -18,7 +22,7 @@ UnionFind::iterator & UnionFind::iterator::operator ++(){
   return *this;
 }
 
-EqClass UnionFind::iterator::operator *(){ 
+UnionFind::EqClass UnionFind::iterator::operator *(){ 
   return m_index; 
 }
 

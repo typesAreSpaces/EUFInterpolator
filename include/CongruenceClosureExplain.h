@@ -9,11 +9,11 @@
 
 #include "LookupTable.h"
 
-typedef std::vector<std::list<EquationCurryNodes const *> > UseList;
-
 class Hornsat;
 
 class CongruenceClosureExplain : public CongruenceClosure {
+
+  typedef std::vector<std::list<EquationCurryNodes const *> > UseList;
 
   Hornsat * hsat;
 
@@ -30,27 +30,29 @@ class CongruenceClosureExplain : public CongruenceClosure {
   void merge();
   void merge(EquationCurryNodes const &);
   void propagate();
-  void propagateAux(CurryNode const &, CurryNode const &, EqClass, EqClass, PendingElement const &);
+  void propagateAux(CurryNode const &, CurryNode const &, 
+      UnionFind::EqClass, UnionFind::EqClass, PendingElement const &);
 
-  EqClass         highestNode(EqClass, UnionFind &);
-  EqClass         nearestCommonAncestor(EqClass, EqClass, UnionFind &);
-  PendingPointers explain(EqClass, EqClass);
-  void            explainAlongPath(EqClass, EqClass, UnionFind &, UnionFindExplain::ExplainEquations &, PendingPointers &);
-  std::ostream &  giveExplanation(std::ostream &, EqClass, EqClass);
+  UnionFind::EqClass highestNode(UnionFind::EqClass, UnionFind &);
+  UnionFind::EqClass nearestCommonAncestor(UnionFind::EqClass, UnionFind::EqClass, UnionFind &);
+  PendingPointers    explain(UnionFind::EqClass, UnionFind::EqClass);
+  void               explainAlongPath(UnionFind::EqClass, UnionFind::EqClass, 
+      UnionFind &, UnionFindExplain::ExplainEquations &, PendingPointers &);
+  std::ostream &     giveExplanation(std::ostream &, UnionFind::EqClass, UnionFind::EqClass);
 
   public:
   CongruenceClosureExplain(Hornsat *, CongruenceClosureExplain const &, UnionFindExplain &);
   CongruenceClosureExplain(Z3Subterms const &, UnionFindExplain &, FactoryCurryNodes &, IdsToMerge const &);
   ~CongruenceClosureExplain();
 
-  bool areSameClass(EqClass, EqClass);
+  bool areSameClass(UnionFind::EqClass, UnionFind::EqClass);
   bool areSameClass(z3::expr const &, z3::expr const &);
-  
-  EqClass  constantId(EqClass);
-  EqClass  find(EqClass);
+
+  UnionFind::EqClass  constantId(UnionFind::EqClass);
+  UnionFind::EqClass  find(UnionFind::EqClass);
   z3::expr z3Repr(z3::expr const &);
 
-  void merge(EqClass, EqClass);
+  void merge(UnionFind::EqClass, UnionFind::EqClass);
   void merge(z3::expr const &, z3::expr const &);
 
   PendingPointers explain(z3::expr const &, z3::expr const &);

@@ -11,7 +11,7 @@ UnionFind::UnionFind(unsigned size) :
     representative[i] = i;
 }
 
-UnionFind::UnionFind(EqClass array[], unsigned size) :
+UnionFind::UnionFind(UnionFind::EqClass array[], unsigned size) :
   representative(array, array + size), rank(size, 1), size(size)
 {
 }
@@ -30,7 +30,7 @@ UnionFind::~UnionFind(){
 
 // The first argument becomes the new
 // representative, always
-void UnionFind::combine(EqClass x, EqClass y){
+void UnionFind::combine(UnionFind::EqClass x, UnionFind::EqClass y){
   assert(x < size && y < size);
   if(find(x) == find(y))
     return;
@@ -39,7 +39,7 @@ void UnionFind::combine(EqClass x, EqClass y){
   return;
 }
 
-void UnionFind::merge(EqClass x, EqClass y){
+void UnionFind::merge(UnionFind::EqClass x, UnionFind::EqClass y){
   assert(x < size && y < size);
   if(find(x) == find(y))
     return;
@@ -47,7 +47,7 @@ void UnionFind::merge(EqClass x, EqClass y){
   return;
 }
 
-void UnionFind::link(EqClass x, EqClass y){
+void UnionFind::link(UnionFind::EqClass x, UnionFind::EqClass y){
   if(rank[x] >= rank[y]){
     representative[y] = x;
     rank[x] += rank[y];
@@ -58,24 +58,24 @@ void UnionFind::link(EqClass x, EqClass y){
   return;
 }
 
-EqClass UnionFind::find(EqClass x){
+UnionFind::EqClass UnionFind::find(UnionFind::EqClass x){
   assert(x < size);
   if(x != representative[x])
     representative[x] = find(representative[x]);
   return representative[x];
 }
 
-bool UnionFind::greater(EqClass x, EqClass y){
+bool UnionFind::greater(UnionFind::EqClass x, UnionFind::EqClass y){
   return rank[x] > rank[y];
 }
 
-UnionFind::iterator UnionFind::begin(EqClass m_element){
+UnionFind::iterator UnionFind::begin(UnionFind::EqClass m_element){
   auto r = iterator(this, m_element, 0);
   if(find(0) != m_element) ++r;
   return r;
 }
 
-UnionFind::iterator UnionFind::end(EqClass m_element){ 
+UnionFind::iterator UnionFind::end(UnionFind::EqClass m_element){ 
   return iterator(this, m_element, size);
 }
 
@@ -93,7 +93,7 @@ const unsigned UnionFind::getSize() const {
   return size; 
 }
 
-const unsigned UnionFind::getRank(EqClass i) { 
+const unsigned UnionFind::getRank(UnionFind::EqClass i) { 
   return rank[find(i)]; 
 }
 

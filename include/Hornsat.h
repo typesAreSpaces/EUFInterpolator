@@ -74,7 +74,7 @@ struct Literal {
   // literal_id matches l.id()
   LiteralId literal_id;
   TermId l_id, r_id;
-  EqClass l_class, r_class; 
+  UnionFind::EqClass l_class, r_class; 
   bool val, is_common;
   struct Clause * clause_list;
 
