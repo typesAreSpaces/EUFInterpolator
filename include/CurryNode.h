@@ -12,11 +12,11 @@
 
 template <class T>
 inline void hash_combine(std::size_t & seed, const T & v, const std::hash<T> & hasher){
-    seed ^= hasher(v) + 0x9e3779b9 + (seed<<6) + (seed>>2);
+  seed ^= hasher(v) + 0x9e3779b9 + (seed<<6) + (seed>>2);
 }
 
 class CurryNode {
-  
+
   unsigned id, z3_id, const_id;
   bool z3_id_defined;
   std::string func_name;
@@ -24,7 +24,7 @@ class CurryNode {
   bool is_common;
   unsigned space;
 
-public:
+  public:
   CurryNode(unsigned, std::string, CurryNode *, CurryNode *);
   const bool isConstant()    const;
   const bool isReplaceable() const;
@@ -57,7 +57,7 @@ struct PredNode {
   const SideOfEquation side_of_equation;
   PredNode(CurryNode & pred, const SideOfEquation side_of_equation) :
     pred(pred), side_of_equation(side_of_equation){
-  }
+    }
   friend std::ostream & operator << (std::ostream & os, const PredNode & pred_pair){
     os << pred_pair.pred << " " << (pred_pair.side_of_equation == LHS ? "LHS" : "RHS");
     return os;
@@ -67,9 +67,9 @@ struct PredNode {
 struct EquationCurryNodes {
   const CurryNode & lhs, & rhs;
   KindEquation kind_equation;
-  
+
   EquationCurryNodes(CurryNode & lhs, CurryNode & rhs) :
-  lhs(lhs), rhs(rhs), kind_equation(lhs.isConstant() ? CONST_EQ : APPLY_EQ) {}
+    lhs(lhs), rhs(rhs), kind_equation(lhs.isConstant() ? CONST_EQ : APPLY_EQ) {}
   EquationCurryNodes(CurryNode & lhs, CurryNode & rhs, KindEquation kind_equation) :
     lhs(lhs), rhs(rhs), kind_equation(kind_equation) {}
   friend std::ostream & operator << (std::ostream & os, const EquationCurryNodes & ecns){
@@ -80,7 +80,7 @@ struct EquationCurryNodes {
 
 struct PairEquationCurryNodes {
   const EquationCurryNodes & first, & second;
-  
+
   PairEquationCurryNodes(const EquationCurryNodes & first, const EquationCurryNodes & second) :
     first(first), second(second) {}
   friend std::ostream & operator << (std::ostream & os, const PairEquationCurryNodes & pecns){

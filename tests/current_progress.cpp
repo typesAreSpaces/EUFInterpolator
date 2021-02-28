@@ -27,6 +27,7 @@ void paperExample(z3::context & ctx){
   z3::expr z2 = ctx.constant("z2", my_sort);
   z3::expr s1 = ctx.constant("s1", my_sort);
   z3::expr s2 = ctx.constant("s2", my_sort);
+
   z3::expr y1 = ctx.constant("y1", my_sort);
   z3::expr y2 = ctx.constant("y2", my_sort);
   z3::expr v =  ctx.constant("v",  my_sort);

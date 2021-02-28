@@ -1,7 +1,8 @@
 #include "UnionFind.h"
 
-UnionFind::UnionFind() : size(0){
-};
+UnionFind::UnionFind() : size(0)
+{
+}
 
 UnionFind::UnionFind(unsigned size) : representative(size, 0), rank(size, 1), size(size){
   for(unsigned i = 0; i < size; i++)
@@ -10,18 +11,18 @@ UnionFind::UnionFind(unsigned size) : representative(size, 0), rank(size, 1), si
 
 UnionFind::UnionFind(EqClass array[], unsigned size) :
   representative(array, array + size), rank(size, 1), size(size){
-}
+  }
 
 UnionFind::UnionFind(const UnionFind & other) :
   representative(other.representative),
   rank(other.rank), size(other.size){
-}
+  }
 
 UnionFind::~UnionFind(){
 #if DEBUG_DESTRUCTOR_UF
   std::cout << "Done ~UnionFind" << std::endl;
 #endif
-};
+}
 
 // The first argument becomes the new
 // representative, always
@@ -64,6 +65,16 @@ bool UnionFind::greater(EqClass x, EqClass y){
   return rank[x] > rank[y];
 }
 
+UnionFind::iterator UnionFind::begin(EqClass m_element){
+  auto r = iterator(this, m_element, 0);
+  if(find(0) != m_element) ++r;
+  return r;
+}
+
+UnionFind::iterator UnionFind::end(EqClass m_element){ 
+  return iterator(this, m_element, size);
+}
+
 void UnionFind::resize(unsigned sz){
   representative.resize(sz);
   rank.resize(sz);
@@ -72,6 +83,14 @@ void UnionFind::resize(unsigned sz){
     rank[i] = 1;
   }
   size = sz;
+}
+
+const unsigned UnionFind::getSize() const { 
+  return size; 
+}
+
+const unsigned UnionFind::getRank(EqClass i) { 
+  return rank[find(i)]; 
 }
 
 bool UnionFind::operator ==(const UnionFind & other){
@@ -89,9 +108,9 @@ bool UnionFind::operator ==(const UnionFind & other){
 std::ostream & operator << (std::ostream & os, UnionFind & uf){
   for(unsigned i = 0; i < uf.representative.size(); ++i)
     os << "ID: " << i
-       << " Representative: " << uf.representative[i]
-       << " Rank:  " << uf.rank[i]
-       << std::endl;
+      << " Representative: " << uf.representative[i]
+      << " Rank:  " << uf.rank[i]
+      << std::endl;
   os << "Size " << uf.size << std::endl;
   os << "(Remaider) The current representatives are not compressed.";
   return os;

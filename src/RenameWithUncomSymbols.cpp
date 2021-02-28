@@ -48,9 +48,7 @@ z3::expr RenameWithUncomSymbols::reformulate(z3::expr const & e){
           }
           auto name = f.name().str();
           auto new_f = z3::function((
-                (uncommon_names.find(name) != uncommon_names.end() ? 
-                 "a_" 
-                 : "c_") 
+                (uncommon_names.find(name) != uncommon_names.end() ? "a_" : "c_") 
                 + name).c_str(), domain_sorts, f.range());
           return new_f(new_args);
         }
