@@ -11,7 +11,7 @@
 
 class UnionFindExplain :  public UnionFind {
   public:
-    class ExplainEquation {
+    struct ExplainEquation {
       EqClass source, target;
 
       //ExplainEquation(EqClass source, EqClass target) : 
