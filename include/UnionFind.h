@@ -12,6 +12,8 @@ typedef std::vector<std::list<EqClass> > PredList;
 
 class UnionFind {
 
+  void link(EqClass, EqClass);
+
   protected:
     std::vector<EqClass>  representative;
     std::vector<unsigned> rank;
@@ -24,11 +26,10 @@ class UnionFind {
     UnionFind(UnionFind const &);
     virtual ~UnionFind();
 
-    void combine(EqClass, EqClass);
-    void merge(EqClass, EqClass);
-    void link(EqClass, EqClass);
+    void            combine(EqClass, EqClass);
+    void            merge(EqClass, EqClass);
     virtual EqClass find(EqClass);
-    bool greater(EqClass, EqClass);
+    bool            greater(EqClass, EqClass);
 
     class iterator {
       UnionFind * m_uf;
@@ -38,19 +39,19 @@ class UnionFind {
       public:
       iterator(UnionFind *, EqClass, unsigned);
 
-      bool operator ==(iterator const &);
-      bool operator !=(iterator const &);
+      bool       operator ==(iterator const &);
+      bool       operator !=(iterator const &);
       iterator & operator ++();
-      EqClass operator *();
+      EqClass    operator *();
     };
 
     iterator begin(EqClass);
     iterator end(EqClass);
 
-    virtual void resize(unsigned);
-    const unsigned getSize() const;
-    const unsigned getRank(EqClass);
-    virtual bool operator ==(const UnionFind &);
+    virtual void          resize(unsigned);
+    const unsigned        getSize() const;
+    const unsigned        getRank(EqClass);
+    virtual bool          operator ==(const UnionFind &);
     friend std::ostream & operator << (std::ostream &, UnionFind &);
 };
 

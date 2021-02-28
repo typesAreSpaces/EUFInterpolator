@@ -4,19 +4,23 @@ UnionFind::UnionFind() : size(0)
 {
 }
 
-UnionFind::UnionFind(unsigned size) : representative(size, 0), rank(size, 1), size(size){
+UnionFind::UnionFind(unsigned size) : 
+  representative(size, 0), rank(size, 1), size(size)
+{
   for(unsigned i = 0; i < size; i++)
     representative[i] = i;
 }
 
 UnionFind::UnionFind(EqClass array[], unsigned size) :
-  representative(array, array + size), rank(size, 1), size(size){
-  }
+  representative(array, array + size), rank(size, 1), size(size)
+{
+}
 
 UnionFind::UnionFind(const UnionFind & other) :
   representative(other.representative),
-  rank(other.rank), size(other.size){
-  }
+  rank(other.rank), size(other.size)
+{
+}
 
 UnionFind::~UnionFind(){
 #if DEBUG_DESTRUCTOR_UF
