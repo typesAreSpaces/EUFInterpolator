@@ -11,13 +11,13 @@
 #include "Z3Subterms.h"
 #include "HornClause.h"
 
-typedef std::unordered_map<unsigned, HornClause *>   UnOrdMapHornClauses;
-// Should the image be a list of HornClause* ? 
-// The container in the image is still not really well-decided
-typedef std::list<HornClause *>                    SimplHornEntry;
-typedef std::unordered_map<unsigned, SimplHornEntry> SimplificationTable;
-
 class HornClauses {
+
+  typedef std::unordered_map<unsigned, HornClause *>   UnOrdMapHornClauses;
+  // Should the image be a list of HornClause* ? 
+  // The container in the image is still not really well-decided
+  typedef std::list<HornClause *>                    SimplHornEntry;
+  typedef std::unordered_map<unsigned, SimplHornEntry> SimplificationTable;
 
   UnionFindExplain &  ufe;
   UnOrdMapHornClauses horn_clauses;
@@ -26,8 +26,8 @@ class HornClauses {
   z3::expr_vector     hash_consed_hcs;
 
   SimplificationTable simplification_table;
-  
- public:
+
+  public:
   HornClauses(z3::context &, UnionFindExplain &, unsigned);
   ~HornClauses();
 
@@ -40,11 +40,11 @@ class HornClauses {
   class iterator {
     UnOrdMapHornClauses::iterator it;
     public:
-      iterator(UnOrdMapHornClauses::iterator);
-      bool operator ==(iterator const &);
-      bool operator !=(iterator const &);
-      iterator & operator ++();
-      HornClause const * operator *() const;
+    iterator(UnOrdMapHornClauses::iterator);
+    bool operator ==(iterator const &);
+    bool operator !=(iterator const &);
+    iterator & operator ++();
+    HornClause const * operator *() const;
   };
 
   iterator begin();

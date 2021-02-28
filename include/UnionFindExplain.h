@@ -14,14 +14,10 @@ class UnionFindExplain :  public UnionFind {
     struct ExplainEquation {
       UnionFind::EqClass source, target;
 
-      //ExplainEquation(EqClass source, EqClass target) : 
-        //source(source), target(target) { }
       public:
       ExplainEquation(EqClass, EqClass);
 
-      friend std::ostream & operator << (std::ostream & os, const ExplainEquation & eq){
-        return os << eq.source << " := " << eq.target;
-      }
+      friend std::ostream & operator << (std::ostream & os, const ExplainEquation &);
     };
 
   public:
