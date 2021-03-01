@@ -1,8 +1,8 @@
 #ifndef _EUF_INTERPOLANT_US_
 #define _EUF_INTERPOLANT_US_
 
-#include "Rename.h"
 #include "EUFInterpolant.h"
+#include "RenameWithUncomSymbols.h"
 
 class EUFInterpolantWithUncomSymbols: public RenameWithUncomSymbols, public EUFInterpolant {
 

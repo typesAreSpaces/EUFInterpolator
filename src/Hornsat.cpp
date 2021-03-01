@@ -1,6 +1,6 @@
 #include "Hornsat.h"
 
-unsigned Literal::curr_num_literals = 0;
+unsigned Hornsat::Literal::curr_num_literals = 0;
 
 Hornsat::Hornsat(CongruenceClosureExplain & cce, 
     HornClauses const & hcs) :

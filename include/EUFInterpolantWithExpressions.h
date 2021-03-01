@@ -2,6 +2,7 @@
 #define _EUF_INTERPOLANT_WE_
 
 #include "EUFInterpolant.h"
+#include "RenameWithExpressions.h"
 
 class EUFInterpolantWithExpressions : public RenameWithExpressions, public EUFInterpolant {
 

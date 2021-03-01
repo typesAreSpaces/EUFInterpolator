@@ -7,9 +7,7 @@ Rename::Rename(z3::context & ctx) :
 
 z3::expr Rename::removePrefix(z3::expr const & e) const {
   if(e.is_app()){
-
     auto f = e.decl();
-
     switch(f.decl_kind()){
       case Z3_OP_TRUE:
       case Z3_OP_FALSE:
