@@ -13,36 +13,36 @@ class Hornsat;
 
 class CongruenceClosureExplain : public CongruenceClosure {
 
-  typedef std::vector<std::list<EquationCurryNodes const *> > UseList;
+  typedef std::vector<std::list<CurryNode::EquationCurryNodes const *> > UseList;
 
   Hornsat * hsat;
 
-  PendingElements pending_elements;
-  PendingPointers equations_to_merge;
-  PendingPointers pending_to_propagate;
+  CurryNode::CurryNode::PendingElements pending_elements;
+  CurryNode::PendingPointers equations_to_merge;
+  CurryNode::PendingPointers pending_to_propagate;
 
   FactoryCurryNodes const & factory_curry_nodes;
 
   LookupTable lookup_table;
   UseList     use_list;
 
-  void pushPending(PendingPointers &, PendingElement const &);
+  void pushPending(CurryNode::PendingPointers &, CurryNode::PendingElement const &);
   void merge();
-  void merge(EquationCurryNodes const &);
+  void merge(CurryNode::EquationCurryNodes const &);
   void propagate();
   void propagateAux(CurryNode const &, CurryNode const &, 
-      UnionFind::EqClass, UnionFind::EqClass, PendingElement const &);
+      UnionFind::EqClass, UnionFind::EqClass, CurryNode::PendingElement const &);
 
   UnionFind::EqClass highestNode(UnionFind::EqClass, UnionFind &);
   UnionFind::EqClass nearestCommonAncestor(UnionFind::EqClass, UnionFind::EqClass, UnionFind &);
-  PendingPointers    explain(UnionFind::EqClass, UnionFind::EqClass);
+  CurryNode::PendingPointers    explain(UnionFind::EqClass, UnionFind::EqClass);
   void               explainAlongPath(UnionFind::EqClass, UnionFind::EqClass, 
-      UnionFind &, UnionFindExplain::ExplainEquations &, PendingPointers &);
+      UnionFind &, UnionFindExplain::ExplainEquations &, CurryNode::PendingPointers &);
   std::ostream &     giveExplanation(std::ostream &, UnionFind::EqClass, UnionFind::EqClass);
 
   public:
   CongruenceClosureExplain(Hornsat *, CongruenceClosureExplain const &, UnionFindExplain &);
-  CongruenceClosureExplain(Z3Subterms const &, UnionFindExplain &, FactoryCurryNodes &, IdsToMerge const &);
+  CongruenceClosureExplain(Z3Subterms const &, UnionFindExplain &, FactoryCurryNodes &, CurryNode::IdsToMerge const &);
   ~CongruenceClosureExplain();
 
   bool areSameClass(UnionFind::EqClass, UnionFind::EqClass);
@@ -55,7 +55,7 @@ class CongruenceClosureExplain : public CongruenceClosure {
   void merge(UnionFind::EqClass, UnionFind::EqClass);
   void merge(z3::expr const &, z3::expr const &);
 
-  PendingPointers explain(z3::expr const &, z3::expr const &);
+  CurryNode::PendingPointers explain(z3::expr const &, z3::expr const &);
   std::ostream &  giveExplanation(std::ostream &, z3::expr const &, z3::expr const &);
 
   z3::expr_vector z3Explain(z3::expr const &, z3::expr const &);

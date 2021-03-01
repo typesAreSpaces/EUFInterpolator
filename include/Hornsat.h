@@ -120,21 +120,21 @@ struct Literal {
 struct ClassListPos {
 
   Literal * lit_pointer;
-  SideOfEquation eq_side;
+  CurryNode::SideOfEquation eq_side;
 
-  ClassListPos(Literal * lit_pointer, SideOfEquation eq_side) :
+  ClassListPos(Literal * lit_pointer, CurryNode::SideOfEquation eq_side) :
     lit_pointer(lit_pointer), eq_side(eq_side){}
 
   ~ClassListPos(){
 #if DEBUG_DESTRUCTORS
-    std::cout << "Done ~ClassListPos with " << lit_pointer << (eq_side == LHS ? " LHS" : " RHS") << std::endl;
+    std::cout << "Done ~ClassListPos with " << lit_pointer << (eq_side == CurryNode::LHS ? " LHS" : " RHS") << std::endl;
 #endif
   }
 
   friend std::ostream & operator << (std::ostream & os, const ClassListPos & clp){
     return (os 
         << *(clp.lit_pointer) 
-        << (clp.eq_side == LHS ? " LHS" : " RHS"));
+        << (clp.eq_side == CurryNode::LHS ? " LHS" : " RHS"));
   }
 };
 

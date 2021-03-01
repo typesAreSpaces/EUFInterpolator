@@ -22,9 +22,9 @@ struct Input {
   UnionFindExplain ufe;
   HornClauses      horn_clauses;
 
-  IdsToMerge ids_to_merge;
+  CurryNode::IdsToMerge ids_to_merge;
 
-  CurryDeclarations        curry_decl;  
+  CurryNode::CurryDeclarations        curry_decl;  
   FactoryCurryNodes        factory_curry_nodes;
   CongruenceClosureExplain cce;
 

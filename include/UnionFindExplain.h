@@ -26,7 +26,7 @@ class UnionFindExplain :  public UnionFind {
 
   private:
     std::vector<EqClass>                proof_forest;
-    std::vector<PendingElement const *> labels;
+    std::vector<CurryNode::PendingElement const *> labels;
 
     void     unionReverseEdges(EqClass, EqClass);
     unsigned depth(EqClass);
@@ -41,13 +41,13 @@ class UnionFindExplain :  public UnionFind {
 
     EqClass          parentProofForest(EqClass);
     ExplainEquations explain(EqClass, EqClass);
-    void             combine(EqClass, EqClass, PendingElement const * = nullptr);
-    void             merge(EqClass, EqClass, PendingElement const * = nullptr);
+    void             combine(EqClass, EqClass, CurryNode::PendingElement const * = nullptr);
+    void             merge(EqClass, EqClass, CurryNode::PendingElement const * = nullptr);
     EqClass          commonAncestor(EqClass, EqClass);
 
     std::ostream & giveExplanation(std::ostream &, EqClass, EqClass);
     void           resize(unsigned);
-    const PendingElement * getLabel(EqClass);
+    const CurryNode::PendingElement * getLabel(EqClass);
 
     friend std::ostream & operator << (std::ostream &, UnionFindExplain &);
 };

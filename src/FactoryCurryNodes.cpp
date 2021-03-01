@@ -1,6 +1,7 @@
 #include "FactoryCurryNodes.h"
 
-FactoryCurryNodes::FactoryCurryNodes(const unsigned & num_terms, const CurryDeclarations & curry_decl) :
+FactoryCurryNodes::FactoryCurryNodes(unsigned const & num_terms, 
+    CurryNode::CurryDeclarations const & curry_decl) :
   num_terms(num_terms), curry_decl(curry_decl), curry_predecessors()
 {
   curry_nodes.resize(num_terms);
@@ -11,7 +12,9 @@ FactoryCurryNodes::~FactoryCurryNodes(){
     delete x.second;
 }
 
-CurryNode * FactoryCurryNodes::queryCurryNode(unsigned id, std::string const & func_name,
+CurryNode * FactoryCurryNodes::queryCurryNode(
+    unsigned id, 
+    std::string const & func_name,
     CurryNode * left, CurryNode * right){
   std::size_t index = 0;
   // We shouldnt distinguish if nodes have different ids
@@ -28,9 +31,9 @@ CurryNode * FactoryCurryNodes::queryCurryNode(unsigned id, std::string const & f
     CurryNode * new_element = new CurryNode(id, func_name, left, right);
     hash_table[index] = new_element;
     if(left)
-      curry_predecessors[left].emplace_back(*new_element, LHS);
+      curry_predecessors[left].emplace_back(*new_element, CurryNode::LHS);
     if(right)
-      curry_predecessors[right].emplace_back(*new_element, RHS);
+      curry_predecessors[right].emplace_back(*new_element, CurryNode::RHS);
     if(new_element->isReplaceable())
       to_replace.push_back(new_element);
     return new_element;
@@ -93,10 +96,10 @@ void FactoryCurryNodes::updatePreds(CurryNode * from, CurryNode * to){
 
   for(auto pred_pair : curry_predecessors[to]){
     switch(pred_pair.side_of_equation){
-      case LHS:
+      case CurryNode::LHS:
         pred_pair.pred.updateLeft(to);
         break;
-      case RHS:
+      case CurryNode::RHS:
         pred_pair.pred.updateRight(to);
         break;
     }
@@ -171,8 +174,9 @@ void FactoryCurryNodes::curryfication(Z3Subterms const & e){
   return;
 }
 
-void FactoryCurryNodes::flattening(PendingElements & pending_elements,
-    PendingPointers & equations_to_merge,
+void FactoryCurryNodes::flattening(
+    CurryNode::PendingElements & pending_elements,
+    CurryNode::PendingPointers & equations_to_merge,
     const Z3Subterms & subterms){
 
   // Update Z3 Ids

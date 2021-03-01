@@ -47,98 +47,69 @@ class CurryNode {
 
   friend std::ostream & operator << (std::ostream &, const CurryNode &);
 
+  enum KindEquation { CONST_EQ, APPLY_EQ  };
+  enum PendingTag { EQ, EQ_EQ };
+  enum SideOfEquation { LHS, RHS } ;
+
   private:
+  struct PredNode {
+    CurryNode & pred;
+    CurryNode::SideOfEquation const side_of_equation;
+
+    PredNode(CurryNode & pred, SideOfEquation const);
+  };
+
+  struct EquationZ3Ids {
+    unsigned lhs_id, rhs_id;
+    EquationZ3Ids(unsigned, unsigned);
+  };
+
+  typedef std::list<EquationZ3Ids> Z3EquationPointers;
 
   public:
-};
+  struct EquationCurryNodes {
+    CurryNode const & lhs, & rhs;
+    KindEquation kind_equation;
 
-enum SideOfEquation { LHS, RHS } ;
-enum KindEquation { CONST_EQ, APPLY_EQ  };
-enum PendingTag { EQ, EQ_EQ };
-
-struct PredNode {
-  CurryNode & pred;
-  const SideOfEquation side_of_equation;
-  PredNode(CurryNode & pred, const SideOfEquation side_of_equation) :
-    pred(pred), side_of_equation(side_of_equation){
-    }
-  friend std::ostream & operator << (std::ostream & os, const PredNode & pred_pair){
-    os << pred_pair.pred << " " << (pred_pair.side_of_equation == LHS ? "LHS" : "RHS");
-    return os;
-  }
-};
-
-struct EquationCurryNodes {
-  const CurryNode & lhs, & rhs;
-  KindEquation kind_equation;
-
-  EquationCurryNodes(CurryNode & lhs, CurryNode & rhs) :
-    lhs(lhs), rhs(rhs), kind_equation(lhs.isConstant() ? CONST_EQ : APPLY_EQ) {}
-  EquationCurryNodes(CurryNode & lhs, CurryNode & rhs, KindEquation kind_equation) :
-    lhs(lhs), rhs(rhs), kind_equation(kind_equation) {}
-  friend std::ostream & operator << (std::ostream & os, const EquationCurryNodes & ecns){
-    os << ecns.lhs << " = " << ecns.rhs;
-    return os;
-  }
-};
-
-struct PairEquationCurryNodes {
-  const EquationCurryNodes & first, & second;
-
-  PairEquationCurryNodes(const EquationCurryNodes & first, const EquationCurryNodes & second) :
-    first(first), second(second) {}
-  friend std::ostream & operator << (std::ostream & os, const PairEquationCurryNodes & pecns){
-    os << "(" << pecns.first << ", " << pecns.second << ")";
-    return os;
-  }
-};
-
-struct PendingElement {
-  const PendingTag tag;
-  union{
-    const EquationCurryNodes eq_cn;
-    const PairEquationCurryNodes p_eq_cn;
+    EquationCurryNodes(CurryNode &, CurryNode &);
+    EquationCurryNodes(CurryNode &, CurryNode &, KindEquation);
+    friend std::ostream & operator << (std::ostream &, EquationCurryNodes const &);
   };
-  PendingElement(CurryNode & lhs, CurryNode & rhs) : 
-    tag(EQ), eq_cn(lhs, rhs) { }
-  PendingElement(const EquationCurryNodes eq_cn) :
-    tag(EQ), eq_cn(eq_cn) { }
-  PendingElement(const PairEquationCurryNodes p_eq_cn) :
-    tag(EQ_EQ), p_eq_cn(p_eq_cn) { }
-  friend std::ostream & operator << (std::ostream & os, const PendingElement & pe){
-    switch(pe.tag){
-      case EQ:
-        os << pe.eq_cn;
-        break;
-      case EQ_EQ:
-        os << pe.p_eq_cn;
-        break;
-    }
-    return os;
-  }
+
+  struct PairEquationCurryNodes {
+    EquationCurryNodes const & first, & second;
+
+    PairEquationCurryNodes(
+        EquationCurryNodes const &, 
+        EquationCurryNodes const &);
+    friend std::ostream & operator << (
+        std::ostream &, 
+        PairEquationCurryNodes const &);
+  };
+
+  struct PendingElement {
+    const PendingTag tag;
+    union{
+      const EquationCurryNodes eq_cn;
+      const PairEquationCurryNodes p_eq_cn;
+    };
+    PendingElement(CurryNode &, CurryNode &);
+    PendingElement(EquationCurryNodes const);
+    PendingElement(PairEquationCurryNodes const);
+    friend std::ostream & operator << (std::ostream &, PendingElement const &);
+  };
+
+  // We use a map here because
+  // id's for declarations are usually large
+  typedef std::map<unsigned, CurryNode*> CurryDeclarations;
+  typedef std::vector<CurryNode*>        VectorCurryNode;
+
+  typedef std::map<CurryNode const *, std::list<PredNode> > CurryPreds;
+
+  typedef std::list<PendingElement>         PendingElements;
+  typedef std::list<PendingElement const *> PendingPointers;
+
+  typedef std::list<EquationZ3Ids> IdsToMerge;
 };
-
-struct EquationZ3Ids {
-  unsigned lhs_id, rhs_id;
-  EquationZ3Ids(unsigned lhs_id, unsigned rhs_id) :
-    lhs_id(lhs_id), rhs_id(rhs_id) {}
-  friend std::ostream & operator << (std::ostream & os, EquationZ3Ids const & ez3ids){
-    os << ez3ids.lhs_id << " = " << ez3ids.rhs_id;
-    return os;
-  }
-};
-
-// We use a map here because
-// id's for declarations are usually large
-typedef std::map<unsigned, CurryNode*> CurryDeclarations;
-typedef std::vector<CurryNode*>        VectorCurryNode;
-
-typedef std::map<CurryNode const *, std::list<PredNode> > CurryPreds;
-
-typedef std::list<PendingElement>         PendingElements;
-typedef std::list<PendingElement const *> PendingPointers;
-typedef std::list<EquationZ3Ids>          Z3EquationPointers;
-
-typedef std::list<EquationZ3Ids> IdsToMerge;
 
 #endif

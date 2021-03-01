@@ -108,7 +108,7 @@ UnionFindExplain::ExplainEquations UnionFindExplain::explain(UnionFind::EqClass 
 
 // The first argument becomes the new
 // representative, always.
-void UnionFindExplain::combine(UnionFind::EqClass target, UnionFind::EqClass source, const PendingElement * pe){
+void UnionFindExplain::combine(UnionFind::EqClass target, UnionFind::EqClass source, const CurryNode::PendingElement * pe){
   if(find(target) == find(source))
     return;
   unionReverseEdges(target, source);
@@ -117,7 +117,7 @@ void UnionFindExplain::combine(UnionFind::EqClass target, UnionFind::EqClass sou
   return;
 }
 
-void UnionFindExplain::merge(UnionFind::EqClass target, UnionFind::EqClass source, const PendingElement * pe){
+void UnionFindExplain::merge(UnionFind::EqClass target, UnionFind::EqClass source, const CurryNode::PendingElement * pe){
   if(find(target) == find(source))
     return;
   if(rank[find(target)] >= rank[find(source)])
@@ -155,7 +155,8 @@ void UnionFindExplain::resize(unsigned sz){
   size = sz;
 }
 
-const PendingElement * UnionFindExplain::getLabel(UnionFind::EqClass x){
+const CurryNode::PendingElement * UnionFindExplain::getLabel(
+    UnionFind::EqClass x){
   return labels[x];
 }
 

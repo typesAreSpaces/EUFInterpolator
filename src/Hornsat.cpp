@@ -53,8 +53,8 @@ void Hornsat::build(CongruenceClosureExplain & cce, HornClauses const & hcs){
 #endif
       Literal * literal = &list_of_literals[antecedent.id()];
       literal->update(antecedent, cce, index_hc);
-      class_list[literal->l_id].emplace_back(literal, LHS);
-      class_list[literal->r_id].emplace_back(literal, RHS);
+      class_list[literal->l_id].emplace_back(literal, CurryNode::LHS);
+      class_list[literal->r_id].emplace_back(literal, CurryNode::RHS);
 
       // If literal is common insert it as a fact
       if(antecedent.is_common()){
@@ -84,8 +84,8 @@ void Hornsat::build(CongruenceClosureExplain & cce, HornClauses const & hcs){
     pos_lit_list[index_hc] = literal->literal_id;
     if(literal->literal_id > FALSELITERAL){
       literal->update(consequent, cce);
-      class_list[literal->l_id].emplace_back(literal, LHS);
-      class_list[literal->r_id].emplace_back(literal, RHS);
+      class_list[literal->l_id].emplace_back(literal, CurryNode::LHS);
+      class_list[literal->r_id].emplace_back(literal, CurryNode::RHS);
     }
     // In the original formulation by Gallier, 
     // this checks if the Horn Clause is a fact,
@@ -190,10 +190,10 @@ void Hornsat::unionupdate(TermId u, UnionFind::EqClass alpha){
 #endif
     if(!p.lit_pointer->val){
       switch(p.eq_side){
-        case LHS:
+        case CurryNode::LHS:
           p.lit_pointer->l_class = alpha;
           break;
-        case RHS:
+        case CurryNode::RHS:
           p.lit_pointer->r_class = alpha;
           break;
       }
