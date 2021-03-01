@@ -1,5 +1,6 @@
 #include <iostream>
 #include <algorithm>
+#include <z3++.h>
 #include "Rename.h"
 #include "EUFInterpolantWithUncomSymbols.h"
 
@@ -8,15 +9,17 @@ void example(z3::context &);
 void testDiseqFuncAppWithConst(z3::context &);
 void testDiseqFuncAppNoConst(z3::context &);
 void parametricExample(z3::context &);
+void withImplications(z3::context &);
 
 int main(int argc, char ** argv){
   z3::context ctx;
 
-  paperExample(ctx);
+  //paperExample(ctx);
   //example(ctx);
   //testDiseqFuncAppWithConst(ctx);
   //testDiseqFuncAppNoConst(ctx);
   //parametricExample(ctx);
+  withImplications(ctx);
 
   return 0;
 }
@@ -151,6 +154,28 @@ void parametricExample(z3::context & ctx){
     EUFInterpolantWithUncomSymbols eufi(input, uncomms);
     std::cout << eufi.removePrefix(eufi.getInterpolant()) << std::endl;
     std::cout << "Nice" << std::endl;
+  }
+  catch(char const * e){
+    std::cout << e << std::endl;
+  }
+
+  return;
+}
+
+void withImplications(z3::context & ctx){
+  z3::sort my_sort = ctx.uninterpreted_sort("A");
+  z3::expr x = ctx.constant("x", my_sort);
+  z3::expr a = ctx.constant("a", my_sort);
+  z3::func_decl f = ctx.function("f", my_sort, my_sort);
+  std::set<std::string> uncomms({"f"});
+
+  z3::expr_vector input(ctx);
+  input.push_back(z3::implies(x == f(x), f(f(x)) == x));
+
+  try {
+    EUFInterpolantWithUncomSymbols eufi(input, uncomms);
+    std::cout << eufi.removePrefix(eufi.getInterpolant()) << std::endl;
+    std::cout << "Nice with Implications" << std::endl;
   }
   catch(char const * e){
     std::cout << e << std::endl;

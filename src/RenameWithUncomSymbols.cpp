@@ -25,6 +25,12 @@ z3::expr RenameWithUncomSymbols::reformulate(z3::expr const & e){
             new_args.push_back(removePrefix(e.arg(i)));
           return z3::mk_and(new_args);
         }
+      case Z3_OP_IMPLIES:
+        {
+          std::cout << "TODO" << std::endl;
+          std::cout << e << std::endl;
+          return e.arg(1);
+        }
       case Z3_OP_EQ:
       case Z3_OP_DISTINCT:
       case Z3_OP_LE:

@@ -44,6 +44,10 @@ void Input::init(z3::expr_vector const & assertions){
   for(auto const & assertion : assertions){
     initFormula(assertion);
     switch(assertion.decl().decl_kind()){
+      case Z3_OP_IMPLIES:
+        // [Keep] working here
+        std::cout << "TODO" << std::endl;
+        break;
       case Z3_OP_EQ:
         ids_to_merge
           .emplace_back(assertion.arg(0).id(), assertion.arg(1).id());
