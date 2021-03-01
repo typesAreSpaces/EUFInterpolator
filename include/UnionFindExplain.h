@@ -46,7 +46,7 @@ class UnionFindExplain :  public UnionFind {
     EqClass          commonAncestor(EqClass, EqClass);
 
     std::ostream & giveExplanation(std::ostream &, EqClass, EqClass);
-    void           resize(unsigned);
+    void                              resize(unsigned);
     const CurryNode::PendingElement * getLabel(EqClass);
 
     friend std::ostream & operator << (std::ostream &, UnionFindExplain &);

@@ -5,8 +5,10 @@
 #include <iostream>
 #include <list>
 #include <utility>
+#include <unordered_map>
 #include "Z3Subterms.h"
-#include "SignatureTable.h"
+#include "UnionFindExplain.h"
+#include "Util.h"
 
 class CongruenceClosure {
 
@@ -15,7 +17,10 @@ class CongruenceClosure {
   protected:
   Z3Subterms const & subterms;
   UnionFindExplain & ufe;
-  SignatureTable     sig_table;
+  // This structure is not used
+  // in the CongruenceClosureExplain
+  // class
+  //SignatureTable     sig_table;
 
   public:
   CongruenceClosure(
@@ -23,8 +28,6 @@ class CongruenceClosure {
       UnionFindExplain &);
 
   virtual ~CongruenceClosure();
-
-  UnionFindExplain & getUnionFindExplain() const;
 
   friend std::ostream & operator << (std::ostream &, CongruenceClosure const &);
 };

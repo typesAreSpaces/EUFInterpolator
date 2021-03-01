@@ -7,11 +7,32 @@
 #define DEBUG_TEST_EXPLAIN  0
 #define DEBUG_CONSTRUCT_CCE 0
 
-#include "LookupTable.h"
+//#include "LookupTable.h"
+#include "CongruenceClosure.h"
+#include "FactoryCurryNodes.h"
 
 class Hornsat;
 
 class CongruenceClosureExplain : public CongruenceClosure {
+
+  class LookupTable {
+    typedef unsigned long long ull;
+
+    std::unordered_map<
+      std::size_t, 
+      CurryNode::EquationCurryNodes const *> sig_table;
+
+    public:
+    LookupTable();
+    ~LookupTable();
+
+    std::size_t hash_combine(UnionFind::EqClass, UnionFind::EqClass);
+
+    void enter(UnionFind::EqClass , UnionFind::EqClass, CurryNode::EquationCurryNodes const *);
+    void erase(UnionFind::EqClass, UnionFind::EqClass);
+    const CurryNode::EquationCurryNodes * query(UnionFind::EqClass, UnionFind::EqClass);
+
+  };
 
   typedef std::vector<std::list<CurryNode::EquationCurryNodes const *> > UseList;
 

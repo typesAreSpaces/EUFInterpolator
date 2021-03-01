@@ -8,7 +8,8 @@
 
 class SignatureTable {
   std::unordered_map<std::size_t, unsigned> sig_table;
-  UnionFindExplain &                        uf;
+
+  UnionFindExplain & uf;
   
   std::size_t hash_z3expr(z3::expr const &);
 
@@ -16,8 +17,8 @@ public:
   SignatureTable(UnionFindExplain &);
   ~SignatureTable();
   
-  void enter(z3::expr const &); 
-  void erase(z3::expr const &);
+  void     enter(z3::expr const &); 
+  void     erase(z3::expr const &);
   unsigned query(z3::expr const &); 
 
   friend std::ostream & operator << (std::ostream & os, SignatureTable const &);
