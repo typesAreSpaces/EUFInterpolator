@@ -4,12 +4,11 @@
 #include <iostream>
 #include <unordered_map>
 #include "UnionFindExplain.h"
+#include "Util.h"
 
 class SignatureTable {
   std::unordered_map<std::size_t, unsigned> sig_table;
   UnionFindExplain &                        uf;
-  std::hash<std::string>                    hash_string;
-  std::hash<unsigned>                       hash_unsigned;
   
   std::size_t hash_z3expr(z3::expr const &);
 

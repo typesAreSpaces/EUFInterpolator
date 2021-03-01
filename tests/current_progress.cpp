@@ -12,11 +12,11 @@ void parametricExample(z3::context &);
 int main(int argc, char ** argv){
   z3::context ctx;
 
-  //paperExample(ctx);
+  paperExample(ctx);
   //example(ctx);
   //testDiseqFuncAppWithConst(ctx);
   //testDiseqFuncAppNoConst(ctx);
-  parametricExample(ctx);
+  //parametricExample(ctx);
 
   return 0;
 }

@@ -8,12 +8,8 @@
 #include <vector>
 #include <list>
 #include <unordered_map>
+#include "Util.h"
 #include "z3++.h"
-
-template <class T>
-inline void hash_combine(std::size_t & seed, const T & v, const std::hash<T> & hasher){
-  seed ^= hasher(v) + 0x9e3779b9 + (seed<<6) + (seed>>2);
-}
 
 class CurryNode {
 

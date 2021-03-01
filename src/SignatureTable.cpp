@@ -14,10 +14,11 @@ SignatureTable::~SignatureTable(){
 std::size_t SignatureTable::hash_z3expr(const z3::expr & e){
   unsigned num_args = e.num_args();
   std::string name = e.decl().name().str();
-  std::size_t seed = hash_string(name);
-  seed ^= hash_unsigned(num_args) + 0x9e3779b9 + (seed << 6) + (seed >> 2);
+  std::size_t seed = Util::string_hasher(name);
+  Util::hash_combine(seed, num_args, Util::unsigned_hasher);
+  //seed ^= Util::unsigned_hasher(uf.find(e.arg(i).id())) + 0x9e3779b9 + (seed << 6) + (seed >> 2);
   for(unsigned i = 0; i < num_args; i++)
-    seed ^= hash_unsigned(uf.find(e.arg(i).id())) + 0x9e3779b9 + (seed << 6) + (seed >> 2);
+    Util::hash_combine(seed, uf.find(e.arg(i).id()), Util::unsigned_hasher);
   return seed;
 }
 
@@ -39,5 +40,3 @@ unsigned SignatureTable::query(z3::expr const & e){
 std::ostream & operator << (std::ostream & os, SignatureTable const & st){
   return os;
 }
-
-

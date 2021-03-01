@@ -4,15 +4,13 @@
 
 #include <iostream>
 #include <unordered_map>
+#include "Util.h"
 #include "Z3Subterms.h"
 #include "CurryNode.h"
 
 class FactoryCurryNodes {
   friend class CongruenceClosureExplain;
 
-  std::hash<unsigned>                         unsigned_hasher;
-  std::hash<std::string>                      string_hasher;
-  std::hash<CurryNode*>                       curry_hasher;
   std::unordered_map<std::size_t, CurryNode*> hash_table;
 
   unsigned const & num_terms;

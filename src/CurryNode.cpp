@@ -85,17 +85,12 @@ const bool CurryNode::isCommon() const {
 }
 
 std::size_t CurryNode::hash(){
-  // -------------------------------------
-  // Temporarily -------------------------
-  // std::hash<unsigned>    unsigned_hasher;
-  std::hash<std::string> string_hasher;
-  std::hash<CurryNode*>  curry_hasher;
-  // -------------------------------------
   std::size_t key = 0;
-  // hash_combine(key, id, unsigned_hasher); // We cant distinguish if the node have different id's
-  hash_combine(key, func_name, string_hasher);
-  hash_combine(key, left, curry_hasher);
-  hash_combine(key, right, curry_hasher);
+  // We cant distinguish if the node have different id's
+  // Util::hash_combine(key, id, Util::unsigned_hasher); 
+  Util::hash_combine(key, func_name, Util::string_hasher);
+  Util::hash_combine(key, left, Util::curry_hasher);
+  Util::hash_combine(key, right, Util::curry_hasher);
   return key;
 }
 

@@ -19,9 +19,9 @@ CurryNode * FactoryCurryNodes::queryCurryNode(
   std::size_t index = 0;
   // We shouldnt distinguish if nodes have different ids
   // hash_combine(index, id, unsigned_hasher); 
-  hash_combine(index, func_name, string_hasher);
-  hash_combine(index, left, curry_hasher);
-  hash_combine(index, right, curry_hasher);
+  Util::hash_combine(index, func_name, Util::string_hasher);
+  Util::hash_combine(index, left, Util::curry_hasher);
+  Util::hash_combine(index, right, Util::curry_hasher);
 
   auto element = hash_table.find(index);
   if(element != hash_table.end()){
@@ -43,9 +43,9 @@ CurryNode * FactoryCurryNodes::queryCurryNode(
 CurryNode * FactoryCurryNodes::getCurryNode(std::string const &  func_name,
     CurryNode * left, CurryNode * right) const {
   std::size_t index = 0;
-  hash_combine(index, func_name, string_hasher);
-  hash_combine(index, left, curry_hasher);
-  hash_combine(index, right, curry_hasher);
+  Util::hash_combine(index, func_name, Util::string_hasher);
+  Util::hash_combine(index, left, Util::curry_hasher);
+  Util::hash_combine(index, right, Util::curry_hasher);
   return getCurryNode(index);
 }
 

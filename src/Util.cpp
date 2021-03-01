@@ -1,4 +1,5 @@
 #include "Util.h"
+#include <functional>
 
 bool Util::compareEquation(const z3::expr & eq1, const z3::expr & eq2){
   switch(eq1.decl().decl_kind()){
@@ -28,3 +29,7 @@ bool Util::compareTerm(const z3::expr & t1, const z3::expr & t2){
       return t1.id() > t2.id();
   }
 }
+
+std::hash<unsigned>    Util::unsigned_hasher;
+std::hash<std::string> Util::string_hasher;
+std::hash<CurryNode*>  Util::curry_hasher;
