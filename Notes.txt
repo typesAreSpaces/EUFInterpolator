@@ -1,0 +1,3 @@
+# Important to keep in mind:
+
+- If any test fail, remember to use z3__
