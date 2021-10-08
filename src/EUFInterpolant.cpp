@@ -19,17 +19,17 @@ EUFInterpolant::EUFInterpolant(
   //hsat.equiv_classes.merge(equation.arg(0), equation.arg(1));
   //}
 
-#if DEBUG_EXPOSE_UNCOMMS
+#if 1
   std::cout << "After expose uncommons" << std::endl;
   std::cout << horn_clauses << std::endl;
 #endif
 
-#if DEBUG_HSAT_INTER
+#if 1
   std::cout << "After conditional elimination" << std::endl;
   std::cout << hsat << std::endl;
 #endif
 
-#if DEBUG_TEMP
+#if 1
   std::cout << "All the subterms" << std::endl;
   std::cout << subterms << std::endl;
 #endif
@@ -89,7 +89,7 @@ void EUFInterpolant::conditionalElimination(){
   // uncommon term using the explanation 
   // operator
 
-#if DEBUG_COND_ELIM
+#if 1
   std::cout << "Before conditionalEliminationEqs" << std::endl;
   std::cout << horn_clauses << std::endl;
 #endif
@@ -97,7 +97,7 @@ void EUFInterpolant::conditionalElimination(){
   // Process original equations
   conditionalEliminationEqs();
 
-#if DEBUG_COND_ELIM
+#if 1
   std::cout << "After conditionalEliminationEqs/" 
     "Before conditionalEliminationHcs" << std::endl;
   std::cout << horn_clauses << std::endl;
@@ -106,7 +106,7 @@ void EUFInterpolant::conditionalElimination(){
   // Process Horn clauses produced
   conditionalEliminationHcs();
 
-#if DEBUG_COND_ELIM
+#if 1
   std::cout << "After conditionalEliminationHcs" << std::endl;
   std::cout << horn_clauses << std::endl;
 #endif
@@ -123,11 +123,11 @@ z3::expr_vector EUFInterpolant::explainUncommons(z3::expr const & t1, z3::expr c
   if(t1.id() == t2.id())
     return ans;
   auto partial_explain = hsat.equiv_classes.z3Explain(t1, t2);
-#if DEBUG_COND_ELIM
+#if 1
   std::cout << "Explanation " << partial_explain << std::endl;
 #endif
   for(auto const & equation : partial_explain){
-#if DEBUG_COND_ELIM
+#if 1
     std::cout << equation << std::endl;
 #endif
     if(equation.is_common())
@@ -147,7 +147,7 @@ z3::expr_vector EUFInterpolant::explainUncommons(z3::expr const & t1, z3::expr c
         if(antecedent_equation.is_common())
           ans.push_back(antecedent_equation);
         else{
-#if DEBUG_COND_ELIM
+#if 1
           std::cout << "Pushing extra common equations" << std::endl;
 #endif
           for(auto extra_common_equation : explainUncommons(antecedent_equation.arg(0), antecedent_equation.arg(1)))
@@ -241,7 +241,7 @@ void EUFInterpolant::buildInterpolant(){
   conditional_horn_clauses.filterCommons();
   conditional_horn_clauses.simplify();
 
-#if DEBUG_BUILD_INTERP
+#if 1
   std::cout << horn_clauses << std::endl;
   std::cout << conditional_horn_clauses << std::endl;
 #endif

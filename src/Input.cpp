@@ -46,6 +46,9 @@ void Input::init(z3::expr_vector const & assertions){
     switch(assertion.decl().decl_kind()){
       case Z3_OP_IMPLIES:
         // [Keep] working here
+        // Note: This case is necessary 
+        // to extend input handling to 
+        // implications
         std::cout << "TODO" << std::endl;
         break;
       case Z3_OP_EQ:
